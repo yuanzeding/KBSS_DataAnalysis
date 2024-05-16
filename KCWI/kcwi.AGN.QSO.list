@@ -1,0 +1,23 @@
+CubeName       Object    z           ztype    class   ?       Slicer  Grating   center_lambda  peak_lambda   texp   Comments
+#
+q0100-BX160	BX160	  2.3032	neb	QSO	1	Medium	BL	4499.8735352	4199.9189453   18000   R=24.4, BL QSO, LRIS, MOSFIRE;  no [OIII]; see Law et al 2019
+q0100-C7	BX172	  2.3118	neb	AGN	1	Medium	BL	4499.8735352	4199.9189453   29100   R=24, type 2, huge Lya nebula, LRIS, MOSFIRE 
+q0100-C7	BX164	  2.2924	neb	QSO	1	Medium	BL	4499.8735352	4199.9189453   29100   R=23.61, BL QSO, no [OIII]; LRIS, MOSFIRE; see Law et al 2019
+q0142-BX195	BX186	  2.3570	neb	AGN	1	Medium	BL	4499.8735352	4199.9189453   22800   AGN-ness is debatable; see Steidel et al 2014
+q0142-BX195	BX195	  2.3807	neb	AGN	1	Medium	BL	4499.8735352	4199.9189453   22800   dual AGN, separation < 1", see Law et al 2019
+q0207-BX298	BX298	  2.1454	neb	AGN	1	Medium	BL	4499.8735352	4199.9189453   17600   R=23 type 2 AGN; also LRIS, MOSFIRE 
+q0821-D8	D8	  2.5675	neb	AGN	1	Medium	BL	4499.7998047	4199.9189453    9600   LM1 LRIS; MOSFIRE
+Q0821-RK5	RK5	  2.1831	neb	AGN/QSO	1	Medium	BL	4499.8735352	4199.9189453   21600   double broad-lined object; huge extended Lya plume
+q1549-BX101	BX101	  2.3806	neb	AGN/QSO	1	Medium	BL	4499.8735352	4199.9189453    9600   Very extended Lya emission, strong associated (metal+HI) absorption 
+q1549-GNB4950   GNB4950   2.8530        neb     QSO      2       Medium  BL      4499.873535     4199.9189453    6000   Red QSO, plume of emission with continuum, lines, coming off source
+q1549-Lab5      Blob2     2.8300        neb     AGN      2       Medium  BL      4499.873535     4199.9189453    6000   Bright sub-mm source, "right angle nebula"
+q1549-QSO-W	M15	  2.8420	lya	AGN	1	Large	BM	4324.9746094	4324.9155273    9600   <20" from central QSO
+q1549-QSO-W	MD10	  2.8500 	lya	QSO	0	Large	BM	4324.9746094	4324.9155273    9600   < 20" from central QSO
+q1549-QSO-E	MD17	  2.8442	avg1	QSO	1	Large	BM	4324.9746094	4324.9155273    9600   < 20" from central QSO
+q1623-BX432	KP77	  2.5353	avg2	QSO	0	Medium	BL	4499.7998047	4199.9189453   21300   central QSO, has HIRES spectrum
+q1623-KP76      KP76      2.4663        neb     QSO      2       Mediun  BL      4499.87         4199.9189       4946   a few arcmin from KP77, also has HIRES. See Goncalves, Steidel, Pettini 2008
+q2343-BX415	BX415	  2.5741	neb	QSO	1	Medium	BL	4499.8735352	4199.9189453   19200   DLA at emission redshift, same redshift as central QSO, see Law et al 2019, Ellison et al 20?? 
+q2343-BX587	Q2343	  2.5730	avg2	QSO	0	Medium	BL	4499.8735352	4199.9189453   18689   central QSO; very bright; we have additional archival KCWI data (see Evan Nunez for info)
+q2343-BX587   FSzP1170	  2.5690	neb	AGN	0	Medium	BL	4499.8735352	4199.9189453   18689   very close to central QSO, odd optical spectrum
+#
+#   CCS, compiled 8 August 2023; does not include recent central QSO observations of Q1009, Q1217, Q1442, Q1549, Q1603, Q1700, Q2206 from May 2022. 
