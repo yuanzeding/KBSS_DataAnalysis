@@ -1,0 +1,21 @@
+  RA        Dec         x          y        Name       Field   R     G-Rs   Un-G   Udet  zlya     zabs     zneb    Type  Comments
+#
+ 15.78142  +13.28404  1093.7570   806.7682  BX160      Q0100  24.43   0.13   0.40  yes   2.3060   2.2960   2.3032   QSO  "nz; m3[ap1]; also m6,m7,m10[ap1]"
+ 15.78195  +13.27525   944.5404   815.0197  BX164      Q0100  23.61  -0.03   0.71  yes   2.2930  -2.0000   2.2924   QSO  "mult masks"
+ 15.78524  +13.27826   995.5716   869.8746  BX172      Q0100  23.50   0.26   0.81  yes   2.3120   2.3077   2.3118   AGN  ""
+ 26.32376   -9.74838   780.0252  1306.4630  BX195      Q0142  23.56   0.53   0.98  yes   2.3816   2.3790   2.3807   AGN  "zneb msfr3 9/15"
+ 26.32285   -9.75222   749.8493  1246.3800  BX186      Q0142  25.18   0.39   0.61  yes   2.3610   2.3540   2.3570   AGN  "zneb msfr3 9/15 (among others)"
+ 32.47523   -0.07491  1025.5610  1234.7270  BX298      Q0207  25.07   0.03   0.73  yes   2.1458  -2.0000   2.1454   AGN  "LM1; zneb msfr Nov 2014, close2; also jhk1 oct15"
+125.24689  +31.14935  1019.2115   680.3194  D8         Q0821  24.76   0.57   2.53  yes   2.5697  -2.0000   2.5675   AGN  "LM1; zneb=2.5678 mosfire 3/13+4/14+2/15; nz; m3+m10; z(HeII)=2.5658; has NV,CIV,HeII em"  
+125.22895  +31.09895   163.7030   416.5561  RK5        Q0821  24.37   0.93   0.93  yes   2.1846  -1.0000   2.1831   GAL  "rk_H,K; zneb msfr, great continuum detection w/Balmer abs lines, weak O2 in J; v. broad Ha, N2>Ha, indicates AGN superposed on otherwise nearly passive galaxy; optical spectrum from KCWI is very odd, with apparently 2 broad components in Lya, CIV, SiIV+OIV, and a narrow, double Lya profile superposed. Lya redshift is that of the narrow lines; HeII 1640 has z=2.1840; peak of CIV has z=2.1692; min between broad lines is low ion absorption, z=2.1477, or 3370 km/s!. "
+237.98053  +19.15891   407.4605  1118.8120  BX101      Q1549  22.71   0.23   0.82  yes   2.3808  -1.0000   2.3806   QSO  "zneb mosfr 5/2014 close1H,K; on kcwi cube q1549-BX101; associated metal absorptio
+237.99199  +19.20723  1227.5867  1305.3426  GNB4950    Q1549  20.12   1.09   1.90  yes   2.8516  -2.0000  -2.0000   QSO   "GNB4950b, red QSO; LRIS; on KCWI cube q1549-GNB4950"
+237.96366  +19.18492   849.8962   848.2932  M15        Q1549  24.52   0.91   2.06  no    2.8450  -2.0000  -1.0000   AGN  "KCWI, LRIS"
+237.96474  +19.18521   854.7755   865.6938  MD10       Q1549  23.04   0.23   1.35  yes   2.8530  -2.0000   2.8514   QSO  "KCWI, LRIS; also GNB2267; zneb from [OIII] 4364 MOSFIRE"
+237.97402  +19.18614   870.1806  1015.1410  MD17       Q1549  23.75   0.24   1.36  yes   2.8480   2.8430  -1.0000   QSO  "KCWI, LRIS; also NB2079; nz; m3,m6; abs near em z; v. close to sightline"
+246.45364  +26.78312  2387.9765  2314.0820  KP77       Q1623  17.35   0.02   0.47  yes   2.5353   2.5353  -1.0000   QSO  "central QSO; hires"
+246.45054  +26.74249  3224.9095  2246.0010  KP76       Q1623  18.55  -0.01   0.58  yes   2.4663   2.4663  -1.0000   QSO  "2nd central QSO; has hires and lrisb spectra, KCWI cube"
+246.48938  +26.74681  3137.0290  2967.0500  KP78       Q1623  18.98   0.12   0.66  yes   2.6148   2.6148  -1.0000   QSO  "3rd central QSO; hires, esi spectra"
+356.60589  +12.79552  2265.3856  1259.2740  BX415      Q2343  20.22   0.10   0.90  yes   2.5740   2.5720   2.5741   QSO  "cecilia_jh_H,J oct21abs is DLA; zsys=2.5741 from HeII 1640 (ESI) and Ha (msfr)"
+356.61767  +12.81615  2025.0547  1688.0970  Q2343      Q2343  17.10   0.33   0.75  yes   2.5730   2.5730   2.5730   QSO  "central QSO; HIRES, LRIS"
+356.61778  +12.81727  2022.6448  1711.4128  FSzP1170   Q2343  99.00   9.00   9.00  n/a   2.5716  -1.0000   2.5690   AGN  "MOSFIRE; also on KCWI cube q2343-BX587; [mosfire nb2K; zph= 2.434; zph= 35.7; K_ab= 22.64]"

@@ -1,0 +1,3 @@
+
+Aug  9  2:11 [Kspec.cal.drp.fits]: Model z=2.40 w/CGM
+avg:  3.518E-18  rms:  4.778E-20   snr:    73.62
