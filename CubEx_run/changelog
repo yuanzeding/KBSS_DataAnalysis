@@ -1,0 +1,9 @@
+2024 May 29: 
+setting the CubePSFSub parameters to
+-cube "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$csourcename"/q"$cubename"-qso_icubes_wcs.fits" -out "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$sourcename"/q"$cubename"-qso_icubes_wcs.PSFSub.fits" -x $xloc -y $yloc -nbins -1 -zPSFsize 50 -withvar .false. -rmax $rmax -zPSF_min 750 -zPSF_max 2340 -recenter .false. -masklist "/disk/bifrost/yuanze/KBSS/CubEx_run/Q"$cubename"/zmask.txt"
+
+It looks to be unnecessary to completely mask the edge of the cube. Only need to do that for the steep transition. In this case zPSFsize can be a small value such as 50.
+
+CubePSFSub first create a white light image through averaging over a z length corresponding to the fixed PSF size. Then it finds a normalization factor between the cube and the white light image inside the minimum radius "rmin". the factor is then multiplied into the pseudo narrow band image. The pseudo narrow band image is then subtracted from the original cube.
+
+we got all zero in sigma clipping de-noise procedure because the stats are automatically calculated over the whole FOV, which includes too much zero values for KCWI data at the boundary. I have removed this behavior and just calculate the stats inside rmax.
