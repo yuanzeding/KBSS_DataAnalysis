@@ -1,0 +1,12 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(246.4562929,26.7837167,1.285") # color=blue width=2 font="helvetica 14 bold roman" text={ES1 zlya=2.541}
+circle(246.4517050,26.7837972,1.208") # color=blue width=2 font="helvetica 14 bold roman" text={ES2 zlya=2.814}
+circle(246.4526520,26.7820965,1.477") # color=cyan width=2 font="helvetica 14 bold roman" text={HU1 zlya=2.245}
+circle(246.4533454,26.7830675,0.800") # color=red width=2 font="helvetica 14 bold roman" text={Q1623-KP77 zneb=2.534}
+circle(246.4545054,26.7814861,0.800") # color=green width=2 font="helvetica 14 bold roman" text={BX436 zneb=2.0515}
+circle(246.4529812,26.7797531,0.800") # color=green width=2 font="helvetica 14 bold roman" text={BX432 zneb=2.1825}
+circle(246.4486522,26.7418473,1.156") # color=blue width=2 font="helvetica 14 bold roman" text={KP76-ES1 zlya=2.280}
+circle(246.4494885,26.7410372,1.071") # color=green width=2 font="helvetica 14 bold roman" text={KP76-BX426 -2.00}
+circle(246.4504404,26.7424817,0.300") # color=red width=2 font="helvetica 14 bold roman" text={KP76 zneb=2.4663}

@@ -1,0 +1,14 @@
+global font = "helvetica 12 bold"
+fk5;circle(17:01:00.5798,+64:12:09.420,3i) #color=red  width=2 text={Q1700  2.751}
+fk5;circle(17:01:00.978,+64:12:10.20,5i) #color=cyan  width=2 text={qso-HU1  2.3134 LYA}
+fk5;circle(17:01:00.840,+64:12:06.00,5i) #color=cyan  width=2 text={qso-ES1  2.4102 LYA}
+fk5;circle(17:01:00.2088,+64:11:55.572,5i) #color=cyan  width=2 text={MD103-MD103  2.3153 NEB}
+fk5;circle(17:00:59.7638,+64:11:56.222,5i) #color=cyan  width=2 text={MD103-CS7  1.9801 NEB}
+fk5;circle(17:01:00.311,+64:11:51.25,5i) #color=cyan  width=2 text={MD103-CS1.9  1.9137 LYA}
+fk5;circle(17:01:00.265,+64:11:58.45,5i) #color=purple  width=2 text={MD103-ES1  z_Lya=3.477}
+fk5;circle(17:01:01.62,+64:12:11.40,5i) #color=purple  width=2 text={qso-ES2  z_Lya=3.103}
+fk5;circle(17:01:01.1472,+64:12:11.498,5i) #color=purple  width=2 text={qso-ES5  z_Lya=3.1031}
+fk5;circle(17:00:58.9944,+64:12:14.133,5i) #color=purple  width=2 text={qso-Gal1  z=lowz}
+fk5;circle(17:00:59.5801,+64:12:07.293,5i) #color=purple  width=2 text={qso-CS1  z=Noz}
+fk5;circle(17:01:00.5343,+64:12:15.833,5i) #color=purple  width=2 text={qso-CS2  z=Noz}
+fk5;circle(17:01:01.7340,+64:12:06.900,5i) #color=purple  width=2 text={qso-CS3  z=Noz}

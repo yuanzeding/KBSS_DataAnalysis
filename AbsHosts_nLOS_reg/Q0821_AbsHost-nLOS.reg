@@ -1,0 +1,16 @@
+global font = "helvetica 12 bold"
+fk5;circle(08:21:07.62,31:07:51.17,3i) #color=red  width=2 text={Q0821  2.616}
+fk5;circle(08:21:07.568,+31:07:49.09,5i) #color=cyan  width=2 text={qso-ES1  2.1587 LYA}
+fk5;circle(08:21:07.615,+31:07:47.88,5i) #color=cyan  width=2 text={qso-ES2  2.2499 LYA}
+fk5;circle(08:21:07.452,+31:07:47.58,5i) #color=cyan  width=2 text={qso-ES2b  2.2499 LYA}
+fk5;circle(08:21:07.615,+31:07:48.48,5i) #color=cyan  width=2 text={qso-HU3  2.5511 NEB}
+fk5;circle(08:21:07.4688,+31:07:58.152,5i) #color=purple  width=2 text={qso-BM169  z=?}
+fk5;circle(08:21:08.1552,+31:07:44.364,5i) #color=purple  width=2 text={qso-BX209  z=?}
+fk5;circle(08:21:07.148,+31:07:44.148,5i) #color=purple  width=2 text={qso-CS1  z=?}
+fk5;circle(08:21:08.147,+31:07:55.742,5i) #color=purple  width=2 text={qso-CS2  z=?}
+fk5;circle(08:21:07.428,+31:07:47.28,5i) #color=purple  width=2 text={qso-ES4  z=2.8275}
+fk5;circle(08:21:07.849,+31:07:51.18,5i) #color=purple  width=2 text={qso-ES5  z=2.79}
+fk5;circle(08:21:07.826,+31:07:50.88,5i) #color=purple  width=2 text={qso-ES6  z=2.9311}
+fk5;circle(08:21:07.755,+31:07:53.58,5i) #color=purple  width=2 text={qso-ES7  z=2.9665}
+fk5;circle(08:21:07.826,+31:07:50.88,5i) #color=purple  width=2 text={qso-ES8  z=3.00}
+fk5;circle(08:21:07.3056,+31:07:54.444,5i) #color=purple  width=2 text={qso-BX216  z=2.6389}

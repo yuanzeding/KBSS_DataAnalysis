@@ -1,0 +1,17 @@
+global font = "helvetica 12 bold"
+fk5;circle(22:36:19.2733,+13:26:16.950,5i) #color=cyan  width=2 text={Q2233+131-DLA-LBG 3.1508}
+fk5;circle(22:36:19.2296,+13:26:11.329,5i) #color=cyan  width=2 text={Q2233+131-CS3 2.0214}
+fk5;circle(22:36:19.5772,+13:26:06.951,5i) #color=cyan  width=2 text={Q2233+131-CS4 2.0863}
+fk5;circle(22:36:19.6789,+13:26:17.458,5i) #color=cyan  width=2 text={Q2233+131-CS5 2.0756}
+fk5;circle(22:36:20.0618,+13:26:17.480,5i) #color=cyan  width=2 text={Q2233+131-CS8 1.9474}
+fk5;circle(22:36:19.1053,+13:26:16.956,5i) #color=cyan  width=2 text={Q2233+131-HU2-CM2-1 2.212}
+fk5;circle(22:36:19.0542,+13:26:15.733,5i) #color=cyan  width=2 text={Q2233+131-HU2-CM2-2 2.2112}
+fk5;circle(22:36:18.8957,+13:26:16.737,5i) #color=cyan  width=2 text={Q2233+131-HU3 2.3616}
+fk5;circle(22:36:19.4286,+13:26:20.497,5i) #color=cyan  width=2 text={Q2233+131-HU6 3.1425}
+fk5;circle(22:36:18.6267,+13:26:22.225,5i) #color=purple  width=2 text={Q2233+131-CM1-1 z_OII=0.4124}
+fk5;circle(22:36:18.9364,+13:26:24.828,5i) #color=purple  width=2 text={Q2233+131-CM1-2 z_OII=0.4124}
+fk5;circle(22:36:18.7803,+13:26:15.500,5i) #color=purple  width=2 text={Q2233+131-CS2 z=?}
+fk5;circle(22:36:19.6848,+13:26:10.131,5i) #color=purple  width=2 text={Q2233+131-CS6 z=hiz}
+fk5;circle(22:36:20.2202,+13:26:16.619,5i) #color=purple  width=2 text={Q2233+131-CS7 z_OII=0.1466}
+fk5;circle(22:36:18.9428,+13:26:20.377,5i) #color=purple  width=2 text={Q2233+131-HU1 z=?}
+fk5;circle(22:36:19.0827,+13:26:21.122,5i) #color=purple  width=2 text={Q2233+131-HU4 z=?}
