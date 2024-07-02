@@ -1,0 +1,11 @@
+global font = "helvetica 12 bold"
+fk5;circle(22:08:52.0616,-19:43:59.608,3i) #color=red  width=2 text={Q2206  2.573}
+fk5;circle(22:08:52.1021,-19:43:58.492,5i) #color=cyan  width=2 text={QSO-HU1  1.9187 LYA}
+fk5;circle(22:08:52.3190,-19:44:03.53,5i) #color=cyan  width=2 text={QSO-ES1  2.2514 LYA}
+fk5;circle(22:08:52.553,-19:44:03.53,5i) #color=purple  width=2 text={QSO-ES2  z_Lya=2.824}
+fk5;circle(22:08:52.6103,-19:43:55.244,5i) #color=purple  width=2 text={QSO-Gal1  z=lowz}
+fk5;circle(22:08:52.6343,-19:43:56.857,5i) #color=purple  width=2 text={QSO-Gal2  z=lowz}
+fk5;circle(22:08:52.3612,-19:44:03.140,5i) #color=purple  width=2 text={QSO-CS1  z=z_qso}
+fk5;circle(22:08:51.7275,-19:44:03.118,5i) #color=purple  width=2 text={QSO-CS2  z=Noz}
+fk5;circle(22:08:52.3900,-19:44:07.766,5i) #color=purple  width=2 text={QSO-CS3  z=Noz}
+fk5;circle(22:08:52.1790,-19:44:11.123,5i) #color=purple  width=2 text={QSO-CS4  z=Noz}

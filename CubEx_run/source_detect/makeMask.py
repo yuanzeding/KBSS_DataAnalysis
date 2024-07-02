@@ -7,8 +7,8 @@ import numpy as np
 # Path to the KBSS data
 KBSSpath="/disk/bifrost/yuanze/KBSS"
 qsos = ascii.read(KBSSpath+"/KCWI/qsos_bright.kcwi",format="ipac")
-tab=qsos[(qsos['contam']=="False")&(qsos['Field']!="Q1623")]
-
+#tab=qsos[(qsos['contam']=="False")&(qsos['Field']!="Q1623")]
+tab=qsos[(qsos['Field']!="Q1623")]
 for i, element in enumerate(tab):
     #field = element['FILENAME'].split('-')[0]
     field=element['Field']
@@ -32,7 +32,7 @@ for i, element in enumerate(tab):
 
     line="Lya"
     wave={"Lya":1215.67,"CIV":1549.06,"MgII":2799.12,"HeII":1640.4,"OVI":1031,"SiIV":1402.77,"CII":1334.53,"NV":1240,"OI":1304} #Angstroms
-    sigma_v={"Lya":2.e3,"CIV":3e3,"SiIV":3e3,"CII":3e3,"NV":3e3,"OI":3e3,"OVI":3e3,"HeII":3e3} #km/s turbulent velocity
+    sigma_v={"Lya":3.e3,"CIV":3e3,"SiIV":3e3,"CII":3e3,"NV":3e3,"OI":3e3,"OVI":3e3,"HeII":3e3} #km/s turbulent velocity
     index=(vc>(-sigma_v[line])) & (vc<sigma_v[line])
     inda=np.arange(len(wc))
     lmin=inda[index][0] #Lyman-alpha wavelength range
@@ -48,7 +48,7 @@ for i, element in enumerate(tab):
             lines = file.readlines()
 
         # Ensure the first two lines are the original ones
-        if lines[0].strip() != "144 193" or lines[2].strip() != "2343 2392":
+        if lines[0].strip() != "144 193" or lines[1].strip() != "2343 2392":
             print(f"Warning: Unexpected mask file format in {mask_file}")
         else:
             # Modify the mask file
@@ -57,8 +57,8 @@ for i, element in enumerate(tab):
                 file.write(f"{lmin} {lmax}\n")
                 file.write("2343 2392\n")
                 
-                for line in lines[3:]:
-                    file.write(line)
+                #for line in lines[3:]:
+                #    file.write(line)
     else:
         # Create the mask file if it does not exist
         with open(mask_file, "w") as file:

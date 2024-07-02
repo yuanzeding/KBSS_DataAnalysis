@@ -21,11 +21,11 @@
 # 
  
 #--- Cube-related parameters:
-InpFile = "/disk/bifrost/yuanze/KBSS/Q1700/QSO/q1700-qso_icubes_wcs.PSFCONTSub.fits"
+InpFile = "/disk/bifrost/yuanze/KBSS/Q1700/QSO/q1700-qso_icubes_wcs_20.PSFCONTSub.fits"
 zmin = 1                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 9999                !.. maximum spectral pixel for datacube selection      "
-lmin = 4407
-lmax = 4712
+lmin = 4514
+lmax = 4605
   
 #--- Variance-related parameters:
 VarFile = "/disk/bifrost/yuanze/KBSS/Q1700/QSO/q1700-qso_vcubes.fits"
@@ -33,7 +33,7 @@ MultiExt = .false.          !.. if .true. interprets InpFile as a multiextension
                            !... unless VarFile is provided or default VarFile name exists in the current directory. [alias "-m"]
                            !... if .false. and VarFile=??, then a simple variance will be estimated from the cube itself, layer by layer.
 RescaleVar = .true.
-RescaleVarArea = "29 75 25 70"
+RescaleVarArea = "25 75 25 75"
 RescaleVarMin = 0.9        !.. minimum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarMax = 10.        !.. maximum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarFR = 5
@@ -57,7 +57,7 @@ MinNVox = 20
 MinArea = 5
 MinDz = 5
 MaxDz = 100              !.. max number of spectral pixels for detection (projection over x,y). Useful for removing continuum objs
-ReliabCheck = .false.      !.. if .true. checks the reliability of the catalogue performing extraction and photometry on the "negative" Cube
+ReliabCheck = .true.
 NegCatalogue = "??"        !.. if set and if ReliabCheck=.true., it produces a file with the objects detected in the "negative" Cube
   
 #--- Deblending and Merging parameters:
@@ -104,7 +104,7 @@ Objects_SNR_Floor = 0.99     !.. Floor value **in units of SN_Threshold** for Ch
 SourceMask = "??"          !.. IMAGE with objects id of sources to mask before detection (e.g., the result of a CubEx run on the white-light image)
 MaskOnly   = "-1"          !.. if defined and /=-1, it will only mask the selected objects in sourcemask (e.g., MaskOnly = "35 12 47")
 UnMask     = "-1"          !.. if defined and /=-1, it will not  mask the selected objects in sourcemask (e.g., UnMask = "23 145")
-XYedge = 0                 !.. mask FOV edges of the cube by this amount (pixels), useful for cubes with noisy edges
+XYedge = 24
 LayerMaskList = "??"       !.. ASCII file with list of layers (one per row) to be masked before extraction, detection and photometry. 
 ObjMaskList = "??"         !.. ASCII file with list of pixels to be masked before extraction, detection and photometry. 
                            !... entries are "x y radius", one object per row. Mask is cylindrical over all datacube. Units: integer pixels.

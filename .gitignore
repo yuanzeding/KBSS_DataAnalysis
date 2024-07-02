@@ -1,8 +1,12 @@
 /Q*
+diagnostic/
 fig/
 .DS_Store
 kbss_mos_redo/
 sedfit_master/
+MUSEQSO/*/
+!MUSEQSO/scripts/
+!MUEQSO/meta/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,31 @@
+global font = "helvetica 12 bold"
+fk5;circle(15:51:52.4866,+19:11:04.280,3i) #color=red  width=2 text={Q1549  2.843}
+fk5;circle(15:51:52.853,+19:10:56.64,5i) #color=cyan  width=2 text={qso-ES1  2.6681 LYA}
+fk5;circle(15:51:52.4784,+19:11:11.436,5i) #color=cyan  width=2 text={qso-D15  2.6923 NEB}
+fk5;circle(15:51:51.1416,+19:11:00.060,5i) #color=cyan  width=2 text={QSO-W-BX62  2.1903 LYA}
+fk5;circle(15:51:51.7567,+19:11:13.864,5i) #color=cyan  width=2 text={QSO-W-ES1  2.2894 LYA}
+fk5;circle(15:51:51.1287,+19:11:02.734,5i) #color=cyan  width=2 text={QSO-W-CS1  2.1923 LYA}
+fk5;circle(15:51:53.7237,+19:11:00.705,5i) #color=cyan  width=2 text={QSO-E-ES1  2.4159 LYA}
+fk5;circle(15:51:53.193,+19:11:04.58,5i) #color=cyan  width=2 text={QSO-E-ES2  2.3625 LYA}
+fk5;circle(15:51:52.906,+19:10:58.62,5i) #color=purple  width=2 text={qso-BX79  z=?}
+fk5;circle(15:51:53.0051,+19:11:09.182,5i) #color=purple  width=2 text={qso-CS1  z=Noz}
+fk5;circle(15:51:52.6794,+19:11:10.586,5i) #color=purple  width=2 text={qso-CS2  z=Noz}
+fk5;circle(15:51:52.1423,+19:11:12.398,5i) #color=purple  width=2 text={qso-CS3  z=Noz}
+fk5;circle(15:51:51.2784,+19:11:05.712,5i) #color=purple  width=2 text={QSO-W-M15-ES2-1  z_Lya=2.8456}
+fk5;circle(15:51:51.4665,+19:10:57.654,5i) #color=purple  width=2 text={QSO-W-GNB2044-ES2-2  z_Lya=2.8423}
+fk5;circle(15:51:51.5261,+19:10:58.369,5i) #color=purple  width=2 text={QSO-W-GNB2044-ES2-4  z_Lya=2.8530}
+fk5;circle(15:51:50.8943,+19:11:12.167,5i) #color=purple  width=2 text={QSO-W-CS2  z=Noz}
+fk5;circle(15:51:50.6566,+19:11:12.405,5i) #color=purple  width=2 text={QSO-W-CS3  z=Noz}
+fk5;circle(15:51:54.4373,+19:11:10.940,5i) #color=purple  width=2 text={QSO-E-CS1  z=lowz}
+fk5;circle(15:51:54.2362,+19:10:57.872,5i) #color=purple  width=2 text={QSO-E-CS4  z=Noz}
+fk5;circle(15:51:53.7930,+19:11:01.500,5i) #color=purple  width=2 text={QSO-E-CS5  z=Noz}
+fk5;circle(15:51:53.6602,+19:10:56.888,5i) #color=purple  width=2 text={QSO-E-CS6  z_Lya=2.8530}
+fk5;circle(15:51:53.8583,+19:10:53.586,5i) #color=purple  width=2 text={QSO-E-CS7  z=lowz}
+fk5;circle(15:51:54.1013,+19:10:49.426,5i) #color=purple  width=2 text={QSO-E-CS8  z=lowz}
+fk5;circle(15:51:52.9784,+19:10:51.918,5i) #color=purple  width=2 text={QSO-E-CS9  z=lowz}
+fk5;circle(15:51:53.0473,+19:10:45.639,5i) #color=purple  width=2 text={QSO-E-CS10  z=lowz}
+fk5;circle(15:51:54.1406,+19:11:05.105,5i) #color=purple  width=2 text={QSO-E-GNB5877  z=2.8414}
+fk5;circle(15:51:54.040,+19:11:00.38,5i) #color=purple  width=2 text={QSO-E-ES3  z_Lya=2.7000}
+fk5;circle(15:51:53.108,+19:10:56.78,5i) #color=purple  width=2 text={QSO-E-ES4-1  z=2.843}
+fk5;circle(15:51:53.532,+19:10:59.18,5i) #color=purple  width=2 text={QSO-E-ES4-2  z=2.843}
+fk5;circle(15:51:53.490,+19:10:58.58,5i) #color=purple  width=2 text={QSO-E-ES4-3  z=2.843}

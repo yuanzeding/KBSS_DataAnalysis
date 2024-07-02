@@ -1,0 +1,10 @@
+global font = "helvetica 12 bold"
+fk5;circle(22:36:19.2154,+13:26:19.357,3i) #color=red  width=2 text={Q2233+131  3.280}
+fk5;circle(22:36:18.6267,+13:26:22.225,5i) #color=purple  width=2 text={CM1-1  z_OII=0.4124}
+fk5;circle(22:36:18.9364,+13:26:24.828,5i) #color=purple  width=2 text={CM1-2  z_OII=0.4124}
+fk5;circle(22:36:18.7803,+13:26:15.500,5i) #color=purple  width=2 text={CS2  z=?}
+fk5;circle(22:36:19.6848,+13:26:10.131,5i) #color=purple  width=2 text={CS6  z=hiz}
+fk5;circle(22:36:20.2202,+13:26:16.619,5i) #color=purple  width=2 text={CS7  z_OII=0.1466}
+fk5;circle(22:36:18.9428,+13:26:20.377,5i) #color=purple  width=2 text={HU1  z=?}
+fk5;circle(22:36:18.8957,+13:26:16.737,5i) #color=purple  width=2 text={HU3  z=?}
+fk5;circle(22:36:19.0827,+13:26:21.122,5i) #color=purple  width=2 text={HU4  z=?}

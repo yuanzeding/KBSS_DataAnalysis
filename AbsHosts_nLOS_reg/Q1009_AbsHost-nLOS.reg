@@ -1,0 +1,12 @@
+global font = "helvetica 12 bold"
+fk5;circle(10:11:55.5954,+29:41:41.607,3i) #color=red  width=2 text={Q1009  2.652}
+fk5;circle(10:11:55.3648,+29:41:35.856,5i) #color=cyan  width=2 text={2022-2018-ES1  2.3586 NEB}
+fk5;circle(10:11:55.8579,+29:41:41.495,5i) #color=cyan  width=2 text={2022-2018-ES3  2.2526 NEB}
+fk5;circle(10:11:55.7044,+29:41:46.247,5i) #color=cyan  width=2 text={2022-2018-CS4  2.429 NEB}
+fk5;circle(10:11:55.1424,+29:41:41.676,5i) #color=purple  width=2 text={2022-2018-MD28  z_sys=2.6553}
+fk5;circle(10:11:56.2390,+29:41:43.332,5i) #color=purple  width=2 text={2022-2018-CS1  z=low-z}
+fk5;circle(10:11:56.0539,+29:41:32.427,5i) #color=purple  width=2 text={2022-2018-CS2  z=lowz}
+fk5;circle(10:11:55.6459,+29:41:46.105,5i) #color=purple  width=2 text={2022-2018-CS4b  z=2.4288?}
+fk5;circle(10:11:54.8667,+29:41:41.121,5i) #color=purple  width=2 text={2022-2018-CS5  z=lowz}
+fk5;circle(10:11:55.1629,+29:41:49.383,5i) #color=purple  width=2 text={2022-2018-CS3  z_Lya=2.6506}
+fk5;circle(10:11:54.5979,+29:41:51.759,5i) #color=purple  width=2 text={2022-2018-C22-ES4  z_Lya=2.6580}

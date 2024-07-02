@@ -14,7 +14,7 @@ $CubEx/Tools/CubePSFSub -cube "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$csourcen
 
 #Continuum subtraction
 
-$CubEx/Tools/CubeBKGSub -cube  "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$sourcename"/q"$cubename"-qso_icubes_wcs.PSFSub.fits" -out "/disk/bifrost/yuanze/KBSS/Q${cubename}/${sourcename}/q${cubename}-qso_icubes_wcs_${rmax}.PSFCONTSub.fits" -bpsize '1 1 150' -bfrad '0 0 3'   -maskpix "1301 1361"
+$CubEx/Tools/CubeBKGSub -cube  "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$sourcename"/q"$cubename"-qso_icubes_wcs.PSFSub.fits" -out "/disk/bifrost/yuanze/KBSS/Q${cubename}/${sourcename}/q${cubename}-qso_icubes_wcs_${rmax}.PSFCONTSub.fits" -bpsize '1 1 150' -bfrad '0 0 3'   -maskpix "1286 1376"
 
 
 
