@@ -21,15 +21,15 @@
 # 
  
 #--- Cube-related parameters:
-InpFile = "/disk/bifrost/yuanze/KBSS/Q0100/BX164/kcwi_oned/q0100-BX164_icubes_wcs.PSFCONTSub.fits"
-InpFile = "/disk/bifrost/yuanze/KBSS/Q0100/BX164/kcwi_oned/q0100-BX164_icubes_wcs.PSFCONTSub.fits"
+InpFile = "/disk/bifrost/yuanze/KBSS/LyC22/M15/kcwi_oned/qLyC22-M15_icubes_wcs.PSFCONTSub.fits"
+InpFile = "/disk/bifrost/yuanze/KBSS/LyC22/M15/kcwi_oned/qLyC22-M15_icubes_wcs.PSFCONTSub.fits"
 zmin = 1                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 9999                !.. maximum spectral pixel for datacube selection      "
-lmin = 3855
-lmax = 4149
+lmin = 5123
+lmax = 5513
   
 #--- Variance-related parameters:
-VarFile = "/disk/bifrost/yuanze/KBSS/Q0100/BX172/kcwi_oned/q0100-BX172_vcubes.fits"
+VarFile = "/disk/bifrost/yuanze/KBSS/LyC22/M15/kcwi_oned/qLyC22-M15_vcubes.fits"
 MultiExt = .false.          !.. if .true. interprets InpFile as a multiextension datacube with data on ext 1 and variance on ext 2 
                            !... unless VarFile is provided or default VarFile name exists in the current directory. [alias "-m"]
                            !... if .false. and VarFile=??, then a simple variance will be estimated from the cube itself, layer by layer.
@@ -44,17 +44,17 @@ RescalingVarInpFile = "??" !.. if provided, uses the rescaling factor of the var
 EstVarOutFile = "??"       !.. if provided, writes down in this file the estimated variance (see MulitExt option)
  
 #--- Filtering parameters:
-ApplyFilter = .true.      !.. if true, applies a gaussian filter to the cube for detection (photometry is performed on original cube) [alias "-f"] 
-ApplyFilterVar = .false.   !.. if true, applies the same gaussian filter as above aslo to the variance cube for detection (assuming null covariance) [alias "-fv"]
-FilterXYRad = 2            !.. gaussian spatial filter size (radius) in pixels, 0=no filtering [alias "-fsr"]
+ApplyFilter = .true.
+ApplyFilterVar = .true.
+FilterXYRad = 1
 FilterZRad = 0             !.. gaussian wavelenght filter size (radius) in spectral pixels, 0=no filtering [alias "-fzr"]
   
 #--- Detection parameters:
-SN_Threshold = 2           !.. voxel individual threshold in SNR for detection [alias "-sn"] 
+SN_Threshold = 3.0
 ISN_Threshold = 0          !.. integrated SNR over the 3d-mask for detection (0=not used) [alias "-isn"]
 SSN_Threshold = 0          !.. integrated spectral SNR (using 1d optimally extracted spectra) for detection (0=not used) [alias "-ssn"]
 SN_Threshold_Conn = 0      !.. voxel individual threshold in SNR for detection if connected to a previously detected voxel (0=not used)
-MinNVox = 1000             !.. minimum number of voxels for detection. ALL three conditions above need to be met for detection [alias "-n" and "MinNSpax"] 
+MinNVox = 20
 MinArea = 1                !.. minimum number of spatial pixels for detection (projection over z)
 MinDz = 1                  !.. minimum number of spectral pixels for detection (projection over x,y)
 MaxDz = 500              !.. max number of spectral pixels for detection (projection over x,y). Useful for removing continuum objs
@@ -84,7 +84,7 @@ IdCube = "??"              !.. associated IdCube to the InpCat for the IsoFlux m
 #--- CheckCube parameters (NB: these are arrays if NCheckCubes>1):
 NCheckCubes = 1              !.. number of CheckCubes produced by CubEx (1 by default), use 0 for no checkcubes
                              !.. NB: if /=1, NCheckCubes parameter MUST preced any other CheckCube options in the parameter file!
-CheckCube = "??"             !.. name of CheckCube(s) if requested. Default is "InpFile"+"CheckCubeType"+".fits". NB: all names on the same line!
+CheckCube = "/disk/bifrost/yuanze/KBSS/LyC22/M15/kcwi_oned/qLyC22-M15_icubes_wcs.PSFCONTSub.Objects_Id_Lya.fits"
 CheckCubeFMT = "fits"        !.. format for CheckCube(s): either fits/bov
 CheckCubeType = "Objects_Id" !.. CheckCube(s) variable; options (one per checkcube requested, all on the same line): [alias "-cct"]
                              !... Objects          = original cube pixels associated with detected objects

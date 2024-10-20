@@ -2,15 +2,15 @@ import subprocess
 from astropy.io import ascii
 from astropy import constants, units as u
 # Variables
-sourcename = "Q2343"
+sourcename = "BX58"
 #csourcename = "BX432"
-cubename = "2343"
+cubename = "Q0105"
 
 # Path to the KBSS data
 KBSSpath="/disk/bifrost/yuanze/KBSS"
-wdir=f"{KBSSpath}/CubEx_run/{sourcename}"
+wdir=f"{KBSSpath}/CubEx_run/{cubename}_{sourcename}"
 qsos = ascii.read(KBSSpath+"/KCWI/qsos.kcwi",format="ipac")
-sentry=qsos[qsos["Name"]==sourcename]
+sentry=qsos[(qsos["Name"]==sourcename) & (qsos["Field"]==cubename)]
 csourcename = sentry["Cube"][0]
 if sentry["zneb"]>0:
     redshift=sentry["zneb"]
@@ -38,12 +38,12 @@ cubex_path = "/disk/bifrost/yuanze/software/CubEx/exe_files"
 # Construct the new InpFile line
 
 if sentry["Type"][0]=="QSO":
-    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{sourcename}/kcwi_oned/q{cubename}-{sourcename}_icubes_wcs.PSFCONTSub.fits"'
+    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/kcwi_oned/{cubename}-{sourcename}_icubes.PSFCONTSub.fits"'
 else:
-    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{sourcename}/kcwi_oned/q{cubename}-{sourcename}_icubes_wcs.CONTSub.fits"'
-Catalogue = f'Catalogue = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{sourcename}/kcwi_oned/q{cubename}-{sourcename}_{line}.cat"'
-Var_file = f'VarFile = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{csourcename}/kcwi_oned/q{cubename}-{csourcename}_vcubes.fits"'
-CheckCube = f'CheckCube = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{sourcename}/kcwi_oned/q{cubename}-{sourcename}_icubes_wcs.PSFCONTSub.Objects_Id_{line}.fits"'
+    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/kcwi_oned/{cubename}-{sourcename}_icubes.CONTSub.fits"'
+Catalogue = f'Catalogue = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/kcwi_oned/{cubename}-{sourcename}_{line}.cat"'
+Var_file = f'VarFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{csourcename}/kcwi_oned/{cubename}-{csourcename}_vcubes.fits"'
+CheckCube = f'CheckCube = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/kcwi_oned/{cubename}-{sourcename}_icubes.PSFCONTSub.Objects_Id_{line}.fits"'
 #Catalogue = f'Catalogue = "/disk/bifrost/yuanze/KBSS/Q{cubename}/{sourcename}/kcwi_oned/q{cubename}-{sourcename}.cat"'
 # Read in the current contents of the file
 with open(f'{wdir}/par.in', 'r') as file:
