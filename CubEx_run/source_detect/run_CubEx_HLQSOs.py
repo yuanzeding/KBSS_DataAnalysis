@@ -2,12 +2,12 @@ import subprocess
 from astropy.io import ascii
 from astropy import constants, units as u
 # Variables
-field = "2343"
+field = "0449"
 radius = 6
 # Path to the KBSS data
 KBSSpath="/disk/bifrost/yuanze/KBSS"
 wdir=f"{KBSSpath}/CubEx_run/Q{field}"
-qsos = ascii.read(KBSSpath+"/KCWI/qsos_bright.kcwi",format="ipac")
+qsos = ascii.read(KBSSpath+"/KCWI/qsos_bright_updated.list",format="ipac")
 sentry=qsos[qsos["Field"]=="Q"+field]
 
 redshift=sentry["z_sys"]

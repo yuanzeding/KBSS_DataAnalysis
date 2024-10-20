@@ -14,7 +14,7 @@ from regions import CircleSkyRegion, PixCoord
 
 import sys
 import numpy as np
-sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO')
+sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO/scripts')
 import makeMask_MUSE as masktools
 
 def read_regions(file_path,pix_scale=0.3):
@@ -60,6 +60,8 @@ def maskplot(data,mask,output=None,center=None,artist=None, meta=None,atype="cir
     ax.imshow(data-sky_median,origin='lower',cmap='gray_r',norm=norm)
     #plt.imshow(img.cut_sigma_image,origin='lower',cmap='gray_r')
     ax.imshow(mask,origin='lower',cmap='Blues',alpha=mask.astype(float)*0.7)
+    ax.set_xticklabels([])
+    ax.set_yticklabels([])
     if center is not None:
         ax.plot(center[1],center[0],"+",c="r",ms=10,lw=0.01)
     if (artist is not None) and (atype == "circle"):
@@ -162,12 +164,12 @@ def get_wcs_pixel_position(fits_file, ra, dec):
 
 if __name__ == "__main__":
     root_directory = '/disk/bifrost/yuanze/KBSS/MUSEQSO'  # Set this to the root directory you want to start the search from
-    ascii_file_path = root_directory+'/MUSEQSO_machine_readable_updated2.list'  # Path to the ASCII file
-    standard_script_path = root_directory+'/runcubtool_MUSEQSO.sh'  # Path to the standard script
+    ascii_file_path = root_directory+'/meta/MUSEQSO_machine_readable_updated2.list'  # Path to the ASCII file
+    standard_script_path = root_directory+'/scripts/runcubtool_MUSEQSO.sh'  # Path to the standard script
     env_setup_file = os.environ.get('HEADAS') + '/headas-init.sh'  # Path to the environment setup file
     # Example filters
     source_table = ascii.read(ascii_file_path, format='ipac')
-    filters = ["table['file_count'] < 2"]
+    filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
     overwrite = True
     copy_script = False
     dryrun = False

@@ -6,7 +6,7 @@ import os
 import numpy as np
 import re
 import sys
-sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO')
+sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO/scripts')
 import run_cubetools_MUSE as ctools
 # Variables
 
@@ -25,7 +25,7 @@ def get_wcs_pixel_position(fits_file, ra, dec):
     return pixel_coord
 def determine_mask(wc,line, redshift):
     wave = {"Lya": 1215.67, "CIV": 1549.06, "MgII": 2799.12, "HeII": 1640.4, "OVI": 1031, "SiIV": 1402.77, "CII": 1334.53, "NV": 1240, "OI": 1304, "continuum": 1290}  # Angstroms
-    sigma_v = {"Lya": 3.e3, "CIV": 3e3, "SiIV": 3e3, "CII": 3e3, "NV": 3e3, "OI": 3e3, "OVI": 3e3, "HeII": 3e3, "continuum":3e3}  # km/s turbulent velocity
+    sigma_v = {"Lya": 1.5e3, "CIV": 3e3, "SiIV": 3e3, "CII": 3e3, "NV": 3e3, "OI": 3e3, "OVI": 3e3, "HeII": 3e3, "continuum":3e3}  # km/s turbulent velocity
     vc = (wc / (1 + redshift) - wave[line]) / wave[line] * constants.c.to(u.km/u.s).value
     index = (vc > (-sigma_v[line])) & (vc < sigma_v[line])
     inda = np.arange(len(wc))
@@ -62,10 +62,10 @@ def update_mask(subdir,tab):
 
 if __name__ == "__main__":
     root_directory = '/disk/bifrost/yuanze/KBSS/MUSEQSO'  # Set this to the root directory you want to start the search from
-    ascii_file_path = root_directory+'/MUSEQSO_machine_readable_updated2.list'  # Path to the ASCII file
+    ascii_file_path = root_directory+'/meta/MUSEQSO_machine_readable_updated2.list'  # Path to the ASCII file
     qsos = ascii.read(ascii_file_path,format="ipac")
-    filters = ["table['file_count'] < 2"]
-    all_directories=ctools.find_directories_from_ascii(qsos,root_directory,filters=filters)
+    filters = ["table['file_count'] < 2","table['M_i'] < -29.6","table['z_sys']>3.5"]
+    all_directories,tab=ctools.find_directories_from_ascii(qsos,root_directory,filters=filters)
     for subdir in all_directories:
         update_mask(subdir, qsos)
         

@@ -1,6 +1,6 @@
 import sys
 sys.path.append('/disk/bifrost/yuanze/software/KcwiKit/py')
-sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO')
+sys.path.append('/disk/bifrost/yuanze/KBSS/MUSEQSO/scripts')
 import run_cubetools_MUSE as ctools
 import os
 
@@ -15,7 +15,7 @@ import gc
 from astropy.io import fits,ascii
 
 
-keep_vars = ['keep_vars','cosmology','KBSSpath','dovariance','clean','root_directory','filters','gc', 'os', 'np', 'fits', 'all_directories', 'source_table', 'ctools', 'overwrite']
+keep_vars = ['keep_vars','cosmology','KBSSpath','dovariance','clean','root_directory','doQSO','filters','gc', 'os', 'np', 'fits', 'all_directories', 'source_table', 'ctools', 'overwrite']
     
 
 
@@ -24,29 +24,37 @@ KBSSpath="/disk/bifrost/yuanze/KBSS"
 
 
 root_directory = KBSSpath+"/MUSEQSO"
-source_table = ascii.read(root_directory+"/MUSEQSO_machine_readable_updated2.list",format="ipac")#QSOtab=qsos[(qsos['contam']=="False")&(qsos['Field']!="Q1623")]
-filters = ["table['file_count'] < 2", "table['M_i'] > -29.6"]
+source_table = ascii.read(root_directory+"/meta/MUSEQSO_machine_readable_updated2.list",format="ipac")#QSOtab=qsos[(qsos['contam']=="False")&(qsos['Field']!="Q1623")]
+filters = ["table['file_count'] < 2", "table['M_i'] < -29.6","table['z_sys']<3.5"]
 #QSOtab=qsos[(qsos['Field']!="Q0142")&(qsos['Field']!="Q1623")]
 all_directories,tab = ctools.find_directories_from_ascii(source_table,root_directory,filters=filters)
 print("Number of directories found:",len(all_directories))
 #gc.set_debug(gc.DEBUG_LEAK)
 
 dovariance=False
-overwrite=True
+overwrite=False
 clean=True
-for subdir in all_directories[60:]:
+doQSO=True
+for subdir in all_directories:
     import kcwi_tools
     adp_prefix = ctools.find_adp_fits_file(subdir)
     quasar_name = os.path.basename(subdir)
     #overwrite=True
     sentry = source_table[source_table['Quasar'] == quasar_name]
-    Subfile = adp_prefix+".PSFCONTSub.fits"
+    if doQSO:
+        Subfile=adp_prefix+".fits"
+        writefn=adp_prefix+".cyli.fits"
+        dovariance=False
+        subncomp=1
+    else:
+        Subfile = adp_prefix+".PSFCONTSub.fits"
+        subncomp=0
+        writefn=adp_prefix+".PSFCONTSub.cyli.fits"
     NSubfile = adp_prefix+".PSFSub.fits"
     psfcen = np.loadtxt(subdir+"/psfcen.txt")
     xpix = psfcen[0,1]
     ypix = psfcen[0,2]
     dr = 0.2 # radial increment of the cylindrical projection, arcsec
-    writefn=adp_prefix+".PSFCONTSub.cyli.fits"
     maskfn=f"{adp_prefix}.mask.fits"
     if os.path.exists(maskfn):
         pass
@@ -58,9 +66,9 @@ for subdir in all_directories[60:]:
         print("writing:",writefn)
         hdu=fits.open(Subfile)
         #hdu2=fits.open(cubefile)
-        hdu[0].header["CNAME3"]="Wavelength"
-        hdr=hdu[0].header
-        status=kcwi_tools.cart2cyli(Subfile,[xpix,ypix],hdr=hdr,masktype='direct',cos=cosmology.Planck18,ncomp=0,clean=clean,r_range=[0,10],dr=dr,maskfn=maskfn,writefn=writefn,montage=True)
+        hdu[subncomp].header["CNAME3"]="Wavelength"
+        hdr=hdu[subncomp].header
+        status=kcwi_tools.cart2cyli(Subfile,[xpix,ypix],hdr=hdr,masktype='direct',cos=cosmology.Planck18,ncomp=subncomp,clean=clean,r_range=[0,10],dr=dr,maskfn=maskfn,writefn=writefn,montage=True)
         hdu.close()
      #   del hdu
     else:

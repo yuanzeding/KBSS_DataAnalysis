@@ -22,3 +22,5 @@
   356.60589  +12.79552   68.5       34.39      BX415   BX415      Q2343  20.22   0.10   0.90  True   2.5740   2.5720   2.5741   QSO  "cecilia_jh_H,J oct21abs is DLA; zsys=2.5741 from HeII 1640 (ESI) and Ha (msfr); WISE undetected"
   356.61767  +12.81615   74.4       31.7       BX587   Q2343      Q2343  17.10   0.33   0.75  True   2.5730   2.5730   2.5730   QSO  "central QSO; HIRES, LRIS; WISE band 1 detected, band 2 very faint"
   356.61778  +12.81727   0.0        0.0        BX587  FSzP1170    Q2343  99.00   9.00   9.00  False  2.5716  -1.0000   2.5690   AGN  "MOSFIRE; also on KCWI cube q2343-BX587; [mosfire nb2K; zph= 2.434; zph= 35.7; K_ab= 22.64]; WISE band 1/2/3/4"
+  99.        +99.        51.0       49.0       M15     M15        LyC22  25.68   -99    -99   True   -2.000  -1.0000   3.375    AGN  "JWST Ly22 target, strong OIII, Hb, SII; very high OIII/Hb"
+  99.        +99.        48.03      51.82      BX58    BX58       Q0105  25.68   -99    -99   True   2.5316   2.523    2.5351   QSO  "has [OIII], Ha, Hb, OII, Broad line QSO"

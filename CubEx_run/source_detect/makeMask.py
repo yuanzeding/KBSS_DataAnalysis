@@ -6,18 +6,19 @@ import numpy as np
 
 # Path to the KBSS data
 KBSSpath="/disk/bifrost/yuanze/KBSS"
-qsos = ascii.read(KBSSpath+"/KCWI/qsos_bright.kcwi",format="ipac")
+qsos = ascii.read(KBSSpath+"/KCWI/qsos_bright_updated.list",format="ipac")
 #tab=qsos[(qsos['contam']=="False")&(qsos['Field']!="Q1623")]
-tab=qsos[(qsos['Field']!="Q1623")]
+tab=qsos[(qsos['Field']=="Q0449")]
+#tab=qsos
 for i, element in enumerate(tab):
     #field = element['FILENAME'].split('-')[0]
     field=element['Field']
-    if field != "Q1623":
-        objname="qso"
-        subdapath=KBSSpath+"/"+field+"/"+objname.upper()
-        fn=subdapath+"/{}-{}_icubes_wcs.cyli.fits".format(field.lower(),objname)
-    else:
-        continue
+    #if field != "Q1623":
+    objname="qso"
+    subdapath=KBSSpath+"/"+field+"/"+objname.upper()
+    fn=subdapath+"/{}-{}_icubes_wcs.fits".format(field.lower(),objname)
+    #else:
+    #    continue
 
     hdu = fits.open(fn)[0]
     hdr = hdu.header
@@ -48,7 +49,7 @@ for i, element in enumerate(tab):
             lines = file.readlines()
 
         # Ensure the first two lines are the original ones
-        if lines[0].strip() != "144 193" or lines[1].strip() != "2343 2392":
+        if lines[0].strip() != "144 193" or (lines[1].strip() != "2343 2392" and lines[2].strip() != "2343 2392"):
             print(f"Warning: Unexpected mask file format in {mask_file}")
         else:
             # Modify the mask file
