@@ -7,12 +7,13 @@ zPSFsize=150
 maskpix='10 15'
 masklist='zmask.txt'
 outpsfcen='psfcen.txt'
+noisethr=3.0
 #Sky subtraction residual correction (skipped for this time)
 
 #$CubEx/Tools/CubeFix 
 
 #Quasar PSF subtraction
-$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -x $xloc -y $yloc -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen"
+$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -noisethr $noisethr -x $xloc -y $yloc -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen"
 
 #Continuum subtraction
 
