@@ -111,6 +111,41 @@ def replace_parameters_in_file(file_path, parameters):
                     line = re.sub(rf'{parameter}=.+', f'{parameter}={new_value}', line)
             file.write(line)
 
+def replace_parameters_in_file_new(file_path, parameters):
+    # Read the original file lines.
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    # Flag to check whether the special CubEx line exists.
+    found_params = {param: False for param in parameters}
+    updated_lines = []
+    
+    for line in lines:
+        updated_line = line
+
+        # Update existing parameters defined as "param=value"
+        for param, new_value in parameters.items():
+            # If the line contains a parameter assignment like "param=some_value"
+            if re.match(rf'{param}=.+', updated_line.strip()):
+                updated_line = re.sub(rf'{param}=.+', f'{param}={new_value}', updated_line)
+                found_params[param] = True
+        
+        # Special handling for the "$CubEx/Tools/CubePSFSub" line:
+        # Append any missing parameter (as an option) to the end of the line.
+        if updated_line.lstrip().startswith("$CubEx/Tools/CubePSFSub"):
+            for param, new_value in parameters.items():
+                # Check if the option "-param" is present anywhere in the line.
+                if f"-{param}" not in updated_line:
+                    # Append the missing option (removing any trailing newline first).
+                    updated_line = updated_line.rstrip('\n') + f' -{param} ${param}\n'
+        updated_lines.append(updated_line)
+    # Write back the updated content to the file.
+    missing_lines = [f'{param}={new_value}\n' 
+                     for param, new_value in parameters.items() 
+                     if not found_params[param]]
+    with open(file_path, 'w') as file:
+        file.writelines(missing_lines + updated_lines)
+
 def execute_script_with_env(file_path, env_setup_path):
     quoted_file_path = shlex.quote(file_path)
     try:
@@ -124,7 +159,7 @@ def process_directory(subdir, parameters, env_setup_path,dryrun=False):
     file_path = os.path.join(subdir, 'runcubtool_QSO.sh')
     if os.path.isfile(file_path):
         print(f'Processing file: {file_path}')
-        replace_parameters_in_file(file_path, parameters)
+        replace_parameters_in_file_new(file_path, parameters)
         if dryrun == False:
             execute_script_with_env(file_path, env_setup_path)
 
@@ -164,22 +199,26 @@ def get_wcs_pixel_position(fits_file, ra, dec):
 
 if __name__ == "__main__":
     root_directory = '/disk/bifrost/yuanze/KBSS/MUSEQSO'  # Set this to the root directory you want to start the search from
-    ascii_file_path = root_directory+'/meta/MUSEQSO_machine_readable_updated2.list'  # Path to the ASCII file
+    ascii_file_path = root_directory+'/meta/MUSEQSO_machine_readable_updated2_withMi2.list'  # Path to the ASCII file
     standard_script_path = root_directory+'/scripts/runcubtool_MUSEQSO.sh'  # Path to the standard script
     env_setup_file = os.environ.get('HEADAS') + '/headas-init.sh'  # Path to the environment setup file
     # Example filters
     source_table = ascii.read(ascii_file_path, format='ipac')
-    filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
+    #filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
+    filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
     overwrite = True
     copy_script = False
     dryrun = False
-    update_param = False
+    update_meta_param = False # update the parameters according to meta files.
+    # the parameters_to_update dictionary will be updated independently and will alwasy be updated unless it is blank.
+    update_PSFcenter=False
     if dryrun:
         print("Dry run: parameters updated but no files will be executed.")
-    if (~update_param) and copy_script:
-        print("Warning: copy_script is True but update_param is False. The script will be copied but not updated.")
+    if (not update_meta_param) and copy_script:
+        print("Warning: copy_script is True but update_meta_param is False. The script will be copied but the loaded cube may be wrong.")
     # update parameters in the running file
     parameters_to_update = {
+        "noisethr": 2,
         'rmax': 30,
         'rmin': 2  # Add more parameters as needed
     }
@@ -227,20 +266,22 @@ if __name__ == "__main__":
             if len(source_row) < 0:
                 print(f'Could not find the source row for {quasar_name}')
                 break
-            if update_param:
+            if update_meta_param:
                 ra = source_row['RA'][0]
                 dec = source_row['Decl'][0]
-                if source_row['cutout'] == 'True':
-                    xloc,yloc=50.0,50.0
-                else:
-                    xloc, yloc = get_wcs_pixel_position(adp_prefix+".fits", ra, dec)
-                parameters_to_update['xloc'] = int(xloc)
-                parameters_to_update['yloc'] = int(yloc)
+
+                if update_PSFcenter:
+                    if source_row['cutout'] == 'True':
+                        xloc,yloc=50.0,50.0
+                    else:
+                        xloc, yloc = get_wcs_pixel_position(adp_prefix+".fits", ra, dec)
+                    parameters_to_update['xloc'] = int(xloc)
+                    parameters_to_update['yloc'] = int(yloc)
                 parameters_to_update['inPrefix'] = shlex.quote(adp_prefix)
                 parameters_to_update['masklist'] = shlex.quote(os.path.join(subdir,"zmask.txt"))
                 parameters_to_update['outpsfcen'] = shlex.quote(os.path.join(subdir,"psfcen.txt"))
             else:
-                print(f'Skipping parameter update for {quasar_name}')
+                print(f'Skipping meta parameter update for {quasar_name}')
             masktools.update_mask(subdir,source_table)
         process_directory(subdir, parameters_to_update, env_setup_file,dryrun=dryrun)
     #print(unprocessed)
