@@ -33,7 +33,7 @@ MultiExt = .false.          !.. if .true. interprets InpFile as a multiextension
                            !... unless VarFile is provided or default VarFile name exists in the current directory. [alias "-m"]
                            !... if .false. and VarFile=??, then a simple variance will be estimated from the cube itself, layer by layer.
 RescaleVar = .true.
-RescaleVarArea = "25 75 25 75"
+RescaleVarArea = "25 75 78 122"
 RescaleVarMin = 0.9        !.. minimum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarMax = 10.        !.. maximum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarFR = 5
@@ -55,7 +55,7 @@ SSN_Threshold = 0          !.. integrated spectral SNR (using 1d optimally extra
 SN_Threshold_Conn = 0      !.. voxel individual threshold in SNR for detection if connected to a previously detected voxel (0=not used)
 MinNVox = 20
 MinArea = 5
-MinDz = 5
+MinDz = 3
 MaxDz = 100              !.. max number of spectral pixels for detection (projection over x,y). Useful for removing continuum objs
 ReliabCheck = .true.
 NegCatalogue = "??"        !.. if set and if ReliabCheck=.true., it produces a file with the objects detected in the "negative" Cube
