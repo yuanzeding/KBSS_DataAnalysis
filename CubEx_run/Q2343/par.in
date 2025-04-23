@@ -21,7 +21,7 @@
 # 
  
 #--- Cube-related parameters:
-InpFile = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_icubes_wcs_20.PSFCONTSub.fits"
+InpFile = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_icubes_wcs_30.PSFCONTSub.fits"
 Catalogue = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_Lya.cat"
 zmin = 300                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 2300                !.. maximum spectral pixel for datacube selection      "
