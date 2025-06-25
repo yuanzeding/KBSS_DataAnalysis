@@ -1,6 +1,6 @@
 inPrefix="ADP.2017-10-16T15:00:00.000"
-xloc=50.0
-yloc=50.0
+x=50.0
+y=50.0
 rmax=30
 rmin=5
 zPSFsize=150
@@ -13,7 +13,7 @@ noisethr=3.0
 #$CubEx/Tools/CubeFix 
 
 #Quasar PSF subtraction
-$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -noisethr $noisethr -x $xloc -y $yloc -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen"
+$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -noisethr $noisethr -x $x -y $y -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen"
 
 #Continuum subtraction
 

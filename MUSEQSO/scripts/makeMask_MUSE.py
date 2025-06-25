@@ -61,7 +61,7 @@ def update_mask(subdir,tab,redshiftref="z_Lyaneb",subdir_data=None,dtype="MUSE",
         wc = (np.arange(hdr['NAXIS3']) - hdr['CRPIX3'] + 1) * hdr['CD3_3'] + hdr['CRVAL3']
         lmin,lmax = determine_mask(wc,line, redshift)
         print("with redshift", redshift, "min wavelength index", lmin, "max wavelength index", lmax)
-        print("Done updating wavelength mask for", tab["Name"])
+        print("Done updating wavelength mask for data in", subdir)
         print("----------------------------------------------------------------------------------------------------------------")
         # Read and modify the mask file
         mask_file = os.path.join(subdir, "zmask.txt")

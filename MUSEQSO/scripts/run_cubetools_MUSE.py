@@ -112,6 +112,7 @@ def replace_parameters_in_file(file_path, parameters):
             file.write(line)
 
 def replace_parameters_in_file_new(file_path, parameters):
+    protected_name=['inPrefix','csourcename','sourcename','cubename','maskpix','xloc','yloc']
     # Read the original file lines.
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -135,7 +136,7 @@ def replace_parameters_in_file_new(file_path, parameters):
         if updated_line.lstrip().startswith("$CubEx/Tools/CubePSFSub"):
             for param, new_value in parameters.items():
                 # Check if the option "-param" is present anywhere in the line.
-                if f"-{param}" not in updated_line:
+                if f"-{param}" not in updated_line and param not in protected_name:
                     # Append the missing option (removing any trailing newline first).
                     updated_line = updated_line.rstrip('\n') + f' -{param} ${param}\n'
         updated_lines.append(updated_line)
@@ -172,7 +173,10 @@ def find_directories_from_ascii(table, root_dir, filters=None,keyword="Quasar"):
     for quasar in table[keyword]:
         subdir = os.path.join(root_dir, quasar)
         if os.path.isdir(subdir):
-            directories.append(subdir)
+            if table['SCcube'][table[keyword] == quasar][0] == "True":
+                directories.append(subdir+"/SC_cube")
+            else:
+                directories.append(subdir)
     return directories, table
 
 def copy_standard_script_to_directories(directories, standard_script_path):
@@ -204,14 +208,14 @@ if __name__ == "__main__":
     env_setup_file = os.environ.get('HEADAS') + '/headas-init.sh'  # Path to the environment setup file
     # Example filters
     source_table = ascii.read(ascii_file_path, format='ipac')
-    #filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
-    filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
+    filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
+    #filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
     overwrite = True
-    copy_script = False
+    copy_script = True
     dryrun = False
-    update_meta_param = False # update the parameters according to meta files.
+    update_meta_param = True # update the parameters according to meta files.
     # the parameters_to_update dictionary will be updated independently and will alwasy be updated unless it is blank.
-    update_PSFcenter=False
+    update_PSFcenter=True
     if dryrun:
         print("Dry run: parameters updated but no files will be executed.")
     if (not update_meta_param) and copy_script:
@@ -251,7 +255,7 @@ if __name__ == "__main__":
     local_directories = all_directories[start:end]
     
     # Process directories assigned to this rank
-    for subdir in local_directories:
+    for n_dir,subdir in enumerate(local_directories):
         adp_prefix = find_adp_fits_file(subdir)
         print("reading ADP file at",adp_prefix)
         if os.path.exists(adp_prefix+".PSFCONTSub.fits") and overwrite == False:
@@ -261,28 +265,30 @@ if __name__ == "__main__":
             #unprocessed.append(subdir)
         if adp_prefix:
             # Find the corresponding row in the source table
-            quasar_name = os.path.basename(subdir)
-            source_row = source_table[source_table['Quasar'] == quasar_name]
+            #quasar_name = os.path.basename(subdir)
+            source_row = tab[n_dir]#source_table[source_table['Quasar'] == quasar_name]
             if len(source_row) < 0:
                 print(f'Could not find the source row for {quasar_name}')
                 break
             if update_meta_param:
-                ra = source_row['RA'][0]
-                dec = source_row['Decl'][0]
-
+                print(source_row)
+                ra = source_row['RA']
+                dec = source_row['Decl']
+                print("RA, Dec:", ra, dec)
+                print(adp_prefix)
                 if update_PSFcenter:
                     if source_row['cutout'] == 'True':
                         xloc,yloc=50.0,50.0
                     else:
                         xloc, yloc = get_wcs_pixel_position(adp_prefix+".fits", ra, dec)
-                    parameters_to_update['xloc'] = int(xloc)
-                    parameters_to_update['yloc'] = int(yloc)
+                    parameters_to_update['x'] = int(xloc)
+                    parameters_to_update['y'] = int(yloc)
                 parameters_to_update['inPrefix'] = shlex.quote(adp_prefix)
                 parameters_to_update['masklist'] = shlex.quote(os.path.join(subdir,"zmask.txt"))
                 parameters_to_update['outpsfcen'] = shlex.quote(os.path.join(subdir,"psfcen.txt"))
             else:
                 print(f'Skipping meta parameter update for {quasar_name}')
-            masktools.update_mask(subdir,source_table)
+            masktools.update_mask(subdir,source_table,dtype="MUSE",scriptname="runcubtool_QSO.sh")
         process_directory(subdir, parameters_to_update, env_setup_file,dryrun=dryrun)
     #print(unprocessed)
         

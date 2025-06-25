@@ -255,6 +255,8 @@ def find_directories_from_ascii(table, root_dir, filters=None,keyword="Quasar",K
 def copy_standard_script_to_directories(directories, standard_script_path,scriptname='runcubtool_QSO.sh'):
     for subdir in directories:
         target_path = os.path.join(subdir, scriptname)
+        if not os.path.exists(subdir):
+            os.makedirs(subdir)
         shutil.copy(standard_script_path, target_path)
         print(f'Copied {standard_script_path} to {target_path}')
 
@@ -286,11 +288,14 @@ if __name__ == "__main__":
     source_table = ascii.read(ascii_file_path, format='ipac')
     #filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
     #filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
-    filters = ["table['KCWI'] == 'yes'"]
+    filters = ["table['KCWI'] == 'yes'","table['Type']>=1.5","table['Name']!='Lab5'"]
 
     dtype="KBSS"
     redshiftref="zlya"
-    overwrite = True # overwrite exsiting fits files
+    overwrite = False # overwrite exsiting fits files
+    BKGSubOnly = True # only do background subtraction
+    if BKGSubOnly:
+        standard_script_path = root_directory+'/CubEx_run/scripts/runcubtool_CONT.sh'
     copy_script = True
     dryrun = False
     update_meta_param = True # update the parameters according to meta files.
@@ -306,6 +311,8 @@ if __name__ == "__main__":
         'rmax': 8,
         'rmin': 1  # Add more parameters as needed
     }
+    if BKGSubOnly:
+        parameters_to_update = {}
     unprocessed=[]
     # MPI initialization
     comm = MPI.COMM_WORLD
@@ -360,6 +367,9 @@ if __name__ == "__main__":
                 print(f'Could not find the source row for {quasar_name}')
                 break
             if update_meta_param:
+                if BKGSubOnly:
+                    parameters_to_update = {}
+                    update_PSFcenter = False
                 if dtype=="KBSS":
                     subdir=local_out_directories[dir_n]
                     xloc,yloc=source_row['x'],source_row['y']
