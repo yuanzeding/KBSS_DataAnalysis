@@ -11,13 +11,15 @@ import run_cubetools_v1 as ctools
 
 # Path to the KBSS data
 root_directory = '/disk/bifrost/yuanze/KBSS'  # Set this to the root directory you want to start the search from
+KBSSpath="/disk/bifrost/yuanze/KBSS"
 ascii_file_path = root_directory+'/KCWI/KBSS_faint_AGN.list'  # Path to the ASCII file
 standard_script_path = '/disk/bifrost/yuanze/KBSS/CubEx_run/scripts/par.in'  # Path to the standard script
-filters = ["table['KCWI'] == 'yes'"]
+
+filters = ["table['KCWI'] == 'yes'","table['Type'] >=1.5","table['Name'] != 'FSzP1170'","table['Name'] != 'Lab5'"]
 source_table = ascii.read(ascii_file_path, format='ipac')
 dtype="KBSS"
 all_directories,tab,all_data_dir = ctools.find_directories_from_ascii(source_table, root_directory,filters=filters,KBSS=(dtype=="KBSS"))
-KBSSpath="/disk/bifrost/yuanze/KBSS"
+
 
 #qsos = ascii.read(KBSSpath+"/KCWI/KBSS_faint_AGN.list",format="ipac")
 #sentry=qsos[(qsos["Name"]==sourcename) & (qsos["Field"]==cubename)]
@@ -33,7 +35,7 @@ RescaleVarArea = '"35 65 35 65"'
 RescaleVarFR = 5
 RescalingVarOutFile = '"Revar.out"'
 
-MinNVox=50
+MinNVox = 50
 MinArea = 5
 MinDz = 5
 SN_Threshold = 3.0
@@ -57,7 +59,10 @@ for ns,source_row in enumerate(tab):
     cubename = source_row["Field"]
     wdir=all_directories[ns]#f"{KBSSpath}/CubEx_run/{cubename}_{sourcename}"
     #if sentry["Type"][0]=="QSO":
-    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/{instrument}/{cubename}-{sourcename}_icubes.PSFCONTSub.fits"'
+    if source_row["Type"] < 1.5:  # Assuming Type < 1.5 indicates a QSO
+        Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/{instrument}/{cubename}-{sourcename}_icubes.PSFCONTSub.fits"'
+    else:
+        Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/{instrument}/{cubename}-{sourcename}_icubes.CONTSub.fits"'
     #else:
     #    Inp_file = f'InpFile = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/{instrument}/{cubename}-{sourcename}_icubes.CONTSub.fits"'
     Catalogue = f'Catalogue = "/disk/bifrost/yuanze/KBSS/{cubename}/{sourcename}/{instrument}/{cubename}-{sourcename}_{emline}.cat"'

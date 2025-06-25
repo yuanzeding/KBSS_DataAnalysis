@@ -32,7 +32,7 @@ VarFile = "/disk/bifrost/yuanze/KBSS/Q1623/QSO/q1623-qso_vcubes.fits"
 MultiExt = .false.          !.. if .true. interprets InpFile as a multiextension datacube with data on ext 1 and variance on ext 2 
                            !... unless VarFile is provided or default VarFile name exists in the current directory. [alias "-m"]
                            !... if .false. and VarFile=??, then a simple variance will be estimated from the cube itself, layer by layer.
-RescaleVar = .true.
+RescaleVar = .false.
 RescaleVarArea = "25 75 78 122"
 RescaleVarMin = 0.9        !.. minimum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarMax = 10.        !.. maximum rescaling factor for variance rescaling if RescaleVar=.true.
