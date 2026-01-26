@@ -24,16 +24,16 @@
 InpFile = "/disk/bifrost/yuanze/KBSS/Q1623/QSO/q1623-qso_icubes_wcs_20.PSFCONTSub.fits"
 zmin = 1                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 9999                !.. maximum spectral pixel for datacube selection      "
-lmin = 4254
-lmax = 4340
+lmin = 4283
+lmax = 4312
   
 #--- Variance-related parameters:
 VarFile = "/disk/bifrost/yuanze/KBSS/Q1623/QSO/q1623-qso_vcubes.fits"
 MultiExt = .false.          !.. if .true. interprets InpFile as a multiextension datacube with data on ext 1 and variance on ext 2 
                            !... unless VarFile is provided or default VarFile name exists in the current directory. [alias "-m"]
                            !... if .false. and VarFile=??, then a simple variance will be estimated from the cube itself, layer by layer.
-RescaleVar = .false.
-RescaleVarArea = "25 75 78 122"
+RescaleVar = .true.
+RescaleVarArea = "25 75 25 75"
 RescaleVarMin = 0.9        !.. minimum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarMax = 10.        !.. maximum rescaling factor for variance rescaling if RescaleVar=.true.
 RescaleVarFR = 5
@@ -45,17 +45,17 @@ EstVarOutFile = "??"       !.. if provided, writes down in this file the estimat
 #--- Filtering parameters:
 ApplyFilter = .true.
 ApplyFilterVar = .true.
-FilterXYRad = 1
+FilterXYRad = 2
 FilterZRad = 0
   
 #--- Detection parameters:
-SN_Threshold = 3.0
+SN_Threshold = 2.0
 ISN_Threshold = 0          !.. integrated SNR over the 3d-mask for detection (0=not used) [alias "-isn"]
 SSN_Threshold = 0          !.. integrated spectral SNR (using 1d optimally extracted spectra) for detection (0=not used) [alias "-ssn"]
 SN_Threshold_Conn = 0      !.. voxel individual threshold in SNR for detection if connected to a previously detected voxel (0=not used)
 MinNVox = 20
 MinArea = 5
-MinDz = 3
+MinDz = 5
 MaxDz = 100              !.. max number of spectral pixels for detection (projection over x,y). Useful for removing continuum objs
 ReliabCheck = .true.
 NegCatalogue = "??"        !.. if set and if ReliabCheck=.true., it produces a file with the objects detected in the "negative" Cube

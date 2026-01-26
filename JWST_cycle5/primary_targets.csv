@@ -1,0 +1,81 @@
+name,ra_deg,dec_deg,ra_hms,dec_dms,shape,pointsym,color,text,comments,attrs_raw,order_in_file
+BX14,237.9204700,19.2008000,15:51:40.913,+19:12:02.880,circle,,blue,BX14,2.875,color=blue  width=2 text={BX14} comment={2.875},3
+BX84,237.9737400,19.2068400,15:51:53.698,+19:12:24.624,circle,,blue,BX84,2.825,color=blue  width=2 text={BX84} comment={2.825},4
+MD34,238.0263700,19.2134700,15:52:06.329,+19:12:48.492,circle,,blue,MD34,2.851,color=blue  width=2 text={MD34} comment={2.851},5
+MD7,237.9480300,19.1704200,15:51:47.527,+19:10:13.512,circle,,red,MD7,2.8517,color=red  width=2 text={MD7} comment={2.8517},6
+MD9,237.9613400,19.1606400,15:51:50.722,+19:09:38.304,circle,,blue,MD9,2.845,color=blue  width=2 text={MD9} comment={2.845},7
+MD23,237.9920800,19.1364600,15:51:58.099,+19:08:11.256,circle,,blue,MD23,2.8415,color=blue  width=2 text={MD23} comment={2.8415},8
+MD12,237.9661800,19.1781100,15:51:51.883,+19:10:41.196,circle,,red,MD12,"2.8495 LyC leaker CO detection, complex morphology","color=red  width=2 text={MD12} comment={2.8495 LyC leaker CO detection, complex morphology}",9
+MD5,237.9383900,19.1847500,15:51:45.214,+19:11:05.100,circle,,red,MD5,3.1426 LyC leaker,color=red  width=2 text={MD5} comment={3.1426 LyC leaker},10
+MD34,238.0263700,19.2134700,15:52:06.329,+19:12:48.492,circle,,red,MD34,2.851 LyC leaker,color=red  width=2 text={MD34} comment={2.851 LyC leaker},11
+D24,238.0219900,19.1625600,15:52:05.278,+19:09:45.216,circle,,red,D24,2.9441 LyC leaker,color=red  width=2 text={D24} comment={2.9441 LyC leaker},12
+M16,237.9735800,19.1580800,15:51:53.659,+19:09:29.088,circle,,red,M16,2.9539 LyC leaker,color=red  width=2 text={M16} comment={2.9539 LyC leaker},13
+D14,237.9719400,19.1836600,15:51:53.266,+19:11:01.176,circle,,blue,D14,2.8506 LBG inside QSO nebula,color=blue  width=2 text={D14} comment={2.8506 LBG inside QSO nebula},14
+C1,237.9152300,19.1779700,15:51:39.655,+19:10:40.692,circle,,blue,C1,2.8411,color=blue  width=2 text={C1} comment={2.8411},15
+C4,237.9350600,19.1902200,15:51:44.414,+19:11:24.792,circle,,blue,C4,2.859,color=blue  width=2 text={C4} comment={2.859},16
+C6,237.9365000,19.1758000,15:51:44.760,+19:10:32.880,circle,,blue,C6,2.83,color=blue  width=2 text={C6} comment={2.83},17
+C7,237.9385300,19.2036600,15:51:45.247,+19:12:13.176,circle,,blue,C7,2.843,color=blue  width=2 text={C7} comment={2.843},18
+C12,237.9556700,19.1645900,15:51:49.361,+19:09:52.524,circle,,blue,C12,2.8372,color=blue  width=2 text={C12} comment={2.8372},19
+C13,237.9570400,19.1827800,15:51:49.690,+19:10:58.008,circle,,blue,C13,2.8393 in LAB33,color=blue  width=2 text={C13} comment={2.8393 in LAB33},20
+C14,237.9609000,19.1551200,15:51:50.616,+19:09:18.432,circle,,blue,C14,2.843,color=blue  width=2 text={C14} comment={2.843},21
+C15,237.9639500,19.1721000,15:51:51.348,+19:10:19.560,circle,,blue,C15,2.849,color=blue  width=2 text={C15} comment={2.849},22
+C24,238.0234000,19.2198900,15:52:05.616,+19:13:11.604,circle,,blue,C24,2.828,color=blue  width=2 text={C24} comment={2.828},23
+D4,237.9332500,19.1943600,15:51:43.980,+19:11:39.696,circle,,blue,D4,2.858,color=blue  width=2 text={D4} comment={2.858},24
+D6,237.9383000,19.1514600,15:51:45.192,+19:09:05.256,circle,,blue,D6,2.842,color=blue  width=2 text={D6} comment={2.842},25
+D9,237.9492100,19.1372700,15:51:47.810,+19:08:14.172,circle,,blue,D9,2.846,color=blue  width=2 text={D9} comment={2.846},26
+D11,237.9573500,19.1508200,15:51:49.764,+19:09:02.952,circle,,blue,D11,2.839,color=blue  width=2 text={D11} comment={2.839},27
+D13,237.9654600,19.1710300,15:51:51.710,+19:10:15.708,circle,,blue,D13,2.844,color=blue  width=2 text={D13} comment={2.844},28
+D14,237.9719400,19.1836600,15:51:53.266,+19:11:01.176,circle,,blue,D14,2.8506,color=blue  width=2 text={D14} comment={2.8506},29
+D17,237.9893400,19.1840100,15:51:57.442,+19:11:02.436,circle,,blue,D17,2.827,color=blue  width=2 text={D17} comment={2.827},30
+D18,237.9987400,19.1609200,15:51:59.698,+19:09:39.312,circle,,blue,D18,2.8461,color=blue  width=2 text={D18} comment={2.8461},31
+D19,238.0011200,19.1613000,15:52:00.269,+19:09:40.680,circle,,blue,D19,2.846,color=blue  width=2 text={D19} comment={2.846},32
+D20,238.0020200,19.1743200,15:52:00.485,+19:10:27.552,circle,,blue,D20,2.8274,color=blue  width=2 text={D20} comment={2.8274},33
+D23,238.0156000,19.1567900,15:52:03.744,+19:09:24.444,circle,,blue,D23,2.895,color=blue  width=2 text={D23} comment={2.895},34
+D25,238.0333200,19.1488400,15:52:07.997,+19:08:55.824,circle,,blue,D25,2.827,color=blue  width=2 text={D25} comment={2.827},35
+D27,238.0346500,19.1635700,15:52:08.316,+19:09:48.852,circle,,blue,D27,2.815,color=blue  width=2 text={D27} comment={2.815},36
+M2,237.9222700,19.1683200,15:51:41.345,+19:10:05.952,circle,,blue,M2,2.869,color=blue  width=2 text={M2} comment={2.869},37
+M6,237.9319800,19.1624500,15:51:43.675,+19:09:44.820,circle,,blue,M6,2.887,color=blue  width=2 text={M6} comment={2.887},38
+M21,238.0056300,19.2169100,15:52:01.351,+19:13:00.876,circle,,blue,M21,2.8301,color=blue  width=2 text={M21} comment={2.8301},39
+GNB1007,237.9353333,19.1965417,15:51:44.480,+19:11:47.550,circle,,green,GNB1007,2.8449,color=green width=2 text={GNB1007} comment={2.8449},40
+GNB2920,237.9749167,19.1782889,15:51:53.980,+19:10:41.840,circle,,green,GNB2920,2.86873 CO detection,color=green width=2 text={GNB2920} comment={2.86873 CO detection},41
+GNB2087,237.9577500,19.1815694,15:51:49.860,+19:10:53.650,circle,,green,GNB2087,"2.8396, LAB system around C13","color=green width=2 text={GNB2087} comment={2.8396, LAB system around C13}",42
+GNB4748,237.9919167,19.1893639,15:51:58.060,+19:11:21.710,circle,,green,GNB4748,2.8452 north of a LAB,color=green width=2 text={GNB4748} comment={2.8452 north of a LAB},43
+GNB4731,238.0004583,19.1713833,15:52:00.110,+19:10:16.980,circle,,green,GNB4731,2.8317 Very bright point source in Lya narrowband,color=green width=2 text={GNB4731} comment={2.8317 Very bright point source in Lya narrowband},44
+GNB2753,237.9713750,19.1762222,15:51:53.130,+19:10:34.400,circle,,green,GNB2753,2.85203 in HS1549 tail also LAE 1617,color=green width=2 text={GNB2753} comment={2.85203 in HS1549 tail also LAE 1617},45
+NB1931,237.9713333,19.1825028,15:51:53.120,+19:10:57.010,circle,,green,NB1931,2.8524 inside QSO nebula,color=green width=2 text={NB1931} comment={2.8524 inside QSO nebula },46
+GNB1617,237.9724583,19.1829944,15:51:53.390,+19:10:58.780,circle,,green,GNB1617,2.85253 inside Lya nebula of QSO,color=green width=2 text={GNB1617} comment={2.85253 inside Lya nebula of QSO},47
+GNB1687,237.9484583,19.1668250,15:51:47.630,+19:10:00.570,circle,,green,"GNB1687, 2.8508 LyC leaker",,"color=green width=2 text={GNB1687, 2.8508 LyC leaker}",48
+HS15491919,237.9686375,19.1844775,15:51:52.473,+19:11:04.119,circle,,darkgreen,'HS1549+1919',central QSO,color=darkgreen  width=2 text={'HS1549+1919'} comment={central QSO},49
+MD10,237.9647400,19.1852100,15:51:51.538,+19:11:06.756,circle,,darkgreen,MD10,2.8491 QSO,color=darkgreen  width=2 text={MD10} comment={2.8491 QSO},50
+MD17,237.9740200,19.1861400,15:51:53.765,+19:11:10.104,circle,,darkgreen,MD17,2.845 QSO,color=darkgreen  width=2 text={MD17} comment={2.845 QSO},51
+M15,237.9636600,19.1849200,15:51:51.278,+19:11:05.712,circle,,darkgreen,M15,2.8411 AGN,color=darkgreen  width=2 text={M15} comment={2.8411 AGN},52
+D10,237.9561458,19.1780528,15:51:49.475,+19:10:40.990,circle,,green,D10,2.92598 QSO,color=green width=2 text={D10} comment={2.92598 QSO},53
+GNB4950b,237.9920000,19.2072778,15:51:58.080,+19:12:26.200,circle,,green,GNB4950b,2.85162 QSO,color=green width=2 text={GNB4950b} comment={2.85162 QSO},54
+SMG8502,238.0139583,19.2143611,15:52:03.350,+19:12:51.700,circle,,red,SMG850.2,X-ray AGN,color=red  width=2 text={SMG850.2} comment={X-ray AGN},55
+LAB29,238.0694750,19.1615722,15:52:16.674,+19:09:41.660,point,box,#00DD00,'LAB29',,point=box 18 color=#00DD00 width=2 text={'LAB29'},56
+LAB30,237.9686667,19.1844528,15:51:52.480,+19:11:04.030,point,box,#00DD00,'LAB30',,point=box 18 color=#00DD00 width=2 text={'LAB30'},57
+LAB31,238.0854250,19.1810028,15:52:20.502,+19:10:51.610,point,box,#00DD00,'LAB31',,point=box 18 color=#00DD00 width=2 text={'LAB31'},58
+LAB33,237.9571625,19.1823833,15:51:49.719,+19:10:56.580,point,box,#00DD00,'LAB33',,point=box 18 color=#00DD00 width=2 text={'LAB33'},59
+LAB34,237.9779750,19.1848444,15:51:54.714,+19:11:05.440,point,box,#00DD00,'LAB34',,point=box 18 color=#00DD00 width=2 text={'LAB34'},60
+LAB36,237.9914542,19.1883806,15:51:57.949,+19:11:18.170,point,box,#00DD00,'LAB36',,point=box 18 color=#00DD00 width=2 text={'LAB36'},61
+LAB40,238.0719167,19.2041667,15:52:17.260,+19:12:15.000,point,box,#00DD00,'LAB40',,point=box 18 color=#00DD00 width=2 text={'LAB40'},62
+LAB42,237.9698792,19.1942139,15:51:52.771,+19:11:39.170,point,box,#00DD00,'LAB42',,point=box 18 color=#00DD00 width=2 text={'LAB42'},63
+LAB43,237.9490125,19.1965417,15:51:47.763,+19:11:47.550,point,box,#00DD00,'LAB43',,point=box 18 color=#00DD00 width=2 text={'LAB43'},64
+LAB45,237.9479208,19.1999167,15:51:47.501,+19:11:59.700,point,box,#00DD00,'LAB45',,point=box 18 color=#00DD00 width=2 text={'LAB45'},65
+LAB46,237.9919333,19.2073528,15:51:58.064,+19:12:26.470,point,box,#00DD00,'LAB46',,point=box 18 color=#00DD00 width=2 text={'LAB46'},66
+LAB54,238.0582083,19.2452056,15:52:13.970,+19:14:42.740,point,box,#00DD00,'LAB54',,point=box 18 color=#00DD00 width=2 text={'LAB54'},67
+LAE1652,237.9570667,19.1802669,15:51:49.696,+19:10:48.961,point,cross,cyan,'LAE1652',close to C12,point=cross 14 color=cyan width=2 text={'LAE1652'} comment={close to C12},68
+LAE1660,237.9577125,19.1814661,15:51:49.851,+19:10:53.278,point,cross,cyan,'LAE1660',"GNB2087, close to C12","point=cross 14 color=cyan width=2 text={'LAE1660'} comment={GNB2087, close to C12}",69
+LAE1763,237.9726792,19.1955014,15:51:53.443,+19:11:43.805,point,cross,cyan,'LAE1763',close to LAB42,point=cross 14 color=cyan width=2 text={'LAE1763'} comment={close to LAB42},70
+LAE1767,237.9701833,19.1946675,15:51:52.844,+19:11:40.803,point,cross,cyan,'LAE1767',close to LAB42,point=cross 14 color=cyan width=2 text={'LAE1767'} comment={close to LAB42},71
+LAE1768,237.9696708,19.1941197,15:51:52.721,+19:11:38.831,point,cross,cyan,'LAE1768',Lya shifted by small angle from LAB42,point=cross 14 color=cyan width=2 text={'LAE1768'} comment={Lya shifted by small angle from LAB42},72
+LAE1845,238.0716417,19.2046147,15:52:17.194,+19:12:16.613,point,cross,cyan,'LAE1845',Lya shifted by small angle from LAB40,point=cross 14 color=cyan width=2 text={'LAE1845'} comment={Lya shifted by small angle from LAB40},73
+LAE1898,238.0145125,19.2138539,15:52:03.483,+19:12:49.874,point,cross,cyan,'LAE1898',close to SMG850.2,point=cross 14 color=cyan width=2 text={'LAE1898'} comment={close to SMG850.2},74
+LAE1905,238.0149417,19.2140144,15:52:03.586,+19:12:50.452,point,cross,cyan,'LAE1905',close to SMG850.2,point=cross 14 color=cyan width=2 text={'LAE1905'} comment={close to SMG850.2},75
+LAE1566,237.9483625,19.1667450,15:51:47.607,+19:10:00.282,point,cross,cyan,'LAE1566',LyC leaker lae2292 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1566'} comment={LyC leaker lae2292 in Mostardi+13},76
+LAE1916,238.0138500,19.2145289,15:52:03.324,+19:12:52.304,point,cross,cyan,'LAE1916',LyC leaker lae2436 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1916'} comment={LyC leaker lae2436 in Mostardi+13},77
+LAE1636,237.9582208,19.1781694,15:51:49.973,+19:10:41.410,point,cross,cyan,'LAE1636',LyC leaker lae2966 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1636'} comment={LyC leaker lae2966 in Mostardi+13},78
+LAE1561,237.9841875,19.1657342,15:51:56.205,+19:09:56.643,point,cross,cyan,'LAE1561',LyC leaker lae4680 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1561'} comment={LyC leaker lae4680 in Mostardi+13},79
+LAE1637,238.0264625,19.1784222,15:52:06.351,+19:10:42.320,point,cross,cyan,'LAE1637',LyC leaker lae6662 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1637'} comment={LyC leaker lae6662 in Mostardi+13},80
+lae7180,238.0194250,19.1950528,15:52:04.662,+19:11:42.190,point,cross,cyan,'lae7180',LyC leaker lae7180 in Mostardi+13,point=cross 14 color=cyan width=2 text={'lae7180'} comment={LyC leaker lae7180 in Mostardi+13},81
+LAE1653,238.0091292,19.1801022,15:52:02.191,+19:10:48.368,point,cross,cyan,'LAE1653',LyC leaker lae7832 in Mostardi+13,point=cross 14 color=cyan width=2 text={'LAE1653'} comment={LyC leaker lae7832 in Mostardi+13},82

@@ -1,0 +1,232 @@
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(237.96474,+19.18521,2") #color=darkgreen  width=2 text={MD10} comment={2.8491 QSO}
+circle(237.97402,+19.18614,2") #color=darkgreen  width=2 text={MD17} comment={2.845 QSO}
+circle(237.96366,+19.18492,2") #color=darkgreen  width=2 text={M15} comment={2.8411 AGN}
+circle(15:51:58.0800,19:12:26.2000,1.5") #color=darkgreen width=2 text={GNB4950b} comment={2.85162 QSO, LAB46}
+circle(15:52:03.35,19:12:51.7,2") #color=darkgreen  width=2 text={SMG850.2} comment={2.834 likely AGN, LyC leaker lae2436 in Mostardi+13}
+circle(238.02529,+19.19121,1") #color=red  width=2 text={C25} comment={3.1526 confirmed LyC leaker Shapley+2016}
+circle(237.96618,+19.17811,1") #color=red  width=2 text={MD12} comment={2.8495 LyC leaker CO detection, complex morphology}
+circle(15:51:53.98,19:10:41.84,1.5") #color=green width=2 text={GNB2920} comment={2.86873 CO detection}
+circle(15:51:49.86,19:10:53.65,1.5") #color=green width=2 text={GNB2087} comment={2.8396 LAB system around C13}
+circle(15:51:58.06,19:11:21.71,1.5") #color=green width=2 text={GNB4748} comment={2.8452 north of a LAB}
+circle(15:52:00.11,19:10:16.98,1.5") #color=green width=2 text={GNB4731} comment={2.8317 Very bright point source in Lya narrowband}
+circle(15:51:53.13,19:10:34.40,1.5") #color=green width=2 text={GNB2753} comment={2.85203 in HS1549 tail also LAE 1617}
+circle(15:51:53.12,19:10:57.01,1.5") #color=green width=2 text={NB1931} comment={2.8524 inside QSO nebula }
+circle(15:51:53.39,19:10:58.78,1.5") #color=green width=2 text={GNB1617} comment={2.85253 inside Lya nebula of QSO}
+circle(237.97194,+19.18366,1") #color=blue  width=2 text={D14} comment={2.8506 LBG inside QSO nebula}
+circle(237.92047,+19.20080,1") #color=blue  width=2 text={BX14} comment={2.875}
+circle(237.97374,+19.20684,1") #color=blue  width=2 text={BX84} comment={2.825}
+circle(238.02637,+19.21347,1") #color=blue  width=2 text={MD34} comment={2.851}
+circle(237.94803,+19.17042,1") #color=red  width=2 text={MD7} comment={2.8517}
+circle(237.96134,+19.16064,1") #color=blue  width=2 text={MD9} comment={2.845}
+circle(237.99208,+19.13646,1") #color=blue  width=2 text={MD23} comment={2.8415}
+circle(237.93839,+19.18475,1") #color=red  width=2 text={MD5} comment={3.1426 LyC leaker}
+circle(238.02637,+19.21347,1") #color=red  width=2 text={MD34} comment={2.851 LyC leaker}
+circle(238.02199,+19.16256,1") #color=red  width=2 text={D24} comment={2.9441 LyC leaker}
+circle(237.97358,+19.15808,1") #color=red  width=2 text={M16} comment={2.9539 LyC leaker}
+circle(237.91523,+19.17797,1") #color=blue  width=2 text={C1} comment={2.8411}
+circle(237.93506,+19.19022,1") #color=blue  width=2 text={C4} comment={2.859}
+circle(237.93650,+19.17580,1") #color=blue  width=2 text={C6} comment={2.83}
+circle(237.93853,+19.20366,1") #color=blue  width=2 text={C7} comment={2.843}
+circle(237.95567,+19.16459,1") #color=blue  width=2 text={C12} comment={2.8372}
+circle(237.95704,+19.18278,1") #color=blue  width=2 text={C13} comment={2.8393 in LAB33}
+circle(237.96090,+19.15512,1") #color=blue  width=2 text={C14} comment={2.843}
+circle(237.96395,+19.17210,1") #color=blue  width=2 text={C15} comment={2.849}
+circle(238.02340,+19.21989,1") #color=blue  width=2 text={C24} comment={2.828}
+circle(237.93325,+19.19436,1") #color=blue  width=2 text={D4} comment={2.858}
+circle(237.93830,+19.15146,1") #color=blue  width=2 text={D6} comment={2.842}
+circle(237.94921,+19.13727,1") #color=blue  width=2 text={D9} comment={2.846}
+circle(237.95735,+19.15082,1") #color=blue  width=2 text={D11} comment={2.839}
+circle(237.96546,+19.17103,1") #color=blue  width=2 text={D13} comment={2.844}
+circle(237.97194,+19.18366,1") #color=blue  width=2 text={D14} comment={2.8506}
+circle(237.98934,+19.18401,1") #color=blue  width=2 text={D17} comment={2.827}
+circle(237.99874,+19.16092,1") #color=blue  width=2 text={D18} comment={2.8461}
+circle(238.00112,+19.16130,1") #color=blue  width=2 text={D19} comment={2.846}
+circle(238.00202,+19.17432,1") #color=blue  width=2 text={D20} comment={2.8274}
+circle(15:52:1.6180,19:9:6.6200,1.5") #color=green width=2 text={D22} comment={2.87868}
+circle(238.01560,+19.15679,1") #color=blue  width=2 text={D23} comment={2.895}
+circle(238.03332,+19.14884,1") #color=blue  width=2 text={D25} comment={2.827}
+circle(238.03465,+19.16357,1") #color=blue  width=2 text={D27} comment={2.815}
+circle(237.92227,+19.16832,1") #color=blue  width=2 text={M2} comment={2.869}
+circle(237.93198,+19.16245,1") #color=blue  width=2 text={M6} comment={2.887}
+circle(238.00563,+19.21691,1") #color=blue  width=2 text={M21} comment={2.8301}
+point(15:52:03.400,+19:10:01.300) # point=circle 16 color=yellow width=2 text={SMGI} comment={2.851}
+point(15:51:49.92,19:11:40.66)  # point=circle 16 color=yellow width=2 text={SMGL2019-11} comment={2.85  L2019-11;SC2025/6.3sig}
+point(15:51:47.99,19:11:39.03)  # point=circle 16 color=yellow width=2 text={SMGL2019-9} comment={2.85  L2019-9;SC2025/5.8sig}
+point(15:51:47.86,19:11:27.94)  # point=circle 16 color=yellow width=2 text={SMGSC2025-1} comment={2.85  SC2025/5.3sig not in L2019; position is ALMA band 6}
+point(15:51:46.60,19:13:13.53)  # point=circle 16 color=yellow width=2 text={SMGL2019-27} comment={2.85  L2019-27;SC2025/5.6sig}
+point(15:51:39.60,19:10:09.29)  # point=circle 16 color=yellow width=2 text={SMGSC2025-2} comment={2.85  SC2025/5.3sig/maybe}
+circle(15:51:56.205,+19:09:56.643,1.5") # color=green width=2 text={'GNB5352'} comment={2.8476 LyC leaker lae4680 in Mostardi+13}
+circle(15:52:02.191,+19:10:48.368,1.5") # color=green width=2 text={'NB3147'} comment={2.8290 LyC leaker lae7832 in Mostardi+13}
+circle(15:51:47.63,19:10:00.57,1.5") #color=green width=2 text={GNB1687} comment={2.8508 LyC leaker lae2292 in Mostardi+13}
+circle(15:51:49.99,19:10:41.54,1.5") #color=green width=2 text={GNB2100} comment={2.8414 LyC leaker lae2966 in Mostardi+13}
+circle(15:52:06.38,19:10:42.34,1.5") #color=green width=2 text={GNB3532} comment={2.8325 LyC leaker lae6662 in Mostardi+13}
+circle(15:51:57.37,19:09:53.29,1.5") #color=green width=2 text={GNB5270}  comment={2.8473}
+circle(15:51:44.48,19:11:47.55,1.5") #color=green width=2 text={GNB1007} comment={2.8449}
+circle(15:51:44.70,19:08:45.07,1.5") #color=green width=2 text={GNB1062} comment={2.83829}
+circle(15:51:44.70,19:08:45.07,1.5") #color=green width=2 text={GNB1062} comment={2.84142}
+circle(15:51:44.67,19:09:24.78,1.5") #color=green width=2 text={GNB1071} comment={2.8465}
+circle(15:51:44.86,19:11:02.15,1.5") #color=green width=2 text={GNB1104} comment={2.8400}
+circle(15:51:45.96,19:08:22.30,1.5") #color=green width=2 text={GNB1144} comment={2.84874}
+circle(15:51:45.32,19:09:29.57,1.5") #color=green width=2 text={GNB1145} comment={2.84743}
+circle(15:51:45.15,19:12:34.28,1.5") #color=green width=2 text={GNB1179} comment={2.84208}
+circle(15:51:45.44,19:11:11.69,1.5") #color=green width=2 text={GNB1230} comment={2.8401}
+circle(15:51:45.45,19:09:00.02,1.5") #color=green width=2 text={GNB1256} comment={2.8466}
+circle(15:51:39.67,19:13:15.37,1.5") #color=green width=2 text={GNB126} comment={2.8547}
+circle(15:51:45.64,19:11:28.60,1.5") #color=green width=2 text={GNB1266} comment={2.83583}
+circle(15:51:45.67,19:09:58.32,1.5") #color=green width=2 text={GNB1276} comment={2.84726}
+circle(15:51:45.52,19:11:29.25,1.5") #color=green width=2 text={GNB1281} comment={2.83459}
+circle(15:51:45.87,19:09:45.01,1.5") #color=green width=2 text={GNB1330} comment={2.8365}
+circle(15:51:46.50,19:12:38.60,1.5") #color=green width=2 text={GNB1393} comment={2.8446}
+circle(15:51:50.08,19:12:27.88,1.5") #color=green width=2 text={GNB1514} comment={2.94161}
+circle(15:51:46.98,19:08:22.01,1.5") #color=green width=2 text={GNB1521} comment={2.88461}
+circle(15:51:47.00,19:11:03.04,1.5") #color=green width=2 text={GNB1562} comment={2.8473}
+circle(15:51:47.23,19:09:53.46,1.5") #color=green width=2 text={GNB1623} comment={2.8687}
+circle(15:51:47.47,19:12:00.25,1.5") #color=green width=2 text={GNB1627} comment={2.79404}
+circle(15:51:47.50,19:08:50.46,1.5") #color=green width=2 text={GNB1664} comment={2.8712}
+circle(15:51:47.94,19:09:03.31,1.5") #color=green width=2 text={GNB1737} comment={2.8405}
+circle(15:51:48.18,19:08:30.28,1.5") #color=green width=2 text={GNB1772} comment={2.84512}
+circle(15:51:48.53,19:12:03.10,1.5") #color=green width=2 text={GNB1867} comment={2.8485}
+circle(15:51:49.10,19:11:22.48,1.5") #color=green width=2 text={GNB1942} comment={2.8407}
+circle(15:51:49.95,19:13:07.46,1.5") #color=green width=2 text={GNB1962} comment={2.79157}
+circle(15:51:49.23,19:11:12.34,1.5") #color=green width=2 text={GNB1972} comment={2.84052}
+circle(15:51:49.31,19:08:44.40,1.5") #color=green width=2 text={GNB1982} comment={2.84216}
+circle(15:51:49.71,19:10:49.13,1.5") #color=green width=2 text={GNB2041} comment={2.8426}
+circle(15:51:51.50,19:10:57.85,1.5") #color=green width=2 text={GNB2044} comment={2.8417}
+circle(15:51:49.57,19:10:53.66,1.5") #color=green width=2 text={GNB2063} comment={2.86824}
+circle(15:51:49.79,19:12:47.68,1.5") #color=green width=2 text={GNB2102} comment={2.8360}
+circle(15:51:50.39,19:10:29.99,1.5") #color=green width=2 text={GNB2232} comment={2.91521}
+circle(15:51:50.53,19:10:27.53,1.5") #color=green width=2 text={GNB2249} comment={2.86635}
+circle(15:51:50.78,19:10:34.26,1.5") #color=green width=2 text={GNB2273} comment={2.84578}
+circle(15:51:50.78,19:10:34.26,1.5") #color=green width=2 text={GNB2273} comment={2.84627}
+circle(15:51:51.29,19:10:37.76,1.5") #color=green width=2 text={GNB2387} comment={2.84595}
+circle(15:51:51.29,19:10:37.76,1.5") #color=green width=2 text={GNB2387} comment={2.84669}
+circle(15:51:51.52,19:10:46.80,1.5") #color=green width=2 text={GNB2423} comment={2.8431}
+circle(15:51:52.74,19:11:38.91,1.5") #color=green width=2 text={GNB2512} comment={2.8387}
+circle(15:51:52.02,19:10:40.72,1.5") #color=green width=2 text={GNB2551} comment={2.85014}
+circle(15:51:52.10,19:09:42.96,1.5") #color=green width=2 text={GNB2554} comment={2.87704}
+circle(15:51:52.41,19:10:07.39,1.5") #color=green width=2 text={GNB2614} comment={2.84142}
+circle(15:51:52.24,19:11:40.88,1.5") #color=green width=2 text={GNB2624} comment={2.83978}
+circle(15:51:52.86,19:11:40.93,1.5") #color=green width=2 text={GNB2659} comment={2.8391}
+circle(15:51:52.48,19:12:36.13,1.5") #color=green width=2 text={GNB2664} comment={2.76665}
+circle(15:51:52.81,19:10:31.06,1.5") #color=green width=2 text={GNB2717} comment={2.84578}
+circle(15:51:52.81,19:10:31.06,1.5") #color=green width=2 text={GNB2717} comment={2.84693}
+circle(15:51:52.92,19:11:18.43,1.5") #color=green width=2 text={GNB2736} comment={2.82629}
+circle(15:51:53.08,19:11:42.08,1.5") #color=green width=2 text={GNB2754} comment={2.83171}
+circle(15:51:53.46,19:11:43.81,1.5") #color=green width=2 text={GNB2786} comment={2.8561}
+circle(15:51:54.44,19:08:11.13,1.5") #color=green width=2 text={GNB2837} comment={2.79766}
+circle(15:51:40.21,19:09:40.58,1.5") #color=green width=2 text={GNB297} comment={2.84726}
+circle(15:52:06.11,19:11:36.61,1.5") #color=green width=2 text={GNB2992} comment={2.8454}
+circle(15:52:02.31,19:09:03.49,1.5") #color=green width=2 text={GNB3034} comment={2.86486}
+circle(15:52:02.15,19:10:34.13,1.5") #color=green width=2 text={GNB3040} comment={2.82267}
+circle(15:51:56.10,19:11:34.93,1.5") #color=green width=2 text={GNB3094} comment={2.7335}
+circle(15:51:40.58,19:10:58.17,1.5") #color=green width=2 text={GNB313} comment={2.8465}
+circle(15:52:08.01,19:11:22.94,1.5") #color=green width=2 text={GNB3133} comment={2.83632}
+circle(15:52:07.63,19:08:47.39,1.5") #color=green width=2 text={GNB3246} comment={2.82661}
+circle(15:52:07.55,19:10:48.48,1.5") #color=green width=2 text={GNB3262} comment={2.80646}
+circle(15:52:06.63,19:10:51.34,1.5") #color=green width=2 text={GNB3424} comment={2.76574}
+circle(15:52:07.11,19:09:59.26,1.5") #color=green width=2 text={GNB3425} comment={2.84627}
+circle(15:51:40.73,19:10:59.93,1.5") #color=green width=2 text={GNB360} comment={2.8460}
+circle(15:52:05.52,19:10:36.51,1.5") #color=green width=2 text={GNB3634} comment={2.83533}
+circle(15:52:04.95,19:09:53.24,1.5") #color=green width=2 text={GNB3740} comment={2.8627}
+circle(15:51:41.12,19:12:06.41,1.5") #color=green width=2 text={GNB388} comment={2.86297}
+circle(15:51:40.86,19:08:54.32,1.5") #color=green width=2 text={GNB397} comment={2.88016}
+circle(15:52:03.24,19:12:52.13,1.5") #color=green width=2 text={GNB3999} comment={2.8374}
+circle(15:51:39.58,19:11:05.56,1.5") #color=green width=2 text={GNB4} comment={2.8524}
+circle(15:52:03.49,19:13:07.39,1.5") #color=green width=2 text={GNB4048} comment={2.81082}
+circle(15:52:03.48,19:12:50.01,1.5") #color=green width=2 text={GNB4049} comment={2.8353}
+circle(15:52:03.20,19:09:09.03,1.5") #color=green width=2 text={GNB4116} comment={2.8281}
+circle(15:51:40.87,19:13:14.21,1.5") #color=green width=2 text={GNB418} comment={2.84463}
+circle(15:52:02.39,19:11:22.19,1.5") #color=green width=2 text={GNB4183} comment={2.8471}
+circle(15:52:02.95,19:08:27.90,1.5") #color=green width=2 text={GNB4206} comment={2.73794}
+circle(15:52:02.98,19:11:59.03,1.5") #color=green width=2 text={GNB4231} comment={2.83402}
+circle(15:52:02.64,19:12:40.93,1.5") #color=green width=2 text={GNB4269} comment={2.80078}
+circle(15:52:02.16,19:12:39.74,1.5") #color=green width=2 text={GNB4319} comment={2.8012}
+circle(15:52:01.87,19:12:49.59,1.5") #color=green width=2 text={GNB4329} comment={2.8582}
+circle(15:52:02.41,19:11:10.55,1.5") #color=green width=2 text={GNB4330} comment={2.80235}
+circle(15:51:41.05,19:11:55.07,1.5") #color=green width=2 text={GNB435} comment={2.8362}
+circle(15:51:41.17,19:11:47.02,1.5") #color=green width=2 text={GNB453} comment={2.86569}
+circle(15:52:01.07,19:09:47.74,1.5") #color=green width=2 text={GNB4560} comment={2.8491}
+circle(15:52:00.77,19:10:53.18,1.5") #color=green width=2 text={GNB4584} comment={2.8531}
+circle(15:52:00.71,19:13:11.01,1.5") #color=green width=2 text={GNB4616} comment={2.83056}
+circle(15:51:57.91,19:11:16.44,1.5") #color=green width=2 text={GNB4779} comment={2.8409}
+circle(15:52:00.02,19:08:54.37,1.5") #color=green width=2 text={GNB4790} comment={2.73547}
+circle(15:51:59.60,19:11:40.03,1.5") #color=green width=2 text={GNB4798} comment={2.8425}
+circle(15:51:59.32,19:10:34.94,1.5") #color=green width=2 text={GNB4940} comment={2.8313}
+circle(15:51:59.01,19:09:20.45,1.5") #color=green width=2 text={GNB5006} comment={2.8574}
+circle(15:51:58.77,19:13:00.13,1.5") #color=green width=2 text={GNB5053} comment={2.8332}
+circle(15:51:57.40,19:08:49.09,1.5") #color=green width=2 text={GNB5141} comment={2.8341}
+circle(15:51:57.15,19:08:48.32,1.5") #color=green width=2 text={GNB5196} comment={2.8568}
+circle(15:51:41.60,19:08:26.05,1.5") #color=green width=2 text={GNB520} comment={2.87367}
+circle(15:51:57.32,19:08:41.79,1.5") #color=green width=2 text={GNB5285} comment={2.86042}
+circle(15:51:56.71,19:08:17.23,1.5") #color=green width=2 text={GNB5288} comment={2.84808}
+circle(15:51:56.41,19:10:41.91,1.5") #color=green width=2 text={GNB5289} comment={2.8536}
+circle(15:51:56.63,19:12:26.70,1.5") #color=green width=2 text={GNB5318} comment={2.85968}
+circle(15:51:56.88,19:13:06.44,1.5") #color=green width=2 text={GNB5330} comment={2.8348}
+circle(15:51:56.59,19:10:40.15,1.5") #color=green width=2 text={GNB5361} comment={2.85417}
+circle(15:51:57.01,19:12:23.00,1.5") #color=green width=2 text={GNB5373} comment={2.70857}
+circle(15:51:56.72,19:13:03.45,1.5") #color=green width=2 text={GNB5403} comment={2.86676}
+circle(15:51:56.17,19:11:56.44,1.5") #color=green width=2 text={GNB5428} comment={2.8495}
+circle(15:51:56.60,19:08:53.49,1.5") #color=green width=2 text={GNB5435} comment={2.82423}
+circle(15:51:56.32,19:09:13.03,1.5") #color=green width=2 text={GNB5475} comment={2.90484}
+circle(15:51:56.36,19:11:05.95,1.5") #color=green width=2 text={GNB5494} comment={2.8680}
+circle(15:51:55.66,19:09:08.01,1.5") #color=green width=2 text={GNB5571} comment={2.71367}
+circle(15:51:54.51,19:10:56.12,1.5") #color=green width=2 text={GNB5642} comment={2.84562}
+circle(15:51:55.50,19:09:46.68,1.5") #color=green width=2 text={GNB5662} comment={2.86231}
+circle(15:51:54.76,19:11:06.30,1.5") #color=green width=2 text={GNB5677} comment={2.8436}
+circle(15:51:54.92,19:10:00.35,1.5") #color=green width=2 text={GNB5707} comment={2.79503}
+circle(15:51:54.27,19:11:27.80,1.5") #color=green width=2 text={GNB5780} comment={2.86042}
+circle(15:51:54.10,19:13:04.29,1.5") #color=green width=2 text={GNB5808} comment={2.83336}
+circle(15:51:54.29,19:11:46.67,1.5") #color=green width=2 text={GNB5831} comment={2.81526}
+circle(15:51:54.16,19:11:05.03,1.5") #color=green width=2 text={GNB5877} comment={2.8414}
+circle(15:51:42.48,19:10:34.38,1.5") #color=green width=2 text={GNB669} comment={2.8388}
+circle(15:51:43.02,19:10:40.09,1.5") #color=green width=2 text={GNB699} comment={2.8633}
+circle(15:51:42.70,19:12:57.72,1.5") #color=green width=2 text={GNB709} comment={2.8466}
+circle(15:51:39.39,19:09:42.83,1.5") #color=green width=2 text={GNB81} comment={2.8505}
+circle(15:51:43.76,19:11:40.29,1.5") #color=green width=2 text={GNB859} comment={2.8607}
+circle(15:51:43.59,19:11:57.31,1.5") #color=green width=2 text={GNB864} comment={2.8509}
+circle(15:51:43.96,19:11:02.27,1.5") #color=green width=2 text={GNB920} comment={2.8638}
+circle(15:51:44.24,19:12:55.54,1.5") #color=green width=2 text={GNB991} comment={2.83542}
+circle(15:51:44.24,19:12:55.54,1.5") #color=green width=2 text={GNB991} comment={2.8369}
+circle(15:52:5.1720,19:11:43.0100,1.5") #color=green width=2 text={BX200} comment={2.87112}
+circle(15:51:45.6900,19:11:53.0100,1.5") #color=green width=2 text={GNB1300a} comment={2.85236}
+circle(15:51:48.6200,19:12:2.2600,1.5") #color=green width=2 text={GNB1879a} comment={2.83336}
+circle(15:52:3.5900,19:12:50.4200,1.5") #color=green width=2 text={GNB4022a} comment={2.84175}
+circle(15:52:3.5900,19:12:50.4200,1.5") #color=green width=2 text={GNB4022b} comment={2.83517}
+circle(237.911189,19.16805,2.5") #color=green width=2 text={NB32} comment={2.8460}
+circle(237.915745,19.181722,2.5") #color=green width=2 text={NB142} comment={2.8472}
+circle(237.916632,19.150025,2.5") #color=green width=2 text={NB161} comment={2.8818}
+circle(237.924605,19.1713183,2.5") #color=green width=2 text={NB418} comment={2.8442}
+circle(237.9513996,19.2204942,2.5") #color=green width=2 text={NB1271} comment={2.8284}
+circle(237.956583,19.1781168,2.5") #color=green width=2 text={NB1435} comment={2.8437}
+circle(238.008924,19.16528793,2.5") #color=green width=2 text={NB3167} comment={2.8265}
+circle(237.915817,19.168259,1") #color=magenta width=2 text={DRG1 FSzP1041}
+circle(237.916107,19.161852,1") #color=magenta width=2 text={DRG2 FSzP1038}
+circle(237.923782,19.212986,1") #color=magenta width=2 text={DRG3 FSzP987}
+circle(237.926514,19.220810,1") #color=magenta width=2 text={DRG5 FSzP953}
+circle(237.932678,19.136694,1") #color=magenta width=2 text={DRG9 FSzP911}
+circle(237.951920,19.137365,1") #color=magenta width=2 text={DRG16 FSzP778}
+circle(237.965256,19.200155,1") #color=magenta width=2 text={DRG25 FSzP688}
+circle(237.966660,19.155897,1") #color=magenta width=2 text={DRG28 FSzP672}
+circle(237.967285,19.139563,1") #color=magenta width=2 text={DRG29 FSzP662}
+circle(237.969009,19.209248,1") #color=magenta width=2 text={DRG30 FSzP648}
+circle(237.970688,19.154043,1") #color=magenta width=2 text={DRG31 FSzP628}
+circle(237.971436,19.185369,1") #color=magenta width=2 text={DRG33 FSzP623}
+circle(237.972763,19.185539,1") #color=magenta width=2 text={DRG35 FSzP614}
+circle(237.985367,19.192545,1") #color=magenta width=2 text={DRG40 FSzP515}
+circle(237.994980,19.172918,1") #color=magenta width=2 text={DRG48 FSzP427}
+circle(237.998489,19.178061,1") #color=magenta width=2 text={DRG49 FSzP389}
+circle(238.000961,19.157631,1") #color=magenta width=2 text={DRG51 FSzP365}
+circle(238.003403,19.162231,1") #color=magenta width=2 text={DRG55 FSzP343}
+circle(238.005386,19.206560,1") #color=magenta width=2 text={DRG57 FSzP321}
+circle(238.008163,19.209133,1") #color=magenta width=2 text={DRG60 FSzP303}
+circle(238.013885,19.214329,1") #color=magenta width=2 text={DRG63 FSzP250}
+circle(238.014236,19.167114,1") #color=magenta width=2 text={DRG65 FSzP248}
+circle(238.017303,19.140429,1") #color=magenta width=2 text={DRG67 FSzP226}
+circle(238.020447,19.192429,1") #color=magenta width=2 text={DRG70 FSzP187}
+circle(238.025345,19.185476,1") #color=magenta width=2 text={DRG71 FSzP144}
+circle(238.031128,19.172884,1") #color=magenta width=2 text={DRG74 FSzP87}
+circle(238.031967,19.175896,1") #color=magenta width=2 text={DRG75 FSzP82}
+circle(238.032288,19.175341,1") #color=magenta width=2 text={DRG76 FSzP78}
+circle(238.034851,19.137964,1") #color=magenta width=2 text={DRG78 FSzP47}

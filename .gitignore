@@ -4,8 +4,16 @@
 /DSF2237b
 /kcwi
 /GWS
+/MQN01
+/Slug
+/cigale_data
+/kbss_irac
+/skirtor_2016-7-18
+/kbss_mips
 diagnostic/
 fig/
+/HLQSOs
+/SDSSQSO
 .DS_Store
 kbss_mos_redo/
 sedfit_master/
@@ -16,7 +24,7 @@ MUSEQSO/*/
 __pycache__/
 *.py[cod]
 *$py.class
-
+*psfout.fits
 # C extensions
 *.so
 

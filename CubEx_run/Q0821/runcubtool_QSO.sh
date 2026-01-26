@@ -1,13 +1,13 @@
 sourcename="QSO"
 csourcename="QSO"
 cubename="0821"
-xloc=54.68
-yloc=52.86
+xloc=54.48
+yloc=52.87
 rmax=20
 rmin=2
 zPSFsize=150
 #Quasar PSF subtraction
-$CubEx/Tools/CubePSFSub -cube "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$csourcename"/q"$cubename"-qso_icubes_wcs.fits" -out "/disk/bifrost/yuanze/KBSS/Q${cubename}/${sourcename}/q${cubename}-qso_icubes_wcs.PSFSub.fits" -x $xloc -y $yloc -nbins -1 -zPSFsize $zPSFsize -withvar .false. -rmin $rmin -rmax $rmax -recenter .false. -masklist "/disk/bifrost/yuanze/KBSS/CubEx_run/Q"$cubename"/zmask.txt"
+$CubEx/Tools/CubePSFSub -cube "/disk/bifrost/yuanze/KBSS/Q"$cubename"/"$csourcename"/q"$cubename"-qso_icubes_wcs.fits" -out "/disk/bifrost/yuanze/KBSS/Q${cubename}/${sourcename}/q${cubename}-qso_icubes_wcs.PSFSub.fits" -x $xloc -y $yloc -nbins -1 -zPSFsize $zPSFsize -withvar .false. -rmin $rmin -rmax $rmax -recenter .false. -masklist "/disk/bifrost/yuanze/KBSS/CubEx_run/Q"$cubename"/zmask.txt" -psfimout "psfout.fits"
 
 
 

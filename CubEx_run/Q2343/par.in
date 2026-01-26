@@ -21,12 +21,12 @@
 # 
  
 #--- Cube-related parameters:
-InpFile = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_icubes_wcs_30.PSFCONTSub.fits"
+InpFile = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_icubes_wcs_20.PSFCONTSub.fits"
 Catalogue = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_Lya.cat"
 zmin = 300                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 2300                !.. maximum spectral pixel for datacube selection      "
-lmin = 4300
-lmax = 4387
+lmin = 4329
+lmax = 4358
   
 #--- Variance-related parameters:
 VarFile = "/disk/bifrost/yuanze/KBSS/Q2343/QSO/q2343-qso_vcubes.fits"
@@ -46,11 +46,11 @@ EstVarOutFile = "??"       !.. if provided, writes down in this file the estimat
 #--- Filtering parameters:
 ApplyFilter = .true.
 ApplyFilterVar = .true.
-FilterXYRad = 1
+FilterXYRad = 2
 FilterZRad = 0
   
 #--- Detection parameters:
-SN_Threshold = 3.0
+SN_Threshold = 2.0
 ISN_Threshold = 0          !.. integrated SNR over the 3d-mask for detection (0=not used) [alias "-isn"]
 SSN_Threshold = 0          !.. integrated spectral SNR (using 1d optimally extracted spectra) for detection (0=not used) [alias "-ssn"]
 SN_Threshold_Conn = 0      !.. voxel individual threshold in SNR for detection if connected to a previously detected voxel (0=not used)

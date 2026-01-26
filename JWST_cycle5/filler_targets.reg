@@ -1,0 +1,1137 @@
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(15:51:52.473,+19:11:04.119,2") #color=darkgreen  width=2 text={'HS1549+1919'} comment={central QSO}
+point(15:52:16.674,+19:09:41.660) # point=box 18 color=#00DD00 width=2 text={'LAB29'}
+point(15:52:20.502,+19:10:51.610) # point=box 18 color=#00DD00 width=2 text={'LAB31'}
+point(15:52:17.260,+19:12:15.000) # point=box 18 color=#00DD00 width=2 text={'LAB40'}
+point(15:51:47.763,+19:11:47.550) # point=box 18 color=#00DD00 width=2 text={LAB43}
+point(15:52:22.600,+19:11:19.800) # point=circle 16 color=yellow width=2 text={'SMGD'} comment={2.829}
+point(15:52:26.500,+19:10:16.800) # point=circle 16 color=yellow width=2 text={'SMGF'} comment={2.838}
+point(15:52:12.900,+19:11:16.300) # point=circle 16 color=yellow width=2 text={'SMGJ'} comment={2.853}
+circle(237.95534,+19.15242,1") #color=blue  width=2 text={BX52} comment={2.7359}
+circle(237.94157,+19.20823,1") #color=blue  width=2 text={MD6} comment={2.7349}
+circle(238.00091,+19.20514,2") #color=darkgreen  width=2 text={MD28} comment={2.5364}
+circle(237.92069,+19.22015,1") #color=blue  width=2 text={C2} comment={3.0959}
+circle(237.93197,+19.19862,1") #color=blue  width=2 text={C3} comment={2.7516}
+circle(237.93595,+19.18325,1") #color=red  width=2 text={C5} comment={3.17}
+circle(237.93911,+19.14718,1") #color=red  width=2 text={C8} comment={2.9373}
+circle(237.94461,+19.19789,1") #color=blue  width=2 text={C9} comment={2.9208}
+circle(237.95175,+19.15693,1") #color=red  width=2 text={C10} comment={3.1894}
+circle(237.97176,+19.15904,1") #color=blue  width=2 text={C16} comment={2.3807}
+circle(237.98033,+19.20542,1") #color=blue  width=2 text={C17} comment={2.9361}
+circle(238.00084,+19.16909,1") #color=red  width=2 text={C19} comment={3.1621}
+circle(238.00167,+19.14466,1") #color=red  width=2 text={C20} comment={3.1174}
+circle(238.01599,+19.16200,1") #color=red  width=2 text={C22} comment={2.9622}
+circle(238.02935,+19.20535,1") #color=blue  width=2 text={C27} comment={2.924}
+circle(237.92265,+19.14026,1") #color=blue  width=2 text={D1} comment={2.3838}
+circle(237.93214,+19.15345,1") #color=red  width=2 text={D3} comment={2.9373}
+circle(237.93400,+19.18025,1") #color=red  width=2 text={D5} comment={3.0131}
+circle(237.94270,+19.16392,1") #color=red  width=2 text={D7} comment={2.9362}
+circle(15:51:49.4750,19:10:40.9900,1.5") #color=green width=2 text={D10} comment={2.92598 QSO}
+circle(237.95922,+19.13773,1") #color=blue  width=2 text={D12} comment={2.7339}
+circle(237.96866,+19.18651,1") #color=red  width=2 text={D15} comment={2.6923}
+circle(237.97854,+19.19199,1") #color=red  width=2 text={D16}  comment={3.134}
+circle(238.03388,+19.19646,1") #color=blue  width=2 text={D26} comment={2.757}
+circle(237.92489,+19.13950,1") #color=blue  width=2 text={M5} comment={2.9331}
+circle(237.97358,+19.15808,1") #color=blue  width=2 text={M16} comment={2.9539}
+circle(237.98360,+19.21464,1") #color=blue  width=2 text={M17} comment={3.2202}
+circle(238.01131,+19.16113,1") #color=red  width=2 text={M22} comment={3.1535}
+circle(238.02395,+19.20243,1") #color=blue  width=2 text={M23} comment=3.4113}
+circle(238.03341,+19.18485,1") #color=blue  width=2 text={M26} comment={2.753}
+circle(238.02007,+19.21757,1") #color=magenta  width=2 text={RK102} comment={1.4572}
+circle(237.98684,+19.19443,1") #color=magenta  width=2 text={RK107} comment={1.6714}
+circle(237.94204,+19.14848,1") #color=magenta  width=2 text={RK110} comment={1.5975}
+circle(237.99191,+19.16429,1") #color=magenta  width=2 text={RK111} comment={1.2758}
+circle(238.00478,+19.19168,1") #color=magenta  width=2 text={RK121} comment={2.3314}
+circle(237.95815,+19.21878,1") #color=magenta  width=2 text={RK126} comment={1.5733}
+circle(237.96982,+19.15333,1") #color=magenta  width=2 text={fBX73} comment={1.9895}
+circle(237.91144,+19.15287,1") #color=blue  width=2 text={BX1} comment={1.7464}
+circle(237.91396,+19.16356,1") #color=blue  width=2 text={BX4} comment={2.2387}
+circle(237.91463,+19.15654,1") #color=blue  width=2 text={BX5}  comment={1.9525}
+circle(237.91636,+19.20222,1") #color=blue  width=2 text={BX9}  comment={1.9485}
+circle(237.92006,+19.16835,1") #color=blue  width=2 text={BX13}  comment={1.8905}
+circle(237.92047,+19.20080,1") #color=blue  width=2 text={BX14} comment={2.875}
+circle(237.92357,+19.20754,1") #color=blue  width=2 text={BX18} comment={2.5018}
+circle(237.92518,+19.21083,1") #color=blue  width=2 text={BX21} comment={2.1847}
+circle(237.92681,+19.18587,2") #color=darkgreen  width=2 text={BX26} comment={2.4305}
+circle(237.92932,+19.21692,1") #color=blue  width=2 text={BX27} comment={2.1256}
+circle(237.94135,+19.17591,1") #color=red  width=2 text={BX35} comment={2.0621}
+circle(237.94150,+19.18934,1") #color=magenta  width=2 text={BX36} comment={2.1938}
+circle(237.94247,+19.15463,1") #color=blue  width=2 text={BX37} comment={1.9345}
+circle(237.94370,+19.16866,1") #color=blue  width=2 text={BX40} comment={1.8715}
+circle(237.94491,+19.16492,1") #color=red  width=2 text={BX42} comment={2.2193}
+circle(237.94736,+19.17352,1") #color=red  width=2 text={BX45} comment={2.0644}
+circle(237.95050,+19.17274,1") #color=red  width=2 text={BX48} comment={2.5167}
+circle(237.95390,+19.18669,1") #color=red  width=2 text={BX51} comment={2.2895}
+circle(237.95534,+19.15242,1") #color=blue  width=2 text={BX52} comment={2.7359}
+circle(237.95734,+19.18577,1") #color=red  width=2 text={BX54} comment={2.321}
+circle(237.95757,+19.17337,2") #color=darkgreen  width=2 text={BX55} comment={0.8263}
+circle(237.96203,+19.18172,1") #color=blue  width=2 text={BX59} comment={1.8784}
+circle(237.96309,+19.18335,1") #color=magenta  width=2 text={BX62} comment={2.1929}
+circle(237.96316,+19.18963,1") #color=red  width=2 text={BX63} comment={1.9508}
+circle(237.96489,+19.18969,1") #color=magenta  width=2 text={BX65} comment={2.38}
+circle(237.96578,+19.19078,1") #color=blue  width=2 text={BX67} comment={1.8695}
+circle(237.96674,+19.15783,1") #color=blue  width=2 text={BX70} comment={1.7739}
+circle(237.96771,+19.20540,1") #color=blue  width=2 text={BX73} comment={2.1937}
+circle(237.96992,+19.18212,1") #color=blue  width=2 text={BX81} comment={1.8014}
+circle(237.97374,+19.20684,1") #color=blue  width=2 text={BX84} comment={2.825}
+circle(237.97534,+19.19667,1") #color=magenta  width=2 text={BX86} comment={1.6782}
+circle(237.97638,+19.17664,1") #color=magenta  width=2 text={BX89} comment={2.1112}
+circle(237.97713,+19.17180,1") #color=red  width=2 text={BX91} comment={1.6714}
+circle(237.98029,+19.17190,1") #color=red  width=2 text={BX94} comment={2.0074}
+circle(237.98035,+19.20330,1") #color=blue  width=2 text={BX95} comment={2.2997}
+circle(237.98053,+19.15891,2") #color=darkgreen  width=2 text={BX101} comment={2.3806}
+circle(237.98326,+19.21228,1") #color=red  width=2 text={BX102} comment={2.1934}
+circle(237.98369,+19.19474,1") #color=magenta  width=2 text={BX104} comment={2.0748}
+circle(237.98659,+19.20045,1") #color=blue  width=2 text={BX109} comment={1.8155}
+circle(237.98734,+19.18027,1") #color=blue  width=2 text={BX113} comment={2.0813}
+circle(237.98881,+19.16607,1") #color=red  width=2 text={BX119} comment={1.878}
+circle(237.98960,+19.18218,1") #color=red  width=2 text={BX121} comment={2.4983}
+circle(237.99087,+19.14178,1") #color=blue  width=2 text={BX124} comment={1.5773}
+circle(237.99104,+19.20554,1") #color=blue  width=2 text={BX126} comment={2.3819}
+circle(237.99248,+19.17427,1") #color=red  width=2 text={BX127} comment={2.5336}
+circle(237.99271,+19.18908,1") #color=blue  width=2 text={BX128} comment={1.8047}
+circle(237.99246,+19.20269,1") #color=blue  width=2 text={BX129} comment={2.3019}
+circle(237.99580,+19.17358,1") #color=red  width=2 text={BX130} comment={1.516}
+circle(237.99568,+19.21032,1") #color=magenta  width=2 text={BX131} comment={2.0471}
+circle(237.99633,+19.18096,1") #color=magenta  width=2 text={BX133} comment={2.0648}
+circle(237.99785,+19.18190,1") #color=red  width=2 text={BX137} comment={1.4625}
+circle(237.99915,+19.17007,1") #color=blue  width=2 text={BX139} comment={1.8825}
+circle(238.00512,+19.17761,1") #color=red  width=2 text={BX156} comment={1.6655}
+circle(238.00500,+19.16467,1") #color=blue  width=2 text={BX157} comment={1.8725}
+circle(238.00669,+19.16437,1") #color=red  width=2 text={BX161} comment={2.503}
+circle(238.00776,+19.16821,1") #color=blue  width=2 text={BX162} comment={1.5787}
+circle(238.00870,+19.21028,1") #color=blue  width=2 text={BX164} comment={1.5785}
+circle(238.01075,+19.16388,1") #color=red  width=2 text={BX170} comment={2.3836}
+circle(238.01050,+19.21963,1") #color=blue  width=2 text={BX171} comment={1.8044}
+circle(238.01146,+19.20513,1") #color=blue  width=2 text={BX173} comment={1.6707}
+circle(238.01251,+19.18732,1") #color=blue  width=2 text={BX175} comment={2.3437}
+circle(238.01486,+19.16727,1") #color=red  width=2 text={BX180} comment={2.387}
+circle(238.01581,+19.21146,1") #color=blue  width=2 text={BX184} comment={2.5599}
+circle(238.01756,+19.20786,1") #color=blue  width=2 text={BX187} comment={2.2597}
+circle(238.01765,+19.16101,1") #color=blue  width=2 text={BX189} comment={1.8755}
+circle(238.01896,+19.21830,1") #color=blue  width=2 text={BX190} comment={2.0216}
+circle(238.01947,+19.21649,1") #color=blue  width=2 text={BX191} comment={1.8805}
+circle(238.01986,+19.20740,1") #color=blue  width=2 text={BX193} comment={1.6254}
+circle(238.01905,+19.16110,1") #color=blue  width=2 text={BX194} comment={1.8735}
+circle(238.02032,+19.19558,1") #color=red  width=2 text={BX197} comment={2.4352}
+circle(238.02063,+19.15832,1") #color=blue  width=2 text={BX198} comment={2.0676}
+circle(238.02155,+19.19528,1") #color=blue  width=2 text={BX200} comment={2.3267}
+circle(238.02122,+19.21382,1") #color=red  width=2 text={BX202} comment={2.4831}
+circle(238.02324,+19.16747,1") #color=red  width=2 text={BX207} comment={2.3802}
+circle(238.02392,+19.22077,1") #color=blue  width=2 text={BX210} comment={2.4448}
+circle(238.02727,+19.21268,1") #color=blue  width=2 text={BX219} comment={1.9075}
+circle(238.02544,+19.18454,1") #color=magenta  width=2 text={BX221} comment={2.3408}
+circle(238.02616,+19.18332,1") #color=red  width=2 text={BX223} comment={2.3492}
+circle(238.02850,+19.17291,1") #color=red  width=2 text={BX227} comment={2.0573}
+circle(238.02966,+19.17003,1") #color=magenta  width=2 text={BX229} comment={2.0628}
+circle(238.03158,+19.17105,1") #color=red  width=2 text={BX233} comment={2.0559}
+circle(238.03481,+19.16600,1") #color=red  width=2 text={BX240} comment={1.3193}
+circle(238.03592,+19.20184,1") #color=blue  width=2 text={BX242} comment={2.5198}
+circle(237.92876,+19.15909,1") #color=blue  width=2 text={MD1} comment={2.7074}
+circle(237.93596,+19.21221,1") #color=blue  width=2 text={MD3} comment={2.4998}
+circle(237.93696,+19.15472,1") #color=blue  width=2 text={MD4} comment={2.5378}
+circle(237.93839,+19.18475,1") #color=red  width=2 text={MD5} comment={3.1426}
+circle(237.94157,+19.20823,1") #color=blue  width=2 text={MD6} comment={2.7349}
+circle(237.96542,+19.21405,1") #color=blue  width=2 text={MD11} comment={2.3557}
+circle(237.97382,+19.21129,1") #color=blue  width=2 text={MD16} comment={2.3517}
+circle(15:51:54.167,19:11:43.130,1.5") #color=green width=2 text={MD18} comment={2.76632}
+circle(237.97914,+19.19683,1") #color=blue  width=2 text={MD19} comment={2.6935}
+circle(237.97921,+19.20914,1") #color=blue  width=2 text={MD20} comment={2.5118}
+circle(237.98574,+19.16378,1") #color=red  width=2 text={MD21} comment={2.5338}
+circle(237.98741,+19.21195,1") #color=blue  width=2 text={MD22} comment={2.5983}
+circle(238.00078,+19.14166,1") #color=blue  width=2 text={MD25} comment={2.5374}
+circle(238.00469,+19.18193,1") #color=blue  width=2 text={MD26} comment={2.0696}
+circle(238.00648,+19.17213,1") #color=blue  width=2 text={MD29} comment={2.5048}
+circle(238.01428,+19.18811,1") #color=blue  width=2 text={MD30} comment={2.747}
+circle(238.02151,+19.18652,1") #color=blue  width=2 text={MD31} comment={2.4408}
+circle(238.02396,+19.20397,1") #color=blue  width=2 text={MD33} comment={2.4888}
+circle(238.02918,+19.14451,1") #color=blue  width=2 text={MD35} comment={2.5108}
+circle(238.02894,+19.14406,1") #color=blue  width=2 text={MD36} comment={2.5108}
+circle(238.03312,+19.18388,1") #color=blue  width=2 text={MD37} comment={2.2277}
+circle(238.03420,+19.19408,1") #color=blue  width=2 text={MD38} comment={2.759}
+circle(15:51:44.36,19:10:02.16,1.5") #color=red width=2 text={GNB1000}
+circle(15:51:44.70,19:12:30.75,1.5") #color=red width=2 text={GNB1019}
+circle(15:51:44.62,19:10:21.70,1.5") #color=red width=2 text={GNB1073}
+circle(15:51:44.60,19:12:51.76,1.5") #color=red width=2 text={GNB1082}
+circle(15:51:44.66,19:10:48.55,1.5") #color=red width=2 text={GNB1089}
+circle(15:51:44.81,19:12:23.06,1.5") #color=red width=2 text={GNB1119}
+circle(15:51:45.01,19:12:38.43,1.5") #color=red width=2 text={GNB1130}
+circle(15:51:45.02,19:13:15.58,1.5") #color=red width=2 text={GNB1151}
+circle(15:51:45.13,19:12:43.91,1.5") #color=red width=2 text={GNB1156}
+circle(15:51:45.16,19:08:25.73,1.5") #color=red width=2 text={GNB1180}
+circle(15:51:45.69,19:08:08.85,1.5") #color=red width=2 text={GNB1206}
+circle(15:51:39.29,19:11:31.12,1.5") #color=red width=2 text={GNB121}
+circle(15:51:45.23,19:12:46.48,1.5") #color=red width=2 text={GNB1219}
+circle(15:51:45.37,19:09:38.42,1.5") #color=red width=2 text={GNB1231}
+circle(15:51:45.37,19:11:22.00,1.5") #color=red width=2 text={GNB1259}
+circle(15:51:45.46,19:09:26.35,1.5") #color=red width=2 text={GNB1267}
+circle(15:51:45.69,19:11:53.01,1.5") #color=red width=2 text={GNB1300}
+circle(15:51:45.87,19:11:55.76,1.5") #color=red width=2 text={GNB1336}
+circle(15:51:45.71,19:12:34.46,1.5") #color=red width=2 text={GNB1339}
+circle(15:51:46.20,19:12:17.19,1.5") #color=red width=2 text={GNB1386}
+circle(15:51:46.08,19:12:15.08,1.5") #color=red width=2 text={GNB1388}
+circle(15:51:46.12,19:12:56.27,1.5") #color=red width=2 text={GNB1397}
+circle(15:51:46.10,19:12:03.46,1.5") #color=red width=2 text={GNB1401}
+circle(15:51:46.27,19:12:33.56,1.5") #color=red width=2 text={GNB1408}
+circle(15:51:46.25,19:10:31.50,1.5") #color=red width=2 text={GNB1413}
+circle(15:51:46.21,19:10:50.47,1.5") #color=red width=2 text={GNB1429}
+circle(15:51:46.52,19:12:33.88,1.5") #color=red width=2 text={GNB1434}
+circle(15:51:46.29,19:11:11.40,1.5") #color=red width=2 text={GNB1441}
+circle(15:51:46.45,19:09:10.19,1.5") #color=red width=2 text={GNB1455}
+circle(15:51:46.39,19:10:14.04,1.5") #color=red width=2 text={GNB1456}
+circle(15:51:46.43,19:09:45.74,1.5") #color=red width=2 text={GNB1465}
+circle(15:51:46.41,19:09:03.23,1.5") #color=red width=2 text={GNB1473}
+circle(15:51:46.81,19:12:33.85,1.5") #color=red width=2 text={GNB1492}
+circle(15:51:46.53,19:09:46.59,1.5") #color=red width=2 text={GNB1497}
+circle(15:51:46.57,19:11:49.49,1.5") #color=red width=2 text={GNB1508}
+circle(15:51:46.97,19:13:07.88,1.5") #color=red width=2 text={GNB1536}
+circle(15:51:47.53,19:11:56.96,1.5") #color=red width=2 text={GNB1557}
+circle(15:51:46.81,19:11:53.46,1.5") #color=red width=2 text={GNB1577}
+circle(15:51:47.32,19:12:01.50,1.5") #color=red width=2 text={GNB1586}
+circle(15:51:47.29,19:13:05.61,1.5") #color=red width=2 text={GNB1637}
+circle(15:51:47.88,19:09:43.84,1.5") #color=red width=2 text={GNB1644}
+circle(15:51:47.47,19:12:37.91,1.5") #color=red width=2 text={GNB1652}
+circle(15:51:39.63,19:10:03.93,1.5") #color=red width=2 text={GNB166}
+circle(15:51:47.57,19:12:41.28,1.5") #color=red width=2 text={GNB1689}
+circle(15:51:47.74,19:10:31.46,1.5") #color=red width=2 text={GNB1692}
+circle(15:51:47.81,19:10:35.08,1.5") #color=red width=2 text={GNB1710}
+circle(15:51:48.44,19:10:36.45,1.5") #color=red width=2 text={GNB1828}
+circle(15:51:39.73,19:11:41.66,1.5") #color=red width=2 text={GNB184}
+circle(15:51:48.70,19:13:03.39,1.5") #color=red width=2 text={GNB1866}
+circle(15:51:48.62,19:12:02.26,1.5") #color=red width=2 text={GNB1879}
+circle(15:51:48.76,19:10:23.55,1.5") #color=red width=2 text={GNB1907}
+circle(15:51:48.76,19:13:07.68,1.5") #color=red width=2 text={GNB1913}
+circle(15:51:49.09,19:11:00.45,1.5") #color=red width=2 text={GNB1964}
+circle(15:51:49.12,19:09:16.19,1.5") #color=red width=2 text={GNB1983}
+circle(15:51:49.24,19:13:08.57,1.5") #color=red width=2 text={GNB1986}
+circle(15:51:49.21,19:10:36.57,1.5") #color=red width=2 text={GNB1994}
+circle(15:51:49.59,19:10:14.14,1.5") #color=red width=2 text={GNB2018}
+circle(15:51:49.53,19:12:34.79,1.5") #color=red width=2 text={GNB2032}
+circle(15:51:49.44,19:08:59.51,1.5") #color=red width=2 text={GNB2033}
+circle(15:51:49.62,19:10:20.11,1.5") #color=red width=2 text={GNB2035}
+circle(15:51:49.50,19:08:28.87,1.5") #color=red width=2 text={GNB2039}
+circle(15:51:49.47,19:10:56.91,1.5") #color=red width=2 text={GNB2046}
+circle(15:51:49.58,19:10:30.94,1.5") #color=red width=2 text={GNB2066}
+circle(15:51:49.64,19:11:42.00,1.5") #color=red width=2 text={GNB2082}
+circle(15:51:49.67,19:12:39.74,1.5") #color=red width=2 text={GNB2090}
+circle(15:51:49.67,19:08:54.12,1.5") #color=red width=2 text={GNB2092}
+circle(15:51:50.06,19:08:59.75,1.5") #color=red width=2 text={GNB2098}
+circle(15:51:49.86,19:08:53.87,1.5") #color=red width=2 text={GNB2120}
+circle(15:51:49.89,19:10:47.67,1.5") #color=red width=2 text={GNB2129}
+circle(15:51:50.25,19:09:35.38,1.5") #color=red width=2 text={GNB2201}
+circle(15:51:50.22,19:12:47.42,1.5") #color=red width=2 text={GNB2205}
+circle(15:51:50.61,19:13:13.90,1.5") #color=red width=2 text={GNB2235}
+circle(15:51:50.55,19:08:41.86,1.5") #color=red width=2 text={GNB2236}
+circle(15:51:50.89,19:11:16.27,1.5") #color=red width=2 text={GNB2275}
+circle(15:51:50.55,19:12:35.98,1.5") #color=red width=2 text={GNB2279}
+circle(15:51:50.84,19:08:38.69,1.5") #color=red width=2 text={GNB2283}
+circle(15:51:50.85,19:12:09.86,1.5") #color=red width=2 text={GNB2285}
+circle(15:51:50.76,19:11:32.02,1.5") #color=red width=2 text={GNB2291}
+circle(15:51:51.11,19:11:09.89,1.5") #color=red width=2 text={GNB2308}
+circle(15:51:50.80,19:12:30.69,1.5") #color=red width=2 text={GNB2313}
+circle(15:51:51.07,19:11:35.12,1.5") #color=red width=2 text={GNB2342}
+circle(15:51:50.92,19:11:03.87,1.5") #color=red width=2 text={GNB2353}
+circle(15:51:52.95,19:08:36.75,1.5") #color=red width=2 text={GNB2368}
+circle(15:51:51.45,19:10:22.59,1.5") #color=red width=2 text={GNB2419}
+circle(15:51:51.57,19:11:20.52,1.5") #color=red width=2 text={GNB2439}
+circle(15:51:52.58,19:13:11.82,1.5") #color=red width=2 text={GNB2450}
+circle(15:51:52.11,19:08:25.74,1.5") #color=red width=2 text={GNB2454}
+circle(15:51:51.62,19:08:24.85,1.5") #color=red width=2 text={GNB2467}
+circle(15:51:51.69,19:11:20.46,1.5") #color=red width=2 text={GNB2490}
+circle(15:51:51.76,19:09:14.80,1.5") #color=red width=2 text={GNB2520}
+circle(15:51:52.02,19:13:14.71,1.5") #color=red width=2 text={GNB2527}
+circle(15:51:52.30,19:08:17.23,1.5") #color=red width=2 text={GNB2530}
+circle(15:51:52.06,19:10:49.34,1.5") #color=red width=2 text={GNB2567}
+circle(15:51:52.13,19:10:28.44,1.5") #color=red width=2 text={GNB2577}
+circle(15:51:52.10,19:09:06.92,1.5") #color=red width=2 text={GNB2578}
+circle(15:51:52.23,19:10:28.90,1.5") #color=red width=2 text={GNB2605}
+circle(15:51:52.57,19:09:17.57,1.5") #color=red width=2 text={GNB2678}
+circle(15:51:40.24,19:11:29.34,1.5") #color=red width=2 text={GNB269}
+circle(15:51:52.78,19:09:11.99,1.5") #color=red width=2 text={GNB2692}
+circle(15:51:52.72,19:09:21.49,1.5") #color=red width=2 text={GNB2709}
+circle(15:51:52.73,19:13:15.57,1.5") #color=red width=2 text={GNB2714}
+circle(15:51:53.08,19:11:44.45,1.5") #color=red width=2 text={GNB2762}
+circle(15:51:53.47,19:13:09.12,1.5") #color=red width=2 text={GNB2787}
+circle(15:51:53.18,19:10:06.02,1.5") #color=red width=2 text={GNB2792}
+circle(15:51:53.13,19:12:07.69,1.5") #color=red width=2 text={GNB2797}
+circle(15:51:53.19,19:12:28.02,1.5") #color=red width=2 text={GNB2798}
+circle(15:51:53.23,19:13:08.40,1.5") #color=red width=2 text={GNB2800}
+circle(15:51:53.89,19:13:15.62,1.5") #color=red width=2 text={GNB2802}
+circle(15:51:53.56,19:11:31.11,1.5") #color=red width=2 text={GNB2812}
+circle(15:51:53.29,19:13:16.79,1.5") #color=red width=2 text={GNB2816}
+circle(15:51:53.32,19:10:00.20,1.5") #color=red width=2 text={GNB2817}
+circle(15:51:53.46,19:09:10.04,1.5") #color=red width=2 text={GNB2818}
+circle(15:51:53.31,19:13:06.55,1.5") #color=red width=2 text={GNB2821}
+circle(15:51:53.30,19:12:49.74,1.5") #color=red width=2 text={GNB2822}
+circle(15:51:53.59,19:09:13.54,1.5") #color=red width=2 text={GNB2831}
+circle(15:51:53.52,19:12:49.08,1.5") #color=red width=2 text={GNB2838}
+circle(15:51:56.24,19:10:19.64,1.5") #color=red width=2 text={GNB2839}
+circle(15:51:53.42,19:12:10.10,1.5") #color=red width=2 text={GNB2848}
+circle(15:51:53.57,19:08:42.19,1.5") #color=red width=2 text={GNB2850}
+circle(15:51:53.41,19:12:14.16,1.5") #color=red width=2 text={GNB2851}
+circle(15:51:53.47,19:12:39.09,1.5") #color=red width=2 text={GNB2858}
+circle(15:51:53.60,19:11:36.42,1.5") #color=red width=2 text={GNB2861}
+circle(15:51:53.71,19:11:30.77,1.5") #color=red width=2 text={GNB2862}
+circle(15:51:53.65,19:12:34.01,1.5") #color=red width=2 text={GNB2873}
+circle(15:51:53.84,19:12:56.03,1.5") #color=red width=2 text={GNB2892}
+circle(15:51:53.71,19:12:44.69,1.5") #color=red width=2 text={GNB2894}
+circle(15:51:40.46,19:10:19.62,1.5") #color=red width=2 text={GNB296}
+circle(15:52:08.55,19:10:44.84,1.5") #color=red width=2 text={GNB2964}
+circle(15:52:04.86,19:08:28.30,1.5") #color=red width=2 text={GNB3002}
+circle(15:52:04.83,19:08:14.57,1.5") #color=red width=2 text={GNB3003}
+circle(15:52:04.69,19:10:47.17,1.5") #color=red width=2 text={GNB3011}
+circle(15:52:03.43,19:09:22.72,1.5") #color=red width=2 text={GNB3021}
+circle(15:52:08.40,19:11:38.72,1.5") #color=red width=2 text={GNB3137}
+circle(15:52:08.16,19:08:46.64,1.5") #color=red width=2 text={GNB3157}
+circle(15:52:08.14,19:08:48.81,1.5") #color=red width=2 text={GNB3158}
+circle(15:52:08.41,19:11:32.66,1.5") #color=red width=2 text={GNB3172}
+circle(15:52:08.04,19:11:03.89,1.5") #color=red width=2 text={GNB3178}
+circle(15:52:07.85,19:10:24.56,1.5") #color=red width=2 text={GNB3218}
+circle(15:52:07.64,19:13:14.32,1.5") #color=red width=2 text={GNB3266}
+circle(15:51:40.31,19:13:02.06,1.5") #color=red width=2 text={GNB329}
+circle(15:52:07.30,19:11:53.81,1.5") #color=red width=2 text={GNB3331}
+circle(15:52:06.90,19:12:21.75,1.5") #color=red width=2 text={GNB3366}
+circle(15:52:07.05,19:10:36.75,1.5") #color=red width=2 text={GNB3374}
+circle(15:52:07.10,19:09:51.56,1.5") #color=red width=2 text={GNB3436}
+circle(15:52:07.00,19:13:15.26,1.5") #color=red width=2 text={GNB3450}
+circle(15:52:07.02,19:11:49.23,1.5") #color=red width=2 text={GNB3453}
+circle(15:52:07.00,19:11:47.03,1.5") #color=red width=2 text={GNB3454}
+circle(15:52:07.00,19:10:38.99,1.5") #color=red width=2 text={GNB3466}
+circle(15:52:06.63,19:12:05.59,1.5") #color=red width=2 text={GNB3470}
+circle(15:51:40.70,19:09:17.64,1.5") #color=red width=2 text={GNB354}
+circle(15:52:05.92,19:12:45.99,1.5") #color=red width=2 text={GNB3603}
+circle(15:52:05.58,19:12:08.91,1.5") #color=red width=2 text={GNB3627}
+circle(15:52:05.52,19:09:53.85,1.5") #color=red width=2 text={GNB3637}
+circle(15:52:05.81,19:12:15.92,1.5") #color=red width=2 text={GNB3656}
+circle(15:52:03.64,19:12:39.41,1.5") #color=red width=2 text={GNB3671}
+circle(15:52:05.44,19:09:55.23,1.5") #color=red width=2 text={GNB3675}
+circle(15:52:04.83,19:13:11.31,1.5") #color=red width=2 text={GNB3777}
+circle(15:52:05.03,19:13:07.15,1.5") #color=red width=2 text={GNB3787}
+circle(15:52:05.18,19:12:05.10,1.5") #color=red width=2 text={GNB3796}
+circle(15:51:41.02,19:09:57.88,1.5") #color=red width=2 text={GNB381}
+circle(15:52:04.49,19:08:18.66,1.5") #color=red width=2 text={GNB3843}
+circle(15:52:04.90,19:10:36.33,1.5") #color=red width=2 text={GNB3859}
+circle(15:52:04.26,19:08:46.40,1.5") #color=red width=2 text={GNB3866}
+circle(15:52:06.68,19:08:46.85,1.5") #color=red width=2 text={GNB3868}
+circle(15:52:04.51,19:12:02.60,1.5") #color=red width=2 text={GNB3889}
+circle(15:52:04.08,19:11:00.11,1.5") #color=red width=2 text={GNB3903}
+circle(15:52:04.44,19:11:22.65,1.5") #color=red width=2 text={GNB3916}
+circle(15:52:04.47,19:10:48.10,1.5") #color=red width=2 text={GNB3920}
+circle(15:52:04.58,19:09:34.32,1.5") #color=red width=2 text={GNB3923}
+circle(15:52:03.94,19:08:37.91,1.5") #color=red width=2 text={GNB3948}
+circle(15:52:03.82,19:11:18.49,1.5") #color=red width=2 text={GNB3998}
+circle(15:52:03.49,19:12:58.03,1.5") #color=red width=2 text={GNB4014}
+circle(15:52:03.59,19:12:50.42,1.5") #color=red width=2 text={GNB4022}
+circle(15:52:03.47,19:09:59.14,1.5") #color=red width=2 text={GNB4035}
+circle(15:52:03.78,19:08:44.85,1.5") #color=red width=2 text={GNB4062}
+circle(15:52:03.42,19:12:36.43,1.5") #color=red width=2 text={GNB4079}
+circle(15:52:02.90,19:08:58.99,1.5") #color=red width=2 text={GNB4146}
+circle(15:52:02.93,19:12:46.96,1.5") #color=red width=2 text={GNB4179}
+circle(15:52:02.99,19:08:22.28,1.5") #color=red width=2 text={GNB4216}
+circle(15:52:02.71,19:10:19.30,1.5") #color=red width=2 text={GNB4221}
+circle(15:52:02.44,19:08:22.53,1.5") #color=red width=2 text={GNB4244}
+circle(15:52:02.77,19:10:14.07,1.5") #color=red width=2 text={GNB4246}
+circle(15:52:02.54,19:12:07.47,1.5") #color=red width=2 text={GNB4279}
+circle(15:52:02.10,19:08:17.21,1.5") #color=red width=2 text={GNB4304}
+circle(15:52:02.02,19:10:11.85,1.5") #color=red width=2 text={GNB4322}
+circle(15:52:02.28,19:08:45.89,1.5") #color=red width=2 text={GNB4348}
+circle(15:52:02.33,19:10:33.20,1.5") #color=red width=2 text={GNB4356}
+circle(15:51:41.35,19:10:06.28,1.5") #color=red width=2 text={GNB446}
+circle(15:52:01.08,19:11:25.69,1.5") #color=red width=2 text={GNB4464}
+circle(15:52:01.34,19:09:04.56,1.5") #color=red width=2 text={GNB4470}
+circle(15:52:01.39,19:13:03.54,1.5") #color=red width=2 text={GNB4494}
+circle(15:52:00.60,19:12:56.98,1.5") #color=red width=2 text={GNB4513}
+circle(15:52:01.26,19:11:05.30,1.5") #color=red width=2 text={GNB4521}
+circle(15:52:00.46,19:12:25.07,1.5") #color=red width=2 text={GNB4566}
+circle(15:52:01.03,19:08:50.27,1.5") #color=red width=2 text={GNB4597}
+circle(15:52:00.95,19:08:49.32,1.5") #color=red width=2 text={GNB4618}
+circle(15:52:00.71,19:09:50.24,1.5") #color=red width=2 text={GNB4620}
+circle(15:52:00.63,19:13:08.93,1.5") #color=red width=2 text={GNB4625}
+circle(15:52:00.62,19:11:18.84,1.5") #color=red width=2 text={GNB4626}
+circle(15:51:58.06,19:08:17.65,1.5") #color=red width=2 text={GNB4632}
+circle(15:52:00.77,19:08:12.72,1.5") #color=red width=2 text={GNB4637}
+circle(15:52:00.33,19:11:51.82,1.5") #color=red width=2 text={GNB4649}
+circle(15:52:00.69,19:12:26.15,1.5") #color=red width=2 text={GNB4656}
+circle(15:52:00.35,19:09:03.05,1.5") #color=red width=2 text={GNB4666}
+circle(15:51:57.96,19:08:15.11,1.5") #color=red width=2 text={GNB4696}
+circle(15:51:59.77,19:12:57.12,1.5") #color=red width=2 text={GNB4743}
+circle(15:52:00.01,19:12:55.42,1.5") #color=red width=2 text={GNB4753}
+circle(15:51:58.01,19:11:18.08,1.5") #color=red width=2 text={GNB4760}
+circle(15:51:59.88,19:08:42.71,1.5") #color=red width=2 text={GNB4769}
+circle(15:51:59.56,19:09:13.90,1.5") #color=red width=2 text={GNB4815}
+circle(15:51:59.62,19:13:06.97,1.5") #color=red width=2 text={GNB4824}
+circle(15:51:59.39,19:12:43.74,1.5") #color=red width=2 text={GNB4851}
+circle(15:51:59.28,19:08:41.55,1.5") #color=red width=2 text={GNB4852}
+circle(15:51:59.27,19:11:02.36,1.5") #color=red width=2 text={GNB4859}
+circle(15:51:59.43,19:09:10.95,1.5") #color=red width=2 text={GNB4875}
+circle(15:51:59.24,19:08:44.60,1.5") #color=red width=2 text={GNB4882}
+circle(15:51:59.07,19:10:53.85,1.5") #color=red width=2 text={GNB4903}
+circle(15:51:59.42,19:08:15.63,1.5") #color=red width=2 text={GNB4904}
+circle(15:51:59.32,19:11:34.80,1.5") #color=red width=2 text={GNB4914}
+circle(15:51:58.08,19:12:26.20,1.5") #color=red width=2 text={GNB4950}
+circle(15:51:57.89,19:10:09.52,1.5") #color=red width=2 text={GNB4982}
+circle(15:51:57.88,19:11:13.69,1.5") #color=red width=2 text={GNB4984}
+circle(15:51:39.55,19:10:52.61,1.5") #color=red width=2 text={GNB5}
+circle(15:51:58.82,19:11:27.56,1.5") #color=red width=2 text={GNB5018}
+circle(15:51:57.73,19:12:27.46,1.5") #color=red width=2 text={GNB5024}
+circle(15:51:58.79,19:08:08.98,1.5") #color=red width=2 text={GNB5031}
+circle(15:51:41.29,19:13:01.26,1.5") #color=red width=2 text={GNB510}
+circle(15:51:57.77,19:12:00.36,1.5") #color=red width=2 text={GNB5108}
+circle(15:51:57.96,19:12:00.35,1.5") #color=red width=2 text={GNB5120}
+circle(15:51:41.58,19:10:19.64,1.5") #color=red width=2 text={GNB514}
+circle(15:51:57.28,19:12:48.91,1.5") #color=red width=2 text={GNB5144}
+circle(15:51:57.73,19:10:35.10,1.5") #color=red width=2 text={GNB5150}
+circle(15:51:57.78,19:09:45.12,1.5") #color=red width=2 text={GNB5151}
+circle(15:51:58.10,19:08:48.98,1.5") #color=red width=2 text={GNB5165}
+circle(15:51:57.74,19:11:41.98,1.5") #color=red width=2 text={GNB5222}
+circle(15:51:57.49,19:08:57.44,1.5") #color=red width=2 text={GNB5233}
+circle(15:51:58.76,19:11:32.45,1.5") #color=red width=2 text={GNB5234}
+circle(15:51:57.34,19:09:12.02,1.5") #color=red width=2 text={GNB5255}
+circle(15:51:41.52,19:08:50.30,1.5") #color=red width=2 text={GNB534}
+circle(15:51:57.09,19:08:11.53,1.5") #color=red width=2 text={GNB5359}
+circle(15:51:56.62,19:12:43.81,1.5") #color=red width=2 text={GNB5368}
+circle(15:51:56.53,19:10:52.04,1.5") #color=red width=2 text={GNB5383}
+circle(15:51:56.73,19:09:07.55,1.5") #color=red width=2 text={GNB5400}
+circle(15:51:41.50,19:10:08.48,1.5") #color=red width=2 text={GNB542}
+circle(15:51:41.63,19:09:58.15,1.5") #color=red width=2 text={GNB543}
+circle(15:51:56.37,19:12:41.88,1.5") #color=red width=2 text={GNB5446}
+circle(15:51:54.20,19:11:34.19,1.5") #color=red width=2 text={GNB5476}
+circle(15:51:55.99,19:09:52.84,1.5") #color=red width=2 text={GNB5495}
+circle(15:51:54.23,19:09:53.91,1.5") #color=red width=2 text={GNB5515}
+circle(15:51:55.59,19:10:51.65,1.5") #color=red width=2 text={GNB5517}
+circle(15:51:41.69,19:10:21.60,1.5") #color=red width=2 text={GNB552}
+circle(15:51:55.87,19:13:13.14,1.5") #color=red width=2 text={GNB5528}
+circle(15:51:55.37,19:12:57.39,1.5") #color=red width=2 text={GNB5562}
+circle(15:51:54.82,19:08:33.91,1.5") #color=red width=2 text={GNB5570}
+circle(15:51:55.15,19:11:42.06,1.5") #color=red width=2 text={GNB5575}
+circle(15:51:55.23,19:10:44.64,1.5") #color=red width=2 text={GNB5579}
+circle(15:51:55.20,19:11:32.29,1.5") #color=red width=2 text={GNB5588}
+circle(15:51:55.86,19:08:28.56,1.5") #color=red width=2 text={GNB5599}
+circle(15:51:55.26,19:12:59.58,1.5") #color=red width=2 text={GNB5611}
+circle(15:51:55.29,19:08:36.10,1.5") #color=red width=2 text={GNB5623}
+circle(15:51:55.46,19:08:34.54,1.5") #color=red width=2 text={GNB5652}
+circle(15:51:54.35,19:13:14.97,1.5") #color=red width=2 text={GNB5661}
+circle(15:51:54.96,19:09:15.56,1.5") #color=red width=2 text={GNB5720}
+circle(15:51:54.88,19:12:59.76,1.5") #color=red width=2 text={GNB5731}
+circle(15:51:54.92,19:13:13.98,1.5") #color=red width=2 text={GNB5736}
+circle(15:51:54.94,19:13:11.08,1.5") #color=red width=2 text={GNB5740}
+circle(15:51:53.84,19:13:10.19,1.5") #color=red width=2 text={GNB5745}
+circle(15:51:54.12,19:09:00.06,1.5") #color=red width=2 text={GNB5771}
+circle(15:52:08.75,19:08:45.02,1.5") #color=red width=2 text={GNB5821}
+circle(15:51:54.28,19:13:03.37,1.5") #color=red width=2 text={GNB5837}
+circle(15:51:54.25,19:13:05.00,1.5") #color=red width=2 text={GNB5845}
+circle(15:52:08.06,19:12:18.24,1.5") #color=red width=2 text={GNB5848}
+circle(15:51:54.18,19:13:02.12,1.5") #color=red width=2 text={GNB5852}
+circle(15:52:08.46,19:12:01.29,1.5") #color=red width=2 text={GNB5871}
+circle(15:51:54.20,19:08:50.37,1.5") #color=red width=2 text={GNB5879}
+circle(15:51:54.12,19:12:03.44,1.5") #color=red width=2 text={GNB5890}
+circle(15:51:53.92,19:08:55.73,1.5") #color=red width=2 text={GNB5899}
+circle(15:51:54.06,19:10:26.72,1.5") #color=red width=2 text={GNB5900}
+circle(15:51:53.98,19:10:23.69,1.5") #color=red width=2 text={GNB5932}
+circle(15:51:41.91,19:10:41.49,1.5") #color=red width=2 text={GNB597}
+circle(15:51:42.00,19:12:48.34,1.5") #color=red width=2 text={GNB625}
+circle(15:51:42.08,19:12:24.59,1.5") #color=red width=2 text={GNB633}
+circle(15:51:42.24,19:11:42.26,1.5") #color=red width=2 text={GNB660}
+circle(15:51:42.42,19:10:37.76,1.5") #color=red width=2 text={GNB670}
+circle(15:51:42.61,19:13:00.69,1.5") #color=red width=2 text={GNB717}
+circle(15:51:42.68,19:13:15.58,1.5") #color=red width=2 text={GNB724}
+circle(15:51:42.59,19:12:37.28,1.5") #color=red width=2 text={GNB730}
+circle(15:51:42.78,19:11:08.00,1.5") #color=red width=2 text={GNB741}
+circle(15:51:42.91,19:12:33.52,1.5") #color=red width=2 text={GNB759}
+circle(15:51:43.08,19:09:41.47,1.5") #color=red width=2 text={GNB762}
+circle(15:51:42.74,19:10:24.63,1.5") #color=red width=2 text={GNB764}
+circle(15:51:43.95,19:11:39.65,1.5") #color=red width=2 text={GNB822}
+circle(15:51:43.25,19:12:00.56,1.5") #color=red width=2 text={GNB833}
+circle(15:51:43.37,19:11:45.49,1.5") #color=red width=2 text={GNB882}
+circle(15:51:43.76,19:08:23.32,1.5") #color=red width=2 text={GNB907}
+circle(15:51:43.94,19:12:19.39,1.5") #color=red width=2 text={GNB949}
+circle(15:51:43.93,19:13:15.64,1.5") #color=red width=2 text={GNB959}
+circle(15:51:44.28,19:11:58.24,1.5") #color=red width=2 text={GNB978}
+circle(15:51:39.56,19:13:06.52,1.5") #color=red width=2 text={GNB181}
+circle(15:51:39.04,19:12:27.60,1.5") #color=red width=2 text={GNB67}
+circle(15:51:44.27,19:12:21.27,1.5") #color=green width=2 text={GNB995} comment={2.78976}
+circle(15:51:41.799,19:12:5.310,1.5") #color=green width=2 text={BX19} comment={2.72938}
+circle(15:51:45.6900,19:11:53.0100,1.5") #color=green width=2 text={GNB1300b} comment={2.77718}
+circle(15:52:5.1800,19:12:5.1000,1.5") #color=green width=2 text={GNB3796a} comment={2.78409}
+circle(15:52:5.1800,19:12:5.1000,1.5") #color=green width=2 text={GNB3796b} comment={2.78499}
+circle(15:51:44.41,19:08:44.07,1.5") #color=green width=2 text={NB1569} comment={2.73736}
+circle(15:51:39.26,19:11:40.79,1.5") #color=green width=2 text={NB385} comment={2.75094}
+circle(15:52:08.65,19:11:59.86,1.5") #color=green width=2 text={NB6087} comment={2.77734}
+circle(15:52:04.68,19:11:41.93,1.5") #color=green width=2 text={NB7180} comment={2.92936}
+point(15:51:16.429,+18:59:07.569) # point=cross 14 color=cyan width=2 text={'LAE869'}
+point(15:52:29.386,+18:59:08.050) # point=cross 14 color=cyan width=2 text={'LAE871'}
+point(15:52:23.530,+18:59:07.184) # point=cross 14 color=cyan width=2 text={'LAE872'}
+point(15:51:28.789,+18:59:08.478) # point=cross 14 color=cyan width=2 text={'LAE876'}
+point(15:52:39.699,+18:59:23.874) # point=cross 14 color=cyan width=2 text={'LAE884'}
+point(15:52:43.146,+18:59:22.786) # point=cross 14 color=cyan width=2 text={'LAE887'}
+point(15:52:06.215,+18:59:28.864) # point=cross 14 color=cyan width=2 text={'LAE891'}
+point(15:51:13.275,+18:59:32.173) # point=cross 14 color=cyan width=2 text={'LAE892'}
+point(15:51:39.334,+18:59:36.128) # point=cross 14 color=cyan width=2 text={'LAE895'}
+point(15:51:44.642,+18:59:41.618) # point=cross 14 color=cyan width=2 text={'LAE902'}
+point(15:51:24.822,+18:59:40.854) # point=cross 14 color=cyan width=2 text={'LAE904'}
+point(15:51:44.550,+18:59:43.257) # point=cross 14 color=cyan width=2 text={'LAE905'}
+point(15:51:10.079,+18:59:47.049) # point=cross 14 color=cyan width=2 text={'LAE910'}
+point(15:50:58.803,+18:59:47.248) # point=cross 14 color=cyan width=2 text={'LAE912'}
+point(15:52:05.809,+18:59:49.582) # point=cross 14 color=cyan width=2 text={'LAE915'}
+point(15:51:09.426,+18:59:50.744) # point=cross 14 color=cyan width=2 text={'LAE916'}
+point(15:51:33.648,+19:00:00.902) # point=cross 14 color=cyan width=2 text={'LAE919'}
+point(15:51:05.974,+19:00:00.917) # point=cross 14 color=cyan width=2 text={'LAE921'}
+point(15:52:03.312,+19:00:22.300) # point=cross 14 color=cyan width=2 text={'LAE932'}
+point(15:51:36.267,+19:00:28.571) # point=cross 14 color=cyan width=2 text={'LAE934'}
+point(15:52:10.222,+19:00:38.005) # point=cross 14 color=cyan width=2 text={'LAE939'}
+point(15:51:59.846,+19:00:44.503) # point=cross 14 color=cyan width=2 text={'LAE940'}
+point(15:52:19.447,+19:00:45.329) # point=cross 14 color=cyan width=2 text={'LAE941'}
+point(15:52:19.899,+19:00:45.895) # point=cross 14 color=cyan width=2 text={'LAE942'}
+point(15:52:21.281,+19:00:45.248) # point=cross 14 color=cyan width=2 text={'LAE943'}
+point(15:51:17.513,+19:00:46.534) # point=cross 14 color=cyan width=2 text={'LAE947'}
+point(15:51:31.813,+19:00:49.840) # point=cross 14 color=cyan width=2 text={'LAE948'}
+point(15:52:11.385,+19:00:48.858) # point=cross 14 color=cyan width=2 text={'LAE949'}
+point(15:51:29.385,+19:00:53.013) # point=cross 14 color=cyan width=2 text={'LAE950'}
+point(15:51:19.413,+19:00:53.796) # point=cross 14 color=cyan width=2 text={'LAE951'}
+point(15:51:11.783,+19:00:53.920) # point=cross 14 color=cyan width=2 text={'LAE952'}
+point(15:52:27.080,+19:01:13.144) # point=cross 14 color=cyan width=2 text={'LAE963'}
+point(15:51:10.340,+19:01:15.488) # point=cross 14 color=cyan width=2 text={'LAE965'}
+point(15:51:01.323,+19:01:25.598) # point=cross 14 color=cyan width=2 text={'LAE969'}
+point(15:51:13.474,+19:01:25.717) # point=cross 14 color=cyan width=2 text={'LAE970'}
+point(15:52:32.210,+19:01:26.726) # point=cross 14 color=cyan width=2 text={'LAE974'}
+point(15:51:28.525,+19:01:31.612) # point=cross 14 color=cyan width=2 text={'LAE975'}
+point(15:51:11.646,+19:01:37.098) # point=cross 14 color=cyan width=2 text={'LAE979'}
+point(15:52:21.690,+19:01:43.392) # point=cross 14 color=cyan width=2 text={'LAE984'}
+point(15:51:27.670,+19:01:47.161) # point=cross 14 color=cyan width=2 text={'LAE987'}
+point(15:50:59.662,+19:01:53.220) # point=cross 14 color=cyan width=2 text={'LAE992'}
+point(15:51:31.876,+19:01:49.230) # point=cross 14 color=cyan width=2 text={'LAE995'}
+point(15:52:11.419,+19:01:56.079) # point=cross 14 color=cyan width=2 text={'LAE997'}
+point(15:52:00.573,+19:01:59.557) # point=cross 14 color=cyan width=2 text={'LAE999'}
+point(15:51:12.264,+19:02:00.877) # point=cross 14 color=cyan width=2 text={'LAE1001'}
+point(15:51:09.699,+19:02:03.778) # point=cross 14 color=cyan width=2 text={'LAE1003'}
+point(15:52:22.002,+19:02:04.281) # point=cross 14 color=cyan width=2 text={'LAE1004'}
+point(15:51:49.878,+19:02:14.355) # point=cross 14 color=cyan width=2 text={'LAE1006'}
+point(15:51:14.803,+19:02:20.301) # point=cross 14 color=cyan width=2 text={'LAE1010'}
+point(15:52:19.694,+19:02:19.789) # point=cross 14 color=cyan width=2 text={'LAE1013'}
+point(15:52:21.574,+19:02:23.372) # point=cross 14 color=cyan width=2 text={'LAE1015'}
+point(15:51:11.690,+19:02:28.441) # point=cross 14 color=cyan width=2 text={'LAE1022'}
+point(15:51:39.148,+19:02:30.944) # point=cross 14 color=cyan width=2 text={'LAE1028'}
+point(15:51:26.983,+19:02:35.845) # point=cross 14 color=cyan width=2 text={'LAE1034'}
+point(15:52:27.159,+19:02:36.343) # point=cross 14 color=cyan width=2 text={'LAE1039'}
+point(15:51:15.272,+19:02:35.293) # point=cross 14 color=cyan width=2 text={'LAE1041'}
+point(15:52:02.202,+19:02:36.574) # point=cross 14 color=cyan width=2 text={'LAE1045'}
+point(15:52:39.183,+19:02:47.470) # point=cross 14 color=cyan width=2 text={'LAE1048'}
+point(15:51:26.854,+19:02:51.515) # point=cross 14 color=cyan width=2 text={'LAE1051'}
+point(15:51:41.382,+19:02:58.568) # point=cross 14 color=cyan width=2 text={'LAE1054'}
+point(15:52:36.815,+19:03:01.416) # point=cross 14 color=cyan width=2 text={'LAE1057'}
+point(15:52:40.432,+19:03:11.866) # point=cross 14 color=cyan width=2 text={'LAE1061'}
+point(15:51:02.775,+19:03:12.908) # point=cross 14 color=cyan width=2 text={'LAE1062'}
+point(15:51:54.514,+19:03:14.167) # point=cross 14 color=cyan width=2 text={'LAE1063'}
+point(15:52:42.889,+19:03:14.488) # point=cross 14 color=cyan width=2 text={'LAE1064'}
+point(15:51:10.956,+19:03:24.638) # point=cross 14 color=cyan width=2 text={'LAE1069'}
+point(15:51:31.746,+19:03:26.785) # point=cross 14 color=cyan width=2 text={'LAE1070'}
+point(15:51:50.489,+19:03:28.324) # point=cross 14 color=cyan width=2 text={'LAE1071'}
+point(15:51:07.403,+19:03:26.788) # point=cross 14 color=cyan width=2 text={'LAE1074'}
+point(15:52:36.549,+19:03:32.914) # point=cross 14 color=cyan width=2 text={'LAE1076'}
+point(15:52:12.108,+19:03:32.271) # point=cross 14 color=cyan width=2 text={'LAE1078'}
+point(15:51:15.830,+19:03:42.288) # point=cross 14 color=cyan width=2 text={'LAE1085'}
+point(15:51:14.707,+19:03:45.677) # point=cross 14 color=cyan width=2 text={'LAE1088'}
+point(15:52:08.339,+19:03:48.232) # point=cross 14 color=cyan width=2 text={'LAE1090'}
+point(15:51:37.352,+19:03:49.275) # point=cross 14 color=cyan width=2 text={'LAE1093'}
+point(15:51:13.449,+19:03:53.409) # point=cross 14 color=cyan width=2 text={'LAE1095'}
+point(15:51:36.325,+19:03:56.090) # point=cross 14 color=cyan width=2 text={'LAE1096'}
+point(15:51:04.482,+19:03:56.452) # point=cross 14 color=cyan width=2 text={'LAE1099'}
+point(15:51:57.509,+19:04:01.148) # point=cross 14 color=cyan width=2 text={'LAE1100'}
+point(15:51:21.177,+19:04:00.458) # point=cross 14 color=cyan width=2 text={'LAE1102'}
+point(15:51:22.328,+19:04:04.096) # point=cross 14 color=cyan width=2 text={'LAE1104'}
+point(15:51:02.074,+19:04:06.341) # point=cross 14 color=cyan width=2 text={'LAE1107'}
+point(15:52:14.515,+19:04:07.344) # point=cross 14 color=cyan width=2 text={'LAE1108'}
+point(15:51:16.031,+19:04:04.358) # point=cross 14 color=cyan width=2 text={'LAE1109'}
+point(15:51:17.453,+19:04:13.759) # point=cross 14 color=cyan width=2 text={'LAE1114'}
+point(15:51:36.810,+19:04:10.164) # point=cross 14 color=cyan width=2 text={'LAE1117'}
+point(15:51:51.627,+19:04:16.019) # point=cross 14 color=cyan width=2 text={'LAE1118'}
+point(15:52:09.106,+19:04:20.252) # point=cross 14 color=cyan width=2 text={'LAE1125'}
+point(15:51:56.298,+19:04:27.001) # point=cross 14 color=cyan width=2 text={'LAE1126'}
+point(15:51:53.289,+19:04:30.655) # point=cross 14 color=cyan width=2 text={'LAE1130'}
+point(15:51:00.051,+19:04:26.266) # point=cross 14 color=cyan width=2 text={'LAE1132'}
+point(15:51:16.300,+19:04:31.762) # point=cross 14 color=cyan width=2 text={'LAE1136'}
+point(15:52:18.224,+19:04:34.474) # point=cross 14 color=cyan width=2 text={'LAE1138'}
+point(15:52:11.993,+19:04:35.342) # point=cross 14 color=cyan width=2 text={'LAE1141'}
+point(15:51:19.194,+19:04:35.857) # point=cross 14 color=cyan width=2 text={'LAE1142'}
+point(15:52:11.039,+19:04:50.264) # point=cross 14 color=cyan width=2 text={'LAE1152'}
+point(15:51:34.974,+19:04:50.860) # point=cross 14 color=cyan width=2 text={'LAE1155'}
+point(15:51:03.984,+19:04:58.784) # point=cross 14 color=cyan width=2 text={'LAE1157'}
+point(15:51:09.122,+19:05:01.554) # point=cross 14 color=cyan width=2 text={'LAE1160'}
+point(15:51:50.088,+19:05:06.415) # point=cross 14 color=cyan width=2 text={'LAE1167'}
+point(15:52:24.453,+19:05:15.273) # point=cross 14 color=cyan width=2 text={'LAE1172'}
+point(15:50:59.039,+19:05:12.967) # point=cross 14 color=cyan width=2 text={'LAE1175'}
+point(15:51:01.990,+19:05:18.389) # point=cross 14 color=cyan width=2 text={'LAE1180'}
+point(15:51:20.271,+19:05:22.671) # point=cross 14 color=cyan width=2 text={'LAE1181'}
+point(15:52:29.760,+19:05:25.243) # point=cross 14 color=cyan width=2 text={'LAE1185'}
+point(15:52:31.588,+19:05:30.132) # point=cross 14 color=cyan width=2 text={'LAE1189'}
+point(15:52:32.930,+19:05:33.284) # point=cross 14 color=cyan width=2 text={'LAE1195'}
+point(15:51:08.000,+19:05:35.648) # point=cross 14 color=cyan width=2 text={'LAE1199'}
+point(15:51:14.813,+19:05:39.127) # point=cross 14 color=cyan width=2 text={'LAE1203'}
+point(15:52:00.639,+19:05:41.058) # point=cross 14 color=cyan width=2 text={'LAE1205'}
+point(15:52:36.050,+19:05:38.725) # point=cross 14 color=cyan width=2 text={'LAE1206'}
+point(15:52:29.434,+19:05:39.990) # point=cross 14 color=cyan width=2 text={'LAE1207'}
+point(15:51:17.317,+19:05:40.958) # point=cross 14 color=cyan width=2 text={'LAE1208'}
+point(15:51:31.006,+19:05:43.815) # point=cross 14 color=cyan width=2 text={'LAE1209'}
+point(15:51:17.482,+19:05:46.826) # point=cross 14 color=cyan width=2 text={'LAE1211'}
+point(15:51:51.429,+19:05:43.760) # point=cross 14 color=cyan width=2 text={'LAE1212'}
+point(15:52:16.743,+19:05:46.591) # point=cross 14 color=cyan width=2 text={'LAE1213'}
+point(15:51:35.412,+19:05:49.473) # point=cross 14 color=cyan width=2 text={'LAE1215'}
+point(15:52:04.044,+19:05:51.201) # point=cross 14 color=cyan width=2 text={'LAE1216'}
+point(15:51:23.716,+19:05:55.053) # point=cross 14 color=cyan width=2 text={'LAE1220'}
+point(15:51:57.535,+19:05:51.376) # point=cross 14 color=cyan width=2 text={'LAE1221'}
+point(15:51:59.481,+19:05:57.171) # point=cross 14 color=cyan width=2 text={'LAE1222'}
+point(15:51:51.439,+19:05:57.832) # point=cross 14 color=cyan width=2 text={'LAE1223'}
+point(15:52:27.546,+19:05:55.257) # point=cross 14 color=cyan width=2 text={'LAE1224'}
+point(15:52:14.793,+19:05:58.634) # point=cross 14 color=cyan width=2 text={'LAE1227'}
+point(15:52:27.478,+19:05:53.094) # point=cross 14 color=cyan width=2 text={'LAE1228'}
+point(15:52:01.109,+19:05:59.978) # point=cross 14 color=cyan width=2 text={'LAE1229'}
+point(15:51:38.387,+19:06:02.327) # point=cross 14 color=cyan width=2 text={'LAE1233'}
+point(15:51:56.054,+19:06:05.274) # point=cross 14 color=cyan width=2 text={'LAE1237'}
+point(15:51:12.020,+19:06:09.069) # point=cross 14 color=cyan width=2 text={'LAE1241'}
+point(15:52:33.245,+19:06:09.535) # point=cross 14 color=cyan width=2 text={'LAE1242'}
+point(15:51:41.662,+19:06:10.012) # point=cross 14 color=cyan width=2 text={'LAE1243'}
+point(15:51:22.363,+19:06:11.738) # point=cross 14 color=cyan width=2 text={'LAE1245'}
+point(15:51:38.369,+19:06:15.159) # point=cross 14 color=cyan width=2 text={'LAE1246'}
+point(15:51:53.726,+19:06:12.435) # point=cross 14 color=cyan width=2 text={'LAE1247'}
+point(15:51:06.085,+19:06:18.081) # point=cross 14 color=cyan width=2 text={'LAE1251'}
+point(15:51:56.006,+19:06:09.860) # point=cross 14 color=cyan width=2 text={'LAE1252'}
+point(15:51:57.023,+19:06:17.945) # point=cross 14 color=cyan width=2 text={'LAE1253'}
+point(15:52:33.265,+19:06:21.817) # point=cross 14 color=cyan width=2 text={'LAE1257'}
+point(15:52:04.445,+19:06:24.408) # point=cross 14 color=cyan width=2 text={'LAE1260'}
+point(15:52:36.335,+19:06:24.414) # point=cross 14 color=cyan width=2 text={'LAE1261'}
+point(15:52:10.534,+19:06:27.637) # point=cross 14 color=cyan width=2 text={'LAE1263'}
+point(15:51:16.074,+19:06:29.841) # point=cross 14 color=cyan width=2 text={'LAE1266'}
+point(15:51:08.068,+19:06:28.610) # point=cross 14 color=cyan width=2 text={'LAE1267'}
+point(15:51:01.213,+19:06:29.641) # point=cross 14 color=cyan width=2 text={'LAE1277'}
+point(15:52:06.557,+19:06:40.619) # point=cross 14 color=cyan width=2 text={'LAE1281'}
+point(15:51:34.806,+19:06:42.445) # point=cross 14 color=cyan width=2 text={'LAE1282'}
+point(15:50:58.242,+19:06:46.891) # point=cross 14 color=cyan width=2 text={'LAE1285'}
+point(15:52:42.089,+19:06:44.573) # point=cross 14 color=cyan width=2 text={'LAE1286'}
+point(15:51:43.113,+19:06:47.099) # point=cross 14 color=cyan width=2 text={'LAE1288'}
+point(15:50:57.731,+19:06:47.144) # point=cross 14 color=cyan width=2 text={'LAE1290'}
+point(15:51:12.409,+19:06:50.011) # point=cross 14 color=cyan width=2 text={'LAE1291'}
+point(15:51:31.131,+19:06:50.808) # point=cross 14 color=cyan width=2 text={'LAE1292'}
+point(15:51:21.002,+19:06:54.243) # point=cross 14 color=cyan width=2 text={'LAE1294'}
+point(15:51:45.022,+19:06:57.361) # point=cross 14 color=cyan width=2 text={'LAE1296'}
+point(15:51:53.850,+19:06:56.913) # point=cross 14 color=cyan width=2 text={'LAE1299'}
+point(15:52:12.969,+19:06:59.426) # point=cross 14 color=cyan width=2 text={'LAE1301'}
+point(15:51:33.959,+19:06:59.469) # point=cross 14 color=cyan width=2 text={'LAE1302'}
+point(15:51:07.373,+19:07:03.136) # point=cross 14 color=cyan width=2 text={'LAE1305'}
+point(15:50:58.955,+19:07:00.504) # point=cross 14 color=cyan width=2 text={'LAE1306'}
+point(15:51:43.920,+19:07:04.409) # point=cross 14 color=cyan width=2 text={'LAE1308'}
+point(15:51:47.600,+19:07:03.775) # point=cross 14 color=cyan width=2 text={'LAE1309'}
+point(15:51:08.958,+19:07:09.906) # point=cross 14 color=cyan width=2 text={'LAE1318'}
+point(15:51:48.991,+19:07:14.943) # point=cross 14 color=cyan width=2 text={'LAE1327'}
+point(15:51:08.980,+19:07:15.311) # point=cross 14 color=cyan width=2 text={'LAE1329'}
+point(15:51:51.981,+19:07:22.663) # point=cross 14 color=cyan width=2 text={'LAE1331'}
+point(15:52:02.491,+19:07:24.329) # point=cross 14 color=cyan width=2 text={'LAE1332'}
+point(15:51:47.669,+19:07:24.707) # point=cross 14 color=cyan width=2 text={'LAE1335'}
+point(15:52:33.109,+19:07:21.773) # point=cross 14 color=cyan width=2 text={'LAE1336'}
+point(15:50:59.959,+19:07:26.969) # point=cross 14 color=cyan width=2 text={'LAE1338'}
+point(15:51:50.114,+19:07:31.313) # point=cross 14 color=cyan width=2 text={'LAE1339'}
+point(15:51:52.537,+19:07:28.758) # point=cross 14 color=cyan width=2 text={'LAE1340'}
+point(15:51:46.130,+19:07:31.917) # point=cross 14 color=cyan width=2 text={'LAE1342'}
+point(15:52:39.104,+19:07:33.252) # point=cross 14 color=cyan width=2 text={'LAE1343'}
+point(15:52:26.255,+19:07:36.083) # point=cross 14 color=cyan width=2 text={'LAE1345'}
+point(15:51:52.650,+19:07:36.497) # point=cross 14 color=cyan width=2 text={'LAE1349'}
+point(15:51:31.071,+19:07:40.648) # point=cross 14 color=cyan width=2 text={'LAE1353'}
+point(15:51:30.084,+19:07:43.298) # point=cross 14 color=cyan width=2 text={'LAE1358'}
+point(15:52:29.181,+19:07:42.222) # point=cross 14 color=cyan width=2 text={'LAE1359'}
+point(15:51:53.107,+19:07:46.424) # point=cross 14 color=cyan width=2 text={'LAE1367'}
+point(15:51:53.432,+19:07:45.634) # point=cross 14 color=cyan width=2 text={'LAE1369'}
+point(15:52:18.773,+19:07:46.929) # point=cross 14 color=cyan width=2 text={'LAE1372'}
+point(15:52:12.897,+19:07:56.070) # point=cross 14 color=cyan width=2 text={'LAE1376'}
+point(15:51:06.275,+19:07:55.609) # point=cross 14 color=cyan width=2 text={'LAE1379'}
+point(15:51:04.744,+19:07:56.665) # point=cross 14 color=cyan width=2 text={'LAE1381'}
+point(15:50:59.743,+19:08:03.001) # point=cross 14 color=cyan width=2 text={'LAE1384'}
+point(15:51:43.919,+19:08:01.054) # point=cross 14 color=cyan width=2 text={'LAE1388'}
+point(15:52:12.100,+19:08:03.990) # point=cross 14 color=cyan width=2 text={'LAE1389'}
+point(15:52:14.309,+19:08:03.791) # point=cross 14 color=cyan width=2 text={'LAE1390'}
+point(15:51:33.960,+19:08:12.418) # point=cross 14 color=cyan width=2 text={'LAE1393'}
+point(15:52:41.635,+19:08:10.913) # point=cross 14 color=cyan width=2 text={'LAE1394'}
+point(15:52:31.107,+19:08:17.434) # point=cross 14 color=cyan width=2 text={'LAE1397'}
+point(15:51:26.244,+19:08:25.309) # point=cross 14 color=cyan width=2 text={'LAE1408'}
+point(15:51:24.478,+19:08:24.281) # point=cross 14 color=cyan width=2 text={'LAE1409'}
+point(15:51:33.262,+19:08:24.792) # point=cross 14 color=cyan width=2 text={'LAE1411'}
+point(15:52:15.321,+19:08:25.932) # point=cross 14 color=cyan width=2 text={'LAE1413'}
+point(15:51:02.653,+19:08:30.551) # point=cross 14 color=cyan width=2 text={'LAE1417'}
+point(15:52:16.815,+19:08:33.408) # point=cross 14 color=cyan width=2 text={'LAE1419'}
+point(15:52:21.876,+19:08:36.936) # point=cross 14 color=cyan width=2 text={'LAE1420'}
+point(15:52:21.963,+19:08:36.398) # point=cross 14 color=cyan width=2 text={'LAE1422'}
+point(15:51:04.356,+19:08:37.383) # point=cross 14 color=cyan width=2 text={'LAE1424'}
+point(15:51:18.440,+19:08:39.461) # point=cross 14 color=cyan width=2 text={'LAE1425'}
+point(15:52:14.570,+19:08:25.409) # point=cross 14 color=cyan width=2 text={'LAE1426'}
+point(15:51:18.690,+19:08:38.369) # point=cross 14 color=cyan width=2 text={'LAE1427'}
+point(15:51:04.518,+19:08:41.421) # point=cross 14 color=cyan width=2 text={'LAE1430'}
+point(15:51:19.641,+19:08:45.155) # point=cross 14 color=cyan width=2 text={'LAE1431'}
+point(15:52:01.025,+19:08:50.340) # point=cross 14 color=cyan width=2 text={'LAE1441'}
+point(15:52:36.178,+19:08:53.651) # point=cross 14 color=cyan width=2 text={'LAE1450'}
+point(15:52:27.322,+19:09:01.323) # point=cross 14 color=cyan width=2 text={'LAE1460'}
+point(15:51:38.470,+19:09:04.050) # point=cross 14 color=cyan width=2 text={'LAE1461'}
+point(15:51:01.233,+19:09:08.820) # point=cross 14 color=cyan width=2 text={'LAE1472'}
+point(15:51:17.991,+19:09:14.717) # point=cross 14 color=cyan width=2 text={'LAE1473'}
+point(15:51:37.803,+19:09:17.642) # point=cross 14 color=cyan width=2 text={'LAE1477'}
+point(15:52:12.319,+19:09:18.740) # point=cross 14 color=cyan width=2 text={'LAE1478'}
+point(15:51:23.853,+19:09:16.114) # point=cross 14 color=cyan width=2 text={'LAE1482'}
+point(15:52:25.491,+19:09:33.998) # point=cross 14 color=cyan width=2 text={'LAE1499'}
+point(15:52:16.617,+19:09:34.907) # point=cross 14 color=cyan width=2 text={'LAE1500'}
+point(15:51:37.973,+19:09:37.087) # point=cross 14 color=cyan width=2 text={'LAE1505'}
+point(15:50:58.742,+19:09:36.784) # point=cross 14 color=cyan width=2 text={'LAE1507'}
+point(15:51:27.811,+19:09:37.150) # point=cross 14 color=cyan width=2 text={'LAE1510'}
+point(15:51:02.394,+19:09:37.916) # point=cross 14 color=cyan width=2 text={'LAE1511'}
+point(15:51:08.823,+19:09:35.907) # point=cross 14 color=cyan width=2 text={'LAE1512'}
+point(15:52:10.565,+19:09:40.344) # point=cross 14 color=cyan width=2 text={'LAE1517'}
+point(15:51:00.806,+19:09:42.012) # point=cross 14 color=cyan width=2 text={'LAE1526'}
+point(15:51:28.448,+19:09:42.073) # point=cross 14 color=cyan width=2 text={'LAE1528'}
+point(15:52:39.841,+19:09:44.754) # point=cross 14 color=cyan width=2 text={'LAE1532'}
+point(15:52:24.472,+19:09:43.770) # point=cross 14 color=cyan width=2 text={'LAE1534'}
+point(15:51:36.935,+19:09:46.927) # point=cross 14 color=cyan width=2 text={'LAE1536'}
+point(15:51:37.583,+19:09:47.587) # point=cross 14 color=cyan width=2 text={'LAE1537'}
+point(15:51:01.764,+19:09:47.276) # point=cross 14 color=cyan width=2 text={'LAE1538'}
+point(15:51:34.187,+19:09:48.787) # point=cross 14 color=cyan width=2 text={'LAE1539'}
+point(15:51:26.847,+19:09:48.198) # point=cross 14 color=cyan width=2 text={'LAE1540'}
+point(15:51:28.681,+19:09:51.408) # point=cross 14 color=cyan width=2 text={'LAE1543'}
+point(15:51:08.339,+19:09:48.392) # point=cross 14 color=cyan width=2 text={'LAE1544'}
+point(15:51:03.857,+19:09:51.649) # point=cross 14 color=cyan width=2 text={'LAE1548'}
+point(15:51:19.544,+19:09:52.370) # point=cross 14 color=cyan width=2 text={'LAE1549'}
+point(15:51:17.931,+19:09:45.611) # point=cross 14 color=cyan width=2 text={'LAE1550'}
+point(15:51:04.912,+19:09:51.136) # point=cross 14 color=cyan width=2 text={'LAE1553'}
+point(15:52:02.139,+19:09:54.795) # point=cross 14 color=cyan width=2 text={'LAE1565'}
+point(15:52:18.271,+19:10:03.664) # point=cross 14 color=cyan width=2 text={'LAE1567'}
+point(15:52:10.599,+19:10:03.892) # point=cross 14 color=cyan width=2 text={'LAE1568'}
+point(15:52:16.669,+19:09:41.736) # point=cross 14 color=cyan width=2 text={'LAE1569'}
+point(15:52:27.864,+19:10:04.638) # point=cross 14 color=cyan width=2 text={'LAE1571'}
+point(15:51:54.005,+19:10:05.866) # point=cross 14 color=cyan width=2 text={'LAE1576'}
+point(15:51:38.648,+19:10:04.594) # point=cross 14 color=cyan width=2 text={'LAE1577'}
+point(15:52:21.927,+19:10:11.420) # point=cross 14 color=cyan width=2 text={'LAE1583'}
+point(15:51:41.899,+19:10:16.526) # point=cross 14 color=cyan width=2 text={'LAE1588'}
+point(15:51:18.316,+19:10:17.825) # point=cross 14 color=cyan width=2 text={'LAE1589'}
+point(15:51:41.595,+19:10:19.509) # point=cross 14 color=cyan width=2 text={'LAE1591'}
+point(15:51:29.988,+19:10:20.070) # point=cross 14 color=cyan width=2 text={'LAE1592'}
+point(15:51:22.748,+19:10:21.036) # point=cross 14 color=cyan width=2 text={'LAE1593'}
+point(15:52:00.093,+19:10:16.944) # point=cross 14 color=cyan width=2 text={'LAE1595'}
+point(15:52:11.236,+19:10:19.465) # point=cross 14 color=cyan width=2 text={'LAE1597'}
+point(15:52:26.212,+19:10:24.217) # point=cross 14 color=cyan width=2 text={'LAE1600'}
+point(15:51:02.568,+19:10:26.255) # point=cross 14 color=cyan width=2 text={'LAE1601'}
+point(15:51:26.301,+19:10:25.399) # point=cross 14 color=cyan width=2 text={'LAE1603'}
+point(15:52:15.306,+19:10:30.451) # point=cross 14 color=cyan width=2 text={'LAE1609'}
+point(15:52:13.122,+19:10:31.458) # point=cross 14 color=cyan width=2 text={'LAE1610'}
+point(15:51:50.767,+19:10:34.093) # point=cross 14 color=cyan width=2 text={'LAE1616'}
+point(15:51:24.031,+19:10:40.344) # point=cross 14 color=cyan width=2 text={'LAE1627'}
+point(15:51:49.569,+19:10:41.049) # point=cross 14 color=cyan width=2 text={'LAE1629'}
+point(15:51:11.092,+19:10:36.103) # point=cross 14 color=cyan width=2 text={'LAE1631'}
+point(15:51:07.093,+19:10:41.827) # point=cross 14 color=cyan width=2 text={'LAE1635'}
+point(15:52:08.858,+19:10:45.931) # point=cross 14 color=cyan width=2 text={'LAE1638'}
+point(15:51:06.716,+19:10:45.749) # point=cross 14 color=cyan width=2 text={'LAE1639'}
+point(15:52:15.441,+19:10:47.447) # point=cross 14 color=cyan width=2 text={'LAE1642'}
+point(15:52:14.101,+19:10:48.868) # point=cross 14 color=cyan width=2 text={'LAE1643'}
+point(15:52:15.101,+19:10:47.291) # point=cross 14 color=cyan width=2 text={'LAE1645'}
+point(15:52:15.426,+19:10:48.800) # point=cross 14 color=cyan width=2 text={'LAE1651'}
+point(15:52:02.191,+19:10:48.368) # point=cross 14 color=cyan width=2 text={'LAE1653'}
+point(15:51:49.851,+19:10:53.278) # point=cross 14 color=cyan width=2 text={'LAE1660'}
+point(15:52:43.153,+19:10:52.257) # point=cross 14 color=cyan width=2 text={'LAE1661'}
+point(15:51:05.485,+19:10:55.493) # point=cross 14 color=cyan width=2 text={'LAE1662'}
+point(15:52:42.143,+19:10:57.595) # point=cross 14 color=cyan width=2 text={'LAE1669'}
+point(15:51:09.522,+19:11:01.757) # point=cross 14 color=cyan width=2 text={'LAE1674'}
+point(15:52:20.543,+19:10:51.809) # point=cross 14 color=cyan width=2 text={'LAE1677'}
+point(15:51:46.978,+19:11:02.703) # point=cross 14 color=cyan width=2 text={'LAE1681'}
+point(15:51:12.768,+19:11:03.825) # point=cross 14 color=cyan width=2 text={'LAE1684'}
+point(15:51:25.351,+19:11:02.435) # point=cross 14 color=cyan width=2 text={'LAE1688'}
+point(15:51:37.053,+19:11:04.921) # point=cross 14 color=cyan width=2 text={'LAE1693'}
+point(15:52:27.787,+19:11:06.255) # point=cross 14 color=cyan width=2 text={'LAE1695'}
+point(15:52:35.123,+19:11:01.456) # point=cross 14 color=cyan width=2 text={'LAE1699'}
+point(15:51:34.555,+19:11:08.664) # point=cross 14 color=cyan width=2 text={'LAE1702'}
+point(15:52:28.870,+19:11:08.968) # point=cross 14 color=cyan width=2 text={'LAE1703'}
+point(15:51:04.547,+19:11:10.845) # point=cross 14 color=cyan width=2 text={'LAE1707'}
+point(15:51:35.785,+19:11:09.520) # point=cross 14 color=cyan width=2 text={'LAE1709'}
+point(15:52:40.800,+19:11:14.735) # point=cross 14 color=cyan width=2 text={'LAE1715'}
+point(15:52:00.983,+19:11:15.263) # point=cross 14 color=cyan width=2 text={'LAE1716'}
+point(15:52:26.734,+19:11:15.932) # point=cross 14 color=cyan width=2 text={'LAE1717'}
+point(15:52:34.926,+19:11:16.608) # point=cross 14 color=cyan width=2 text={'LAE1719'}
+point(15:51:15.582,+19:11:21.849) # point=cross 14 color=cyan width=2 text={'LAE1721'}
+point(15:51:03.479,+19:11:23.100) # point=cross 14 color=cyan width=2 text={'LAE1727'}
+point(15:51:19.002,+19:11:28.643) # point=cross 14 color=cyan width=2 text={'LAE1736'}
+point(15:52:35.281,+19:11:29.115) # point=cross 14 color=cyan width=2 text={'LAE1740'}
+point(15:51:14.871,+19:11:31.444) # point=cross 14 color=cyan width=2 text={'LAE1741'}
+point(15:52:32.262,+19:11:32.262) # point=cross 14 color=cyan width=2 text={'LAE1742'}
+point(15:52:15.499,+19:11:29.385) # point=cross 14 color=cyan width=2 text={'LAE1743'}
+point(15:51:22.659,+19:11:33.424) # point=cross 14 color=cyan width=2 text={'LAE1744'}
+point(15:51:01.896,+19:11:35.049) # point=cross 14 color=cyan width=2 text={'LAE1751'}
+point(15:50:57.598,+19:11:37.022) # point=cross 14 color=cyan width=2 text={'LAE1756'}
+point(15:51:38.100,+19:11:35.446) # point=cross 14 color=cyan width=2 text={'LAE1757'}
+point(15:51:34.234,+19:11:41.868) # point=cross 14 color=cyan width=2 text={'LAE1759'}
+point(15:52:10.245,+19:11:41.807) # point=cross 14 color=cyan width=2 text={'LAE1760'}
+point(15:52:16.908,+19:11:40.965) # point=cross 14 color=cyan width=2 text={'LAE1762'}
+point(15:52:11.056,+19:11:49.242) # point=cross 14 color=cyan width=2 text={'LAE1774'}
+point(15:52:15.498,+19:11:49.832) # point=cross 14 color=cyan width=2 text={'LAE1775'}
+point(15:51:02.407,+19:11:52.199) # point=cross 14 color=cyan width=2 text={'LAE1782'}
+point(15:52:34.297,+19:11:53.577) # point=cross 14 color=cyan width=2 text={'LAE1783'}
+point(15:52:33.922,+19:11:52.653) # point=cross 14 color=cyan width=2 text={'LAE1786'}
+point(15:51:23.067,+19:11:54.553) # point=cross 14 color=cyan width=2 text={'LAE1789'}
+point(15:51:20.672,+19:11:56.256) # point=cross 14 color=cyan width=2 text={'LAE1790'}
+point(15:52:12.109,+19:11:58.334) # point=cross 14 color=cyan width=2 text={'LAE1795'}
+point(15:52:42.692,+19:11:56.182) # point=cross 14 color=cyan width=2 text={'LAE1802'}
+point(15:52:24.273,+19:12:03.366) # point=cross 14 color=cyan width=2 text={'LAE1805'}
+point(15:51:10.230,+19:12:05.915) # point=cross 14 color=cyan width=2 text={'LAE1808'}
+point(15:50:58.755,+19:11:58.562) # point=cross 14 color=cyan width=2 text={'LAE1809'}
+point(15:51:29.674,+19:12:07.151) # point=cross 14 color=cyan width=2 text={'LAE1813'}
+point(15:52:23.171,+19:12:09.218) # point=cross 14 color=cyan width=2 text={'LAE1818'}
+point(15:51:20.221,+19:12:12.328) # point=cross 14 color=cyan width=2 text={'LAE1822'}
+point(15:52:10.867,+19:12:11.285) # point=cross 14 color=cyan width=2 text={'LAE1824'}
+point(15:51:06.509,+19:12:15.111) # point=cross 14 color=cyan width=2 text={'LAE1834'}
+point(15:52:17.198,+19:12:14.206) # point=cross 14 color=cyan width=2 text={'LAE1836'}
+point(15:52:17.194,+19:12:16.613) # point=cross 14 color=cyan width=2 text={'LAE1845'}
+point(15:51:45.879,+19:12:23.041) # point=cross 14 color=cyan width=2 text={'LAE1846'}
+point(15:51:01.947,+19:12:25.850) # point=cross 14 color=cyan width=2 text={'LAE1850'}
+point(15:51:56.576,+19:12:26.404) # point=cross 14 color=cyan width=2 text={'LAE1851'}
+point(15:51:01.652,+19:12:27.493) # point=cross 14 color=cyan width=2 text={'LAE1853'}
+point(15:52:17.964,+19:12:27.483) # point=cross 14 color=cyan width=2 text={'LAE1854'}
+point(15:51:34.576,+19:12:25.607) # point=cross 14 color=cyan width=2 text={'LAE1855'}
+point(15:52:25.061,+19:12:31.640) # point=cross 14 color=cyan width=2 text={'LAE1861'}
+point(15:51:46.319,+19:12:32.630) # point=cross 14 color=cyan width=2 text={'LAE1862'}
+point(15:52:18.298,+19:12:32.210) # point=cross 14 color=cyan width=2 text={'LAE1863'}
+point(15:52:31.789,+19:12:32.976) # point=cross 14 color=cyan width=2 text={'LAE1864'}
+point(15:51:32.108,+19:12:31.658) # point=cross 14 color=cyan width=2 text={'LAE1865'}
+point(15:51:22.909,+19:12:30.868) # point=cross 14 color=cyan width=2 text={'LAE1866'}
+point(15:52:16.179,+19:12:36.346) # point=cross 14 color=cyan width=2 text={'LAE1871'}
+point(15:52:37.695,+19:12:40.729) # point=cross 14 color=cyan width=2 text={'LAE1878'}
+point(15:51:34.339,+19:12:40.002) # point=cross 14 color=cyan width=2 text={'LAE1882'}
+point(15:52:14.517,+19:12:48.088) # point=cross 14 color=cyan width=2 text={'LAE1890'}
+point(15:51:12.396,+19:12:51.466) # point=cross 14 color=cyan width=2 text={'LAE1897'}
+point(15:51:34.150,+19:12:50.337) # point=cross 14 color=cyan width=2 text={'LAE1901'}
+point(15:52:15.741,+19:12:56.046) # point=cross 14 color=cyan width=2 text={'LAE1902'}
+point(15:51:32.493,+19:12:58.479) # point=cross 14 color=cyan width=2 text={'LAE1907'}
+point(15:51:02.987,+19:13:00.517) # point=cross 14 color=cyan width=2 text={'LAE1908'}
+point(15:52:39.259,+19:12:53.980) # point=cross 14 color=cyan width=2 text={'LAE1910'}
+point(15:52:28.399,+19:13:00.976) # point=cross 14 color=cyan width=2 text={'LAE1911'}
+point(15:51:37.550,+19:13:02.213) # point=cross 14 color=cyan width=2 text={'LAE1914'}
+point(15:52:18.992,+19:13:04.234) # point=cross 14 color=cyan width=2 text={'LAE1918'}
+point(15:51:16.807,+19:13:05.313) # point=cross 14 color=cyan width=2 text={'LAE1922'}
+point(15:52:28.400,+19:13:07.249) # point=cross 14 color=cyan width=2 text={'LAE1924'}
+point(15:52:24.689,+19:13:03.970) # point=cross 14 color=cyan width=2 text={'LAE1925'}
+point(15:52:19.952,+19:13:08.418) # point=cross 14 color=cyan width=2 text={'LAE1926'}
+point(15:51:17.617,+19:13:06.594) # point=cross 14 color=cyan width=2 text={'LAE1931'}
+point(15:51:13.711,+19:13:09.067) # point=cross 14 color=cyan width=2 text={'LAE1933'}
+point(15:51:48.308,+19:13:13.316) # point=cross 14 color=cyan width=2 text={'LAE1936'}
+point(15:51:29.544,+19:13:12.853) # point=cross 14 color=cyan width=2 text={'LAE1937'}
+point(15:52:12.878,+19:13:18.327) # point=cross 14 color=cyan width=2 text={'LAE1940'}
+point(15:52:20.750,+19:13:18.964) # point=cross 14 color=cyan width=2 text={'LAE1943'}
+point(15:51:43.407,+19:13:19.498) # point=cross 14 color=cyan width=2 text={'LAE1944'}
+point(15:52:32.644,+19:13:20.390) # point=cross 14 color=cyan width=2 text={'LAE1945'}
+point(15:51:55.908,+19:13:24.049) # point=cross 14 color=cyan width=2 text={'LAE1946'}
+point(15:51:57.734,+19:13:27.475) # point=cross 14 color=cyan width=2 text={'LAE1948'}
+point(15:51:42.243,+19:13:29.456) # point=cross 14 color=cyan width=2 text={'LAE1953'}
+point(15:51:13.969,+19:13:30.374) # point=cross 14 color=cyan width=2 text={'LAE1954'}
+point(15:51:40.403,+19:13:32.347) # point=cross 14 color=cyan width=2 text={'LAE1957'}
+point(15:51:24.016,+19:13:33.617) # point=cross 14 color=cyan width=2 text={'LAE1958'}
+point(15:52:13.982,+19:13:33.335) # point=cross 14 color=cyan width=2 text={'LAE1959'}
+point(15:51:46.641,+19:13:35.783) # point=cross 14 color=cyan width=2 text={'LAE1961'}
+point(15:51:36.918,+19:13:36.069) # point=cross 14 color=cyan width=2 text={'LAE1963'}
+point(15:51:42.972,+19:13:38.605) # point=cross 14 color=cyan width=2 text={'LAE1970'}
+point(15:51:05.349,+19:13:44.658) # point=cross 14 color=cyan width=2 text={'LAE1977'}
+point(15:51:49.062,+19:13:44.903) # point=cross 14 color=cyan width=2 text={'LAE1978'}
+point(15:52:16.841,+19:13:46.340) # point=cross 14 color=cyan width=2 text={'LAE1979'}
+point(15:51:17.592,+19:13:44.669) # point=cross 14 color=cyan width=2 text={'LAE1980'}
+point(15:51:56.423,+19:13:45.742) # point=cross 14 color=cyan width=2 text={'LAE1981'}
+point(15:52:15.197,+19:13:43.290) # point=cross 14 color=cyan width=2 text={'LAE1982'}
+point(15:52:28.350,+19:13:50.516) # point=cross 14 color=cyan width=2 text={'LAE1991'}
+point(15:52:24.666,+19:13:54.937) # point=cross 14 color=cyan width=2 text={'LAE1994'}
+point(15:51:01.526,+19:13:55.815) # point=cross 14 color=cyan width=2 text={'LAE1995'}
+point(15:52:13.229,+19:13:54.602) # point=cross 14 color=cyan width=2 text={'LAE1997'}
+point(15:51:22.551,+19:13:57.871) # point=cross 14 color=cyan width=2 text={'LAE1998'}
+point(15:51:36.698,+19:13:58.646) # point=cross 14 color=cyan width=2 text={'LAE2000'}
+point(15:51:10.372,+19:14:01.041) # point=cross 14 color=cyan width=2 text={'LAE2002'}
+point(15:51:12.711,+19:14:04.049) # point=cross 14 color=cyan width=2 text={'LAE2008'}
+point(15:51:11.048,+19:14:00.465) # point=cross 14 color=cyan width=2 text={'LAE2009'}
+point(15:51:11.349,+19:14:08.972) # point=cross 14 color=cyan width=2 text={'LAE2012'}
+point(15:52:31.478,+19:14:08.028) # point=cross 14 color=cyan width=2 text={'LAE2013'}
+point(15:51:11.351,+19:14:11.269) # point=cross 14 color=cyan width=2 text={'LAE2014'}
+point(15:52:37.091,+19:14:10.623) # point=cross 14 color=cyan width=2 text={'LAE2015'}
+point(15:51:28.024,+19:14:06.963) # point=cross 14 color=cyan width=2 text={'LAE2016'}
+point(15:51:11.123,+19:14:13.654) # point=cross 14 color=cyan width=2 text={'LAE2017'}
+point(15:51:16.075,+19:14:18.958) # point=cross 14 color=cyan width=2 text={'LAE2021'}
+point(15:51:50.106,+19:14:19.012) # point=cross 14 color=cyan width=2 text={'LAE2022'}
+point(15:52:42.000,+19:14:18.692) # point=cross 14 color=cyan width=2 text={'LAE2023'}
+point(15:52:09.680,+19:14:26.419) # point=cross 14 color=cyan width=2 text={'LAE2030'}
+point(15:51:38.758,+19:14:31.690) # point=cross 14 color=cyan width=2 text={'LAE2036'}
+point(15:51:56.314,+19:14:28.724) # point=cross 14 color=cyan width=2 text={'LAE2037'}
+point(15:51:29.952,+19:14:32.250) # point=cross 14 color=cyan width=2 text={'LAE2043'}
+point(15:51:05.937,+19:14:34.269) # point=cross 14 color=cyan width=2 text={'LAE2044'}
+point(15:52:37.957,+19:14:34.478) # point=cross 14 color=cyan width=2 text={'LAE2045'}
+point(15:51:42.676,+19:14:36.753) # point=cross 14 color=cyan width=2 text={'LAE2046'}
+point(15:51:38.116,+19:14:38.181) # point=cross 14 color=cyan width=2 text={'LAE2051'}
+point(15:51:45.296,+19:14:37.517) # point=cross 14 color=cyan width=2 text={'LAE2052'}
+point(15:52:37.969,+19:14:38.989) # point=cross 14 color=cyan width=2 text={'LAE2055'}
+point(15:52:40.130,+19:14:40.456) # point=cross 14 color=cyan width=2 text={'LAE2058'}
+point(15:52:18.899,+19:14:40.972) # point=cross 14 color=cyan width=2 text={'LAE2060'}
+point(15:52:35.978,+19:14:43.209) # point=cross 14 color=cyan width=2 text={'LAE2062'}
+point(15:52:41.184,+19:14:44.227) # point=cross 14 color=cyan width=2 text={'LAE2063'}
+point(15:52:13.949,+19:14:43.148) # point=cross 14 color=cyan width=2 text={'LAE2064'}
+point(15:51:27.778,+19:14:46.585) # point=cross 14 color=cyan width=2 text={'LAE2067'}
+point(15:52:16.971,+19:14:50.012) # point=cross 14 color=cyan width=2 text={'LAE2068'}
+point(15:51:11.806,+19:14:50.497) # point=cross 14 color=cyan width=2 text={'LAE2070'}
+point(15:51:23.004,+19:14:48.351) # point=cross 14 color=cyan width=2 text={'LAE2071'}
+point(15:51:22.273,+19:14:50.230) # point=cross 14 color=cyan width=2 text={'LAE2072'}
+point(15:52:33.562,+19:14:52.472) # point=cross 14 color=cyan width=2 text={'LAE2073'}
+point(15:52:13.227,+19:14:54.708) # point=cross 14 color=cyan width=2 text={'LAE2074'}
+point(15:51:37.000,+19:14:53.787) # point=cross 14 color=cyan width=2 text={'LAE2077'}
+point(15:52:33.528,+19:14:53.577) # point=cross 14 color=cyan width=2 text={'LAE2078'}
+point(15:51:51.041,+19:14:59.008) # point=cross 14 color=cyan width=2 text={'LAE2079'}
+point(15:52:38.389,+19:14:56.766) # point=cross 14 color=cyan width=2 text={'LAE2081'}
+point(15:52:06.607,+19:15:05.517) # point=cross 14 color=cyan width=2 text={'LAE2087'}
+point(15:52:35.152,+19:15:04.128) # point=cross 14 color=cyan width=2 text={'LAE2088'}
+point(15:52:00.169,+19:15:01.326) # point=cross 14 color=cyan width=2 text={'LAE2092'}
+point(15:51:12.091,+19:15:10.568) # point=cross 14 color=cyan width=2 text={'LAE2095'}
+point(15:51:19.384,+19:15:13.188) # point=cross 14 color=cyan width=2 text={'LAE2097'}
+point(15:51:08.924,+19:15:14.867) # point=cross 14 color=cyan width=2 text={'LAE2100'}
+point(15:52:40.390,+19:15:16.713) # point=cross 14 color=cyan width=2 text={'LAE2108'}
+point(15:52:41.998,+19:15:22.786) # point=cross 14 color=cyan width=2 text={'LAE2116'}
+point(15:51:21.844,+19:15:21.857) # point=cross 14 color=cyan width=2 text={'LAE2118'}
+point(15:51:28.746,+19:15:23.853) # point=cross 14 color=cyan width=2 text={'LAE2119'}
+point(15:52:03.478,+19:15:25.091) # point=cross 14 color=cyan width=2 text={'LAE2120'}
+point(15:51:26.429,+19:15:25.262) # point=cross 14 color=cyan width=2 text={'LAE2124'}
+point(15:52:02.667,+19:15:23.402) # point=cross 14 color=cyan width=2 text={'LAE2125'}
+point(15:52:13.762,+19:15:32.106) # point=cross 14 color=cyan width=2 text={'LAE2133'}
+point(15:51:41.916,+19:15:35.756) # point=cross 14 color=cyan width=2 text={'LAE2137'}
+point(15:52:12.709,+19:15:39.460) # point=cross 14 color=cyan width=2 text={'LAE2141'}
+point(15:51:09.390,+19:15:35.486) # point=cross 14 color=cyan width=2 text={'LAE2142'}
+point(15:51:46.253,+19:15:38.793) # point=cross 14 color=cyan width=2 text={'LAE2143'}
+point(15:52:12.496,+19:15:37.819) # point=cross 14 color=cyan width=2 text={'LAE2145'}
+point(15:51:43.100,+19:15:40.221) # point=cross 14 color=cyan width=2 text={'LAE2146'}
+point(15:51:09.403,+19:15:39.090) # point=cross 14 color=cyan width=2 text={'LAE2148'}
+point(15:52:29.810,+19:15:39.370) # point=cross 14 color=cyan width=2 text={'LAE2149'}
+point(15:51:48.416,+19:15:30.693) # point=cross 14 color=cyan width=2 text={'LAE2153'}
+point(15:51:06.673,+19:15:47.441) # point=cross 14 color=cyan width=2 text={'LAE2160'}
+point(15:52:30.353,+19:15:48.459) # point=cross 14 color=cyan width=2 text={'LAE2162'}
+point(15:50:58.273,+19:15:50.686) # point=cross 14 color=cyan width=2 text={'LAE2164'}
+point(15:52:03.556,+19:15:52.504) # point=cross 14 color=cyan width=2 text={'LAE2169'}
+point(15:51:40.819,+19:15:53.149) # point=cross 14 color=cyan width=2 text={'LAE2171'}
+point(15:51:11.760,+19:15:56.579) # point=cross 14 color=cyan width=2 text={'LAE2173'}
+point(15:51:52.773,+19:15:53.452) # point=cross 14 color=cyan width=2 text={'LAE2177'}
+point(15:51:03.107,+19:16:06.542) # point=cross 14 color=cyan width=2 text={'LAE2183'}
+point(15:52:02.426,+19:16:08.309) # point=cross 14 color=cyan width=2 text={'LAE2185'}
+point(15:52:11.184,+19:16:12.309) # point=cross 14 color=cyan width=2 text={'LAE2191'}
+point(15:52:03.267,+19:16:12.736) # point=cross 14 color=cyan width=2 text={'LAE2192'}
+point(15:51:03.770,+19:16:15.038) # point=cross 14 color=cyan width=2 text={'LAE2194'}
+point(15:51:23.691,+19:16:13.431) # point=cross 14 color=cyan width=2 text={'LAE2195'}
+point(15:52:32.659,+19:16:19.771) # point=cross 14 color=cyan width=2 text={'LAE2197'}
+point(15:51:19.391,+19:16:15.539) # point=cross 14 color=cyan width=2 text={'LAE2198'}
+point(15:51:19.507,+19:16:14.378) # point=cross 14 color=cyan width=2 text={'LAE2200'}
+point(15:51:08.308,+19:16:22.987) # point=cross 14 color=cyan width=2 text={'LAE2201'}
+point(15:52:37.219,+19:16:18.316) # point=cross 14 color=cyan width=2 text={'LAE2202'}
+point(15:52:26.324,+19:16:23.824) # point=cross 14 color=cyan width=2 text={'LAE2204'}
+point(15:52:41.110,+19:16:25.977) # point=cross 14 color=cyan width=2 text={'LAE2205'}
+point(15:51:55.644,+19:16:26.848) # point=cross 14 color=cyan width=2 text={'LAE2206'}
+point(15:52:15.442,+19:16:28.114) # point=cross 14 color=cyan width=2 text={'LAE2207'}
+point(15:52:28.530,+19:16:28.432) # point=cross 14 color=cyan width=2 text={'LAE2212'}
+point(15:52:31.474,+19:16:24.559) # point=cross 14 color=cyan width=2 text={'LAE2213'}
+point(15:52:29.642,+19:16:39.893) # point=cross 14 color=cyan width=2 text={'LAE2218'}
+point(15:51:08.397,+19:16:41.084) # point=cross 14 color=cyan width=2 text={'LAE2219'}
+point(15:51:09.832,+19:16:42.756) # point=cross 14 color=cyan width=2 text={'LAE2222'}
+point(15:51:12.383,+19:16:42.585) # point=cross 14 color=cyan width=2 text={'LAE2223'}
+point(15:52:42.695,+19:16:41.903) # point=cross 14 color=cyan width=2 text={'LAE2224'}
+point(15:51:15.785,+19:16:41.051) # point=cross 14 color=cyan width=2 text={'LAE2225'}
+point(15:51:50.932,+19:16:41.859) # point=cross 14 color=cyan width=2 text={'LAE2226'}
+point(15:51:24.642,+19:16:42.277) # point=cross 14 color=cyan width=2 text={'LAE2229'}
+point(15:52:34.299,+19:16:47.972) # point=cross 14 color=cyan width=2 text={'LAE2230'}
+point(15:51:21.934,+19:16:51.342) # point=cross 14 color=cyan width=2 text={'LAE2233'}
+point(15:52:37.043,+19:16:53.785) # point=cross 14 color=cyan width=2 text={'LAE2239'}
+point(15:51:40.832,+19:16:54.469) # point=cross 14 color=cyan width=2 text={'LAE2241'}
+point(15:51:01.026,+19:16:53.980) # point=cross 14 color=cyan width=2 text={'LAE2243'}
+point(15:52:19.104,+19:16:55.909) # point=cross 14 color=cyan width=2 text={'LAE2245'}
+point(15:51:11.991,+19:16:55.476) # point=cross 14 color=cyan width=2 text={'LAE2246'}
+point(15:51:05.873,+19:16:59.803) # point=cross 14 color=cyan width=2 text={'LAE2249'}
+point(15:52:37.413,+19:17:02.593) # point=cross 14 color=cyan width=2 text={'LAE2256'}
+point(15:51:14.289,+19:17:05.396) # point=cross 14 color=cyan width=2 text={'LAE2257'}
+point(15:52:40.497,+19:17:03.012) # point=cross 14 color=cyan width=2 text={'LAE2259'}
+point(15:51:04.165,+19:17:06.222) # point=cross 14 color=cyan width=2 text={'LAE2260'}
+point(15:52:26.523,+19:17:00.898) # point=cross 14 color=cyan width=2 text={'LAE2261'}
+point(15:52:07.638,+19:17:09.628) # point=cross 14 color=cyan width=2 text={'LAE2266'}
+point(15:51:18.021,+19:17:13.667) # point=cross 14 color=cyan width=2 text={'LAE2270'}
+point(15:51:56.187,+19:17:12.167) # point=cross 14 color=cyan width=2 text={'LAE2272'}
+point(15:51:01.642,+19:17:12.231) # point=cross 14 color=cyan width=2 text={'LAE2273'}
+point(15:52:26.416,+19:17:16.294) # point=cross 14 color=cyan width=2 text={'LAE2276'}
+point(15:51:08.826,+19:17:23.312) # point=cross 14 color=cyan width=2 text={'LAE2281'}
+point(15:51:05.027,+19:17:27.811) # point=cross 14 color=cyan width=2 text={'LAE2283'}
+point(15:52:08.284,+19:17:34.402) # point=cross 14 color=cyan width=2 text={'LAE2289'}
+point(15:51:58.404,+19:17:36.149) # point=cross 14 color=cyan width=2 text={'LAE2294'}
+point(15:51:12.692,+19:17:35.368) # point=cross 14 color=cyan width=2 text={'LAE2295'}
+point(15:52:35.024,+19:17:39.773) # point=cross 14 color=cyan width=2 text={'LAE2296'}
+point(15:52:14.449,+19:17:45.221) # point=cross 14 color=cyan width=2 text={'LAE2303'}
+point(15:51:10.032,+19:17:43.747) # point=cross 14 color=cyan width=2 text={'LAE2305'}
+point(15:51:26.243,+19:17:40.161) # point=cross 14 color=cyan width=2 text={'LAE2307'}
+point(15:51:22.018,+19:17:47.213) # point=cross 14 color=cyan width=2 text={'LAE2308'}
+point(15:52:23.174,+19:17:48.199) # point=cross 14 color=cyan width=2 text={'LAE2309'}
+point(15:51:17.372,+19:17:52.208) # point=cross 14 color=cyan width=2 text={'LAE2310'}
+point(15:51:10.747,+19:17:53.748) # point=cross 14 color=cyan width=2 text={'LAE2312'}
+point(15:52:43.100,+19:17:52.259) # point=cross 14 color=cyan width=2 text={'LAE2313'}
+point(15:52:24.936,+19:17:58.382) # point=cross 14 color=cyan width=2 text={'LAE2316'}
+point(15:51:01.906,+19:17:56.763) # point=cross 14 color=cyan width=2 text={'LAE2319'}
+point(15:51:00.070,+19:18:05.646) # point=cross 14 color=cyan width=2 text={'LAE2323'}
+point(15:51:06.943,+19:18:01.307) # point=cross 14 color=cyan width=2 text={'LAE2325'}
+point(15:51:11.425,+19:18:10.080) # point=cross 14 color=cyan width=2 text={'LAE2330'}
+point(15:51:13.860,+19:18:16.128) # point=cross 14 color=cyan width=2 text={'LAE2332'}
+point(15:51:20.048,+19:18:15.155) # point=cross 14 color=cyan width=2 text={'LAE2333'}
+point(15:51:26.375,+19:18:18.902) # point=cross 14 color=cyan width=2 text={'LAE2334'}
+point(15:52:24.429,+19:18:20.345) # point=cross 14 color=cyan width=2 text={'LAE2338'}
+point(15:51:15.299,+19:18:23.505) # point=cross 14 color=cyan width=2 text={'LAE2341'}
+point(15:52:26.614,+19:18:23.691) # point=cross 14 color=cyan width=2 text={'LAE2344'}
+point(15:52:12.011,+19:18:24.141) # point=cross 14 color=cyan width=2 text={'LAE2345'}
+point(15:52:29.321,+19:18:28.065) # point=cross 14 color=cyan width=2 text={'LAE2351'}
+point(15:52:11.876,+19:18:28.984) # point=cross 14 color=cyan width=2 text={'LAE2352'}
+point(15:52:41.881,+19:18:27.906) # point=cross 14 color=cyan width=2 text={'LAE2353'}
+point(15:52:15.658,+19:18:31.882) # point=cross 14 color=cyan width=2 text={'LAE2358'}
+point(15:51:27.161,+19:18:31.175) # point=cross 14 color=cyan width=2 text={'LAE2359'}
+point(15:52:14.927,+19:18:27.829) # point=cross 14 color=cyan width=2 text={'LAE2361'}
+point(15:52:30.354,+19:18:32.426) # point=cross 14 color=cyan width=2 text={'LAE2363'}
+point(15:51:44.219,+19:18:34.295) # point=cross 14 color=cyan width=2 text={'LAE2364'}
+point(15:52:29.349,+19:18:35.822) # point=cross 14 color=cyan width=2 text={'LAE2365'}
+point(15:52:06.927,+19:18:35.153) # point=cross 14 color=cyan width=2 text={'LAE2366'}
+point(15:50:58.980,+19:18:36.547) # point=cross 14 color=cyan width=2 text={'LAE2367'}
+point(15:52:35.057,+19:18:36.449) # point=cross 14 color=cyan width=2 text={'LAE2369'}
+point(15:52:41.296,+19:18:39.497) # point=cross 14 color=cyan width=2 text={'LAE2370'}
+point(15:51:18.285,+19:18:36.886) # point=cross 14 color=cyan width=2 text={'LAE2371'}
+point(15:52:27.454,+19:18:39.130) # point=cross 14 color=cyan width=2 text={'LAE2372'}
+point(15:51:22.545,+19:18:41.127) # point=cross 14 color=cyan width=2 text={'LAE2375'}
+point(15:50:57.691,+19:18:44.104) # point=cross 14 color=cyan width=2 text={'LAE2378'}
+point(15:52:11.540,+19:18:45.789) # point=cross 14 color=cyan width=2 text={'LAE2379'}
+point(15:52:26.201,+19:18:14.980) # point=cross 14 color=cyan width=2 text={'LAE2387'}
+point(15:52:09.842,+19:18:53.681) # point=cross 14 color=cyan width=2 text={'LAE2388'}
+point(15:52:39.498,+19:18:53.084) # point=cross 14 color=cyan width=2 text={'LAE2390'}
+point(15:50:59.803,+19:18:55.032) # point=cross 14 color=cyan width=2 text={'LAE2392'}
+point(15:52:37.465,+19:18:54.360) # point=cross 14 color=cyan width=2 text={'LAE2393'}
+point(15:51:10.725,+19:18:58.625) # point=cross 14 color=cyan width=2 text={'LAE2398'}
+point(15:51:11.869,+19:19:01.223) # point=cross 14 color=cyan width=2 text={'LAE2399'}
+point(15:51:10.932,+19:19:02.903) # point=cross 14 color=cyan width=2 text={'LAE2400'}
+point(15:51:17.721,+19:19:02.991) # point=cross 14 color=cyan width=2 text={'LAE2401'}
+point(15:51:04.402,+19:19:09.804) # point=cross 14 color=cyan width=2 text={'LAE2406'}
+point(15:52:23.309,+19:19:11.258) # point=cross 14 color=cyan width=2 text={'LAE2410'}
+point(15:52:36.180,+19:19:12.982) # point=cross 14 color=cyan width=2 text={'LAE2412'}
+point(15:52:41.540,+19:19:14.254) # point=cross 14 color=cyan width=2 text={'LAE2415'}
+point(15:50:57.637,+19:19:16.882) # point=cross 14 color=cyan width=2 text={'LAE2416'}
+point(15:51:23.935,+19:19:17.425) # point=cross 14 color=cyan width=2 text={'LAE2417'}
+point(15:52:31.449,+19:19:13.501) # point=cross 14 color=cyan width=2 text={'LAE2418'}
+point(15:51:55.279,+19:19:20.259) # point=cross 14 color=cyan width=2 text={'LAE2424'}
+point(15:51:22.271,+19:19:22.816) # point=cross 14 color=cyan width=2 text={'LAE2425'}
+point(15:51:10.894,+19:19:24.092) # point=cross 14 color=cyan width=2 text={'LAE2426'}
+point(15:51:56.136,+19:19:23.390) # point=cross 14 color=cyan width=2 text={'LAE2427'}
+point(15:51:17.049,+19:19:24.520) # point=cross 14 color=cyan width=2 text={'LAE2428'}
+point(15:51:17.117,+19:19:28.323) # point=cross 14 color=cyan width=2 text={'LAE2435'}
+point(15:51:58.292,+19:19:31.356) # point=cross 14 color=cyan width=2 text={'LAE2441'}
+point(15:51:49.115,+19:19:32.573) # point=cross 14 color=cyan width=2 text={'LAE2443'}
+point(15:51:25.667,+19:19:32.468) # point=cross 14 color=cyan width=2 text={'LAE2445'}
+point(15:52:39.391,+19:19:34.772) # point=cross 14 color=cyan width=2 text={'LAE2446'}
+point(15:51:21.179,+19:19:37.237) # point=cross 14 color=cyan width=2 text={'LAE2450'}
+point(15:52:31.425,+19:19:41.074) # point=cross 14 color=cyan width=2 text={'LAE2451'}
+point(15:51:20.558,+19:19:42.480) # point=cross 14 color=cyan width=2 text={'LAE2453'}
+point(15:51:10.865,+19:19:41.585) # point=cross 14 color=cyan width=2 text={'LAE2457'}
+point(15:51:04.995,+19:19:44.120) # point=cross 14 color=cyan width=2 text={'LAE2458'}
+point(15:51:11.723,+19:19:44.065) # point=cross 14 color=cyan width=2 text={'LAE2460'}
+point(15:51:56.086,+19:19:43.899) # point=cross 14 color=cyan width=2 text={'LAE2461'}
+point(15:52:02.975,+19:19:47.531) # point=cross 14 color=cyan width=2 text={'LAE2464'}
+point(15:51:54.874,+19:19:48.158) # point=cross 14 color=cyan width=2 text={'LAE2465'}
+point(15:51:50.988,+19:19:50.304) # point=cross 14 color=cyan width=2 text={'LAE2466'}
+point(15:52:03.517,+19:19:51.226) # point=cross 14 color=cyan width=2 text={'LAE2467'}
+point(15:52:41.229,+19:19:55.560) # point=cross 14 color=cyan width=2 text={'LAE2468'}
+point(15:52:06.496,+19:19:56.969) # point=cross 14 color=cyan width=2 text={'LAE2471'}
+point(15:52:00.831,+19:19:59.957) # point=cross 14 color=cyan width=2 text={'LAE2472'}
+point(15:52:18.670,+19:19:58.916) # point=cross 14 color=cyan width=2 text={'LAE2474'}
+point(15:51:27.727,+19:20:01.560) # point=cross 14 color=cyan width=2 text={'LAE2477'}
+point(15:52:24.814,+19:20:08.328) # point=cross 14 color=cyan width=2 text={'LAE2483'}
+point(15:51:54.423,+19:20:05.557) # point=cross 14 color=cyan width=2 text={'LAE2484'}
+point(15:51:49.723,+19:20:10.834) # point=cross 14 color=cyan width=2 text={'LAE2491'}
+point(15:50:58.057,+19:20:15.369) # point=cross 14 color=cyan width=2 text={'LAE2493'}
+point(15:52:20.776,+19:20:16.988) # point=cross 14 color=cyan width=2 text={'LAE2494'}
+point(15:52:04.722,+19:20:18.963) # point=cross 14 color=cyan width=2 text={'LAE2495'}
+point(15:51:55.030,+19:20:21.613) # point=cross 14 color=cyan width=2 text={'LAE2499'}
+point(15:51:49.842,+19:20:22.941) # point=cross 14 color=cyan width=2 text={'LAE2502'}
+point(15:51:24.448,+19:20:24.258) # point=cross 14 color=cyan width=2 text={'LAE2503'}
+point(15:51:53.115,+19:20:25.655) # point=cross 14 color=cyan width=2 text={'LAE2505'}
+point(15:51:07.416,+19:20:26.878) # point=cross 14 color=cyan width=2 text={'LAE2507'}
+point(15:51:05.903,+19:20:27.594) # point=cross 14 color=cyan width=2 text={'LAE2510'}
+point(15:52:16.035,+19:20:27.797) # point=cross 14 color=cyan width=2 text={'LAE2511'}
+point(15:51:19.491,+19:20:36.806) # point=cross 14 color=cyan width=2 text={'LAE2519'}
+point(15:51:39.726,+19:20:37.563) # point=cross 14 color=cyan width=2 text={'LAE2520'}
+point(15:51:05.258,+19:20:40.000) # point=cross 14 color=cyan width=2 text={'LAE2524'}
+point(15:52:27.632,+19:20:42.463) # point=cross 14 color=cyan width=2 text={'LAE2526'}
+point(15:52:35.558,+19:20:42.042) # point=cross 14 color=cyan width=2 text={'LAE2527'}
+point(15:51:49.448,+19:20:44.870) # point=cross 14 color=cyan width=2 text={'LAE2529'}
+point(15:52:28.381,+19:20:49.907) # point=cross 14 color=cyan width=2 text={'LAE2533'}
+point(15:52:18.352,+19:20:49.344) # point=cross 14 color=cyan width=2 text={'LAE2537'}
+point(15:52:35.676,+19:20:52.648) # point=cross 14 color=cyan width=2 text={'LAE2539'}
+point(15:51:06.784,+19:20:50.592) # point=cross 14 color=cyan width=2 text={'LAE2540'}
+point(15:50:58.731,+19:20:53.475) # point=cross 14 color=cyan width=2 text={'LAE2541'}
+point(15:52:18.252,+19:20:52.217) # point=cross 14 color=cyan width=2 text={'LAE2542'}
+point(15:51:39.581,+19:20:52.025) # point=cross 14 color=cyan width=2 text={'LAE2543'}
+point(15:51:06.083,+19:20:54.529) # point=cross 14 color=cyan width=2 text={'LAE2544'}
+point(15:52:04.421,+19:20:54.060) # point=cross 14 color=cyan width=2 text={'LAE2545'}
+point(15:51:08.318,+19:20:55.208) # point=cross 14 color=cyan width=2 text={'LAE2548'}
+point(15:50:58.341,+19:20:58.109) # point=cross 14 color=cyan width=2 text={'LAE2550'}
+point(15:51:11.349,+19:20:59.914) # point=cross 14 color=cyan width=2 text={'LAE2551'}
+point(15:51:23.673,+19:20:58.001) # point=cross 14 color=cyan width=2 text={'LAE2552'}
+point(15:51:40.817,+19:21:12.147) # point=cross 14 color=cyan width=2 text={'LAE2563'}
+point(15:51:00.571,+19:21:13.234) # point=cross 14 color=cyan width=2 text={'LAE2566'}
+point(15:51:16.906,+19:21:14.298) # point=cross 14 color=cyan width=2 text={'LAE2568'}
+point(15:52:09.052,+19:21:15.131) # point=cross 14 color=cyan width=2 text={'LAE2570'}
+point(15:52:29.314,+19:21:08.668) # point=cross 14 color=cyan width=2 text={'LAE2571'}
+point(15:52:34.456,+19:21:16.993) # point=cross 14 color=cyan width=2 text={'LAE2572'}
+point(15:51:29.430,+19:21:19.949) # point=cross 14 color=cyan width=2 text={'LAE2577'}
+point(15:51:29.453,+19:21:25.438) # point=cross 14 color=cyan width=2 text={'LAE2580'}
+point(15:52:38.899,+19:21:23.516) # point=cross 14 color=cyan width=2 text={'LAE2582'}
+point(15:51:11.435,+19:21:27.757) # point=cross 14 color=cyan width=2 text={'LAE2588'}
+point(15:51:22.966,+19:21:31.464) # point=cross 14 color=cyan width=2 text={'LAE2594'}
+point(15:51:00.990,+19:21:32.048) # point=cross 14 color=cyan width=2 text={'LAE2595'}
+point(15:52:42.003,+19:21:36.721) # point=cross 14 color=cyan width=2 text={'LAE2597'}
+point(15:52:20.428,+19:21:47.886) # point=cross 14 color=cyan width=2 text={'LAE2608'}
+point(15:52:30.451,+19:21:47.234) # point=cross 14 color=cyan width=2 text={'LAE2609'}
+point(15:52:00.392,+19:21:46.355) # point=cross 14 color=cyan width=2 text={'LAE2611'}
+point(15:51:41.022,+19:21:51.824) # point=cross 14 color=cyan width=2 text={'LAE2616'}
+point(15:51:35.918,+19:21:51.125) # point=cross 14 color=cyan width=2 text={'LAE2617'}
+point(15:52:21.580,+19:21:52.684) # point=cross 14 color=cyan width=2 text={'LAE2618'}
+point(15:51:45.156,+19:21:53.510) # point=cross 14 color=cyan width=2 text={'LAE2619'}
+point(15:52:22.432,+19:22:04.554) # point=cross 14 color=cyan width=2 text={'LAE2625'}
+point(15:51:36.657,+19:22:06.776) # point=cross 14 color=cyan width=2 text={'LAE2631'}
+point(15:52:19.084,+19:22:08.953) # point=cross 14 color=cyan width=2 text={'LAE2632'}
+point(15:51:05.112,+19:22:10.783) # point=cross 14 color=cyan width=2 text={'LAE2634'}
+point(15:51:56.981,+19:22:13.752) # point=cross 14 color=cyan width=2 text={'LAE2635'}
+point(15:52:28.767,+19:22:14.911) # point=cross 14 color=cyan width=2 text={'LAE2637'}
+point(15:51:44.994,+19:22:17.450) # point=cross 14 color=cyan width=2 text={'LAE2640'}
+point(15:52:12.387,+19:22:15.377) # point=cross 14 color=cyan width=2 text={'LAE2641'}
+point(15:51:30.412,+19:22:18.740) # point=cross 14 color=cyan width=2 text={'LAE2644'}
+point(15:51:05.472,+19:22:18.223) # point=cross 14 color=cyan width=2 text={'LAE2645'}
+point(15:51:33.159,+19:22:20.058) # point=cross 14 color=cyan width=2 text={'LAE2647'}
+point(15:52:21.432,+19:22:23.984) # point=cross 14 color=cyan width=2 text={'LAE2650'}
+point(15:51:03.812,+19:22:25.221) # point=cross 14 color=cyan width=2 text={'LAE2653'}
+point(15:52:43.361,+19:22:26.152) # point=cross 14 color=cyan width=2 text={'LAE2654'}
+point(15:51:07.679,+19:22:22.354) # point=cross 14 color=cyan width=2 text={'LAE2655'}
+point(15:52:29.554,+19:22:40.395) # point=cross 14 color=cyan width=2 text={'LAE2661'}
+point(15:51:47.655,+19:22:46.175) # point=cross 14 color=cyan width=2 text={'LAE2665'}
+point(15:51:08.144,+19:22:51.559) # point=cross 14 color=cyan width=2 text={'LAE2667'}
+point(15:52:28.345,+19:22:53.483) # point=cross 14 color=cyan width=2 text={'LAE2669'}
+point(15:51:31.706,+19:22:56.771) # point=cross 14 color=cyan width=2 text={'LAE2672'}
+point(15:51:18.580,+19:22:18.176) # point=cross 14 color=cyan width=2 text={'LAE2673'}
+point(15:52:13.007,+19:22:56.884) # point=cross 14 color=cyan width=2 text={'LAE2676'}
+point(15:51:28.014,+19:22:52.598) # point=cross 14 color=cyan width=2 text={'LAE2677'}
+point(15:52:30.874,+19:23:02.588) # point=cross 14 color=cyan width=2 text={'LAE2680'}
+point(15:51:08.662,+19:23:04.990) # point=cross 14 color=cyan width=2 text={'LAE2681'}
+point(15:51:28.185,+19:23:08.218) # point=cross 14 color=cyan width=2 text={'LAE2685'}
+point(15:52:30.163,+19:23:09.491) # point=cross 14 color=cyan width=2 text={'LAE2687'}
+point(15:51:12.265,+19:23:15.593) # point=cross 14 color=cyan width=2 text={'LAE2690'}
+point(15:51:13.652,+19:23:22.446) # point=cross 14 color=cyan width=2 text={'LAE2695'}
+point(15:51:31.058,+19:23:19.998) # point=cross 14 color=cyan width=2 text={'LAE2696'}
+point(15:52:15.893,+19:23:27.407) # point=cross 14 color=cyan width=2 text={'LAE2698'}
+point(15:51:46.100,+19:23:26.894) # point=cross 14 color=cyan width=2 text={'LAE2699'}
+point(15:52:19.324,+19:23:40.260) # point=cross 14 color=cyan width=2 text={'LAE2707'}
+point(15:51:38.729,+19:23:41.937) # point=cross 14 color=cyan width=2 text={'LAE2710'}
+point(15:52:18.655,+19:23:47.990) # point=cross 14 color=cyan width=2 text={'LAE2717'}
+point(15:51:05.750,+19:23:53.321) # point=cross 14 color=cyan width=2 text={'LAE2719'}
+point(15:52:07.617,+19:23:46.886) # point=cross 14 color=cyan width=2 text={'LAE2722'}
+point(15:51:17.639,+19:23:55.921) # point=cross 14 color=cyan width=2 text={'LAE2725'}
+point(15:51:43.591,+19:23:58.196) # point=cross 14 color=cyan width=2 text={'LAE2726'}
+point(15:51:22.764,+19:23:59.470) # point=cross 14 color=cyan width=2 text={'LAE2727'}
+point(15:52:32.005,+19:24:00.916) # point=cross 14 color=cyan width=2 text={'LAE2730'}
+point(15:51:36.596,+19:24:01.927) # point=cross 14 color=cyan width=2 text={'LAE2731'}
+point(15:51:50.673,+19:24:03.398) # point=cross 14 color=cyan width=2 text={'LAE2732'}
+point(15:51:51.732,+19:24:00.505) # point=cross 14 color=cyan width=2 text={'LAE2734'}
+point(15:51:44.913,+19:24:03.047) # point=cross 14 color=cyan width=2 text={'LAE2736'}

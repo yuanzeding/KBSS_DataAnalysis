@@ -24,8 +24,8 @@
 InpFile = "/disk/bifrost/yuanze/KBSS/Q0449/QSO/q0449-qso_icubes_wcs_20.PSFCONTSub.fits"
 zmin = 1                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 9999                !.. maximum spectral pixel for datacube selection      "
-lmin = 4433
-lmax = 4523
+lmin = 4454
+lmax = 4499
   
 #--- Variance-related parameters:
 VarFile = "/disk/bifrost/yuanze/KBSS/Q0449/QSO/q0449-qso_vcubes.fits"

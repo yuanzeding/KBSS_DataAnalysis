@@ -3,7 +3,7 @@ from astropy.io import ascii
 from astropy import constants, units as u
 # Variables
 field = "2343"
-radius = 9
+radius = 6
 # Path to the KBSS data
 KBSSpath="/disk/bifrost/yuanze/KBSS"
 wdir=f"{KBSSpath}/CubEx_run/Q{field}"
@@ -15,7 +15,7 @@ redshift=sentry["z_sys"]
 
 line="Lya"
 wave={"Lya":1215.67,"CIV":1549.06,"MgII":2799.12,"HeII":1640.4,"OVI":1031,"SiIV":1402.77,"CII":1334.53,"NV":1240,"OI":1304} #Angstroms
-sigma_v={"Lya":3.e3,"CIV":3e3,"SiIV":3e3,"CII":3e3,"NV":3e3,"OI":3e3,"OVI":3e3,"HeII":3e3} #km/s turbulent velocity
+sigma_v={"Lya":1.e3,"CIV":3e3,"SiIV":3e3,"CII":3e3,"NV":3e3,"OI":3e3,"OVI":3e3,"HeII":3e3} #km/s turbulent velocity
 c=constants.c.to(u.km/u.s).value #km/s speed of light
 lmin=int((redshift+1.)*wave[line]*(1-sigma_v[line]/c)) #Lyman-alpha wavelength range
 lmax=int((redshift+1.)*wave[line]*(1+sigma_v[line]/c)) #Lyman-alpha wavelength range, optical
@@ -29,10 +29,10 @@ RescalingVarOutFile = '"Revar.out"'
 MinNVox=20
 MinArea = 5
 MinDz = 5
-SN_Threshold = 3.0
+SN_Threshold = 2.0
 ApplyFilter = ".true."
 ApplyFilterVar = ".true."
-FilterXYRad = 1
+FilterXYRad = 2
 FilterZRad = 0
 XYedge = 5
 ReliabCheck = ".true."

@@ -1,5 +1,5 @@
 global font = "helvetica 12 bold"
-fk5;circle(45:16:35.93,-09:45:17.34,3i) #color=red  width=2 text={Q0142  2.743}
+fk5;circle(1:45:16.3593,-9:45:17.34,3i) #color=red  width=2 text={Q0142  2.743}
 fk5;circle(1:45:16.4976,-9:45:07.920,5i) #color=cyan  width=2 text={QSO-BX182  2.3555 NEB}
 fk5;circle(1:45:16.3838,-9:45:14.233,5i) #color=cyan  width=2 text={QSO-ES2  2.0682 LYA}
 fk5;circle(1:45:16.2644,-9:45:22.681,5i) #color=cyan  width=2 text={QSO-ES3  2.508 LYA}

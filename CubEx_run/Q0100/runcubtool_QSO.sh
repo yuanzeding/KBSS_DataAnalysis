@@ -1,8 +1,8 @@
 sourcename="QSO"
 csourcename="QSO"
 cubename="0100"
-xloc=50.46
-yloc=50.41
+xloc=52.24
+yloc=52.55
 rmax=20
 rmin=2
 zPSFsize=150

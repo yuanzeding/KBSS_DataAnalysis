@@ -180,7 +180,7 @@ def replace_parameters_in_file(file_path, parameters):
             file.write(line)
 
 def replace_parameters_in_file_new(file_path, parameters):
-    protected_name=['csourcename','sourcename','cubename','maskpix','xloc','yloc']
+    protected_name=['csourcename','sourcename','cubename','instru','maskpix','xloc','yloc']
     # Read the original file lines.
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -232,7 +232,7 @@ def process_directory(subdir, parameters, env_setup_path,dryrun=False,scriptname
         if dryrun == False:
             execute_script_with_env(file_path, env_setup_path)
 
-def find_directories_from_ascii(table, root_dir, filters=None,keyword="Quasar",KBSS=False):
+def find_directories_from_ascii(table, root_dir, filters=None,keyword="Quasar",KBSS=False,channel="blue"):
     if filters:
         for condition in filters:
             table = table[eval(condition)]
@@ -244,11 +244,24 @@ def find_directories_from_ascii(table, root_dir, filters=None,keyword="Quasar",K
     data_directories = []
     for nq,quasar in enumerate(table[keyword]):
         if KBSS:
-            data_directories.append(os.path.join(root_dir, fields[nq]+"/"+cname[nq]+"/kcwib"))
-            directories.append(os.path.join(root_dir, fields[nq]+"/"+quasar+"/kcwib"))
+            if channel == "blue":
+                data_directories.append(os.path.join(root_dir, fields[nq]+"/"+cname[nq]+"/kcwib"))
+                directories.append(os.path.join(root_dir, fields[nq]+"/"+quasar+"/kcwib"))
+            elif channel == "red":
+                data_directories.append(os.path.join(root_dir, fields[nq]+"/"+cname[nq]+"/kcwir"))
+                directories.append(os.path.join(root_dir, fields[nq]+"/"+quasar+"/kcwir"))
+            else:
+                raise ValueError("Channel must be either 'blue' or 'red'.")
         else:
-            directories.append(os.path.join(root_dir, quasar))
-            data_directories.append(os.path.join(root_dir, quasar))
+            subdir = os.path.join(root_dir, quasar)
+            if os.path.isdir(subdir):
+                if table['SCcube'][table[keyword] == quasar][0] == "True":
+                    directories.append(subdir+"/SC_cube")
+                    data_directories.append(subdir+"/SC_cube")
+                else:
+                    directories.append(subdir)
+                    data_directories.append(subdir)
+            
         #if os.path.isdir(subdir):
     return directories,table,data_directories,
 
@@ -261,6 +274,9 @@ def copy_standard_script_to_directories(directories, standard_script_path,script
         print(f'Copied {standard_script_path} to {target_path}')
 
 def find_adp_fits_file(subdir,dtype="MUSE"):
+    if not os.path.isdir(subdir):
+        print(f"Directory {subdir} does not exist.")
+        return None
     for file in os.listdir(subdir):
         if dtype == "MUSE" and file.startswith('ADP') and file.endswith('.fits') and not any(suffix in file for suffix in ['PSFCONTSub', 'PSFSub','cutout','white']):
             # Ensure it matches the pattern ADP.yyyy-mm-ddThh:mm:ss.sss.fits exactly
@@ -288,19 +304,25 @@ if __name__ == "__main__":
     source_table = ascii.read(ascii_file_path, format='ipac')
     #filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
     #filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
-    filters = ["table['KCWI'] == 'yes'","table['Type']>=1.5","table['Name']!='Lab5'"]
+    filters = ["table['KCWI'] == 'yes'","table['Type']>=1.9","table['Field']!='SDSSQSO'","table['Name']!='Lab5'","table['Name']!='FSzP1170'"]
 
     dtype="KBSS"
+    channel="red" # "blue" or "red", subtracting the continuum in the KCWI blue or red channel
     redshiftref="zlya"
-    overwrite = False # overwrite exsiting fits files
+    overwrite = True # overwrite exsiting fits files
     BKGSubOnly = True # only do background subtraction
-    if BKGSubOnly:
-        standard_script_path = root_directory+'/CubEx_run/scripts/runcubtool_CONT.sh'
     copy_script = True
     dryrun = False
     update_meta_param = True # update the parameters according to meta files.
     # the parameters_to_update dictionary will be updated independently and will alwasy be updated unless it is blank.
     update_PSFcenter=True
+    if channel == "red":
+        standard_script_path = root_directory+'/CubEx_run/scripts/runcubtool_red.sh'
+    if BKGSubOnly:
+        if channel == "blue":
+            standard_script_path = root_directory+'/CubEx_run/scripts/runcubtool_CONT_blue.sh'
+        elif channel == "red":
+            standard_script_path = root_directory+'/CubEx_run/scripts/runcubtool_CONT_red.sh'
     if dryrun:
         print("Dry run: parameters updated but no files will be executed.")
     if (not update_meta_param) and copy_script:
@@ -321,7 +343,7 @@ if __name__ == "__main__":
 
     # Find all relevant directories
     if rank == 0:
-        all_directories,tab,all_data_dir = find_directories_from_ascii(source_table, root_directory,filters=filters,KBSS=(dtype=="KBSS"))
+        all_directories,tab,all_data_dir = find_directories_from_ascii(source_table, root_directory,filters=filters,KBSS=(dtype=="KBSS"),channel=channel)
         #print(source_table)
         if copy_script == True:
             #print(all_directories)
@@ -347,10 +369,14 @@ if __name__ == "__main__":
     # Process directories assigned to this rank
     for dir_n,subdir_data in enumerate(local_data_directories):
         adp_prefix = find_adp_fits_file(subdir_data,dtype=dtype)
-        print("reading file at",adp_prefix)
-        #if os.path.exists(adp_prefix+".PSFCONTSub.fits") and overwrite == False:
-        #    print("PSFCONTSubbed file exists and overwrite==False!")
-        #    continue
+        if adp_prefix is None:
+            print(f"No FITS file found in {subdir_data}. Skipping...")
+            continue
+        else:
+            print("reading file at",adp_prefix)
+        if os.path.exists(adp_prefix+".PSFCONTSub.fits") and overwrite == False:
+            print("PSFCONTSubbed file exists and overwrite==False!")
+            continue
         #else:
             #unprocessed.append(subdir)
         if adp_prefix:
@@ -374,9 +400,9 @@ if __name__ == "__main__":
                     subdir=local_out_directories[dir_n]
                     xloc,yloc=source_row['x'],source_row['y']
                     #print(xloc,yloc)
+                    parameters_to_update['cubename'] = source_row['Field']
                     parameters_to_update['csourcename'] = cname
                     parameters_to_update['sourcename'] = quasar_name
-                    parameters_to_update['cubename'] = source_row['Field']
                 elif dtype=="MUSE":
                     subdir=subdir_data
                     parameters_to_update['inPrefix'] = shlex.quote(adp_prefix)
@@ -391,14 +417,21 @@ if __name__ == "__main__":
                 else:
                     KeyError
                 if update_PSFcenter:
-                    parameters_to_update['xloc'] = np.rint(xloc)
-                    parameters_to_update['yloc'] = np.rint(yloc)
+                    parameters_to_update['xloc'] = float(xloc)
+                    parameters_to_update['yloc'] = float(yloc)
                     print("PSF center updated")
                 
             else:
                 print(f'Skipping meta parameter update for {quasar_name}')
             #print(source_row)
-            masktools.update_mask(subdir,source_row,subdir_data=subdir_data,redshiftref=redshiftref,dtype=dtype,scriptname=os.path.basename(standard_script_path))
+            if channel == "blue":
+                linelist=["Lya"]
+            elif channel == "red":
+                linelist=["CIV","HeII","CIII]"]
+            masktools.update_mask(subdir,source_row,subdir_data=subdir_data,\
+                                  redshiftref=redshiftref,dtype=dtype,linelist=linelist,\
+                                    scriptname=os.path.basename(standard_script_path)\
+                                        ,channel=channel)
         process_directory(subdir, parameters_to_update, env_setup_file,dryrun=dryrun,scriptname=os.path.basename(standard_script_path))
     #print(unprocessed)
         

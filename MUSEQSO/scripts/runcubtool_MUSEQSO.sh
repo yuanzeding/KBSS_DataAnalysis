@@ -13,7 +13,7 @@ noisethr=3.0
 #$CubEx/Tools/CubeFix 
 
 #Quasar PSF subtraction
-$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -noisethr $noisethr -x $x -y $y -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen"
+$CubEx/Tools/CubePSFSub -cube "${inPrefix}.fits" -out "${inPrefix}.PSFSub.fits" -noisethr $noisethr -x $x -y $y -nbins -1 -zPSFsize $zPSFsize -withvar .true. -rmin $rmin -rmax $rmax -recenter .true. -masklist "$masklist" -outpsfcen "$outpsfcen" -psfimout "psfout.fits"
 
 #Continuum subtraction
 

@@ -1,0 +1,7 @@
+HeI5876:
+FWHM (km/s) 601.1
+Sigma (km/s) 249.9
+EW (A) 3.6
+Peak (A) 5875.0
+Area (10^(-17) erg/s/cm^2) 61.7
+

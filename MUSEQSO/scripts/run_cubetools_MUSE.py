@@ -208,7 +208,7 @@ if __name__ == "__main__":
     env_setup_file = os.environ.get('HEADAS') + '/headas-init.sh'  # Path to the environment setup file
     # Example filters
     source_table = ascii.read(ascii_file_path, format='ipac')
-    filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']<-29.6"]
+    filters = ["table['file_count'] < 2","table['z_sys']>3.5","table['M_i']>-29.6"]
     #filters = ["table['file_count'] < 2","table['M_i_z2']>-29.2"]
     overwrite = True
     copy_script = True

@@ -24,8 +24,8 @@
 InpFile = "/disk/bifrost/yuanze/KBSS/Q2206/QSO/q2206-qso_icubes_wcs_20.PSFCONTSub.fits"
 zmin = 1                   !.. minimum spectral pixel for datacube selection (units: pixels)
 zmax = 9999                !.. maximum spectral pixel for datacube selection      "
-lmin = 4300
-lmax = 4387
+lmin = 4329
+lmax = 4358
   
 #--- Variance-related parameters:
 VarFile = "/disk/bifrost/yuanze/KBSS/Q2206/QSO/q2206-qso_vcubes.fits"
@@ -45,11 +45,11 @@ EstVarOutFile = "??"       !.. if provided, writes down in this file the estimat
 #--- Filtering parameters:
 ApplyFilter = .true.
 ApplyFilterVar = .true.
-FilterXYRad = 1
+FilterXYRad = 2
 FilterZRad = 0
   
 #--- Detection parameters:
-SN_Threshold = 3.0
+SN_Threshold = 2.0
 ISN_Threshold = 0          !.. integrated SNR over the 3d-mask for detection (0=not used) [alias "-isn"]
 SSN_Threshold = 0          !.. integrated spectral SNR (using 1d optimally extracted spectra) for detection (0=not used) [alias "-ssn"]
 SN_Threshold_Conn = 0      !.. voxel individual threshold in SNR for detection if connected to a previously detected voxel (0=not used)
@@ -104,7 +104,7 @@ Objects_SNR_Floor = 0.99     !.. Floor value **in units of SN_Threshold** for Ch
 SourceMask = "??"          !.. IMAGE with objects id of sources to mask before detection (e.g., the result of a CubEx run on the white-light image)
 MaskOnly   = "-1"          !.. if defined and /=-1, it will only mask the selected objects in sourcemask (e.g., MaskOnly = "35 12 47")
 UnMask     = "-1"          !.. if defined and /=-1, it will not  mask the selected objects in sourcemask (e.g., UnMask = "23 145")
-XYedge = 24
+XYedge = 5
 LayerMaskList = "??"       !.. ASCII file with list of layers (one per row) to be masked before extraction, detection and photometry. 
 ObjMaskList = "??"         !.. ASCII file with list of pixels to be masked before extraction, detection and photometry. 
                            !... entries are "x y radius", one object per row. Mask is cylindrical over all datacube. Units: integer pixels.

@@ -1,18 +1,11 @@
 sourcename="QSO"
-sourcename="QSO"
-csourcename="QSO"
 csourcename="QSO"
 cubename="1217"
 cubename="1217"
-xloc=47.90
-xloc=47.90
-yloc=43.83
-yloc=43.83
-rmax=20
+xloc=52.74
+yloc=44.55
 rmax=20
 rmin=2
-rmin=2
-zPSFsize=150
 zPSFsize=150
 #Quasar PSF subtraction
 #Quasar PSF subtraction
