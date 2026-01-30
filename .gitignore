@@ -24,7 +24,7 @@ MUSEQSO/*/
 __pycache__/
 *.py[cod]
 *$py.class
-*psfout.fits
+psfout.fits
 # C extensions
 *.so
 
