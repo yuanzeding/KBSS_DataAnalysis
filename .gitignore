@@ -20,11 +20,13 @@ sedfit_master/
 MUSEQSO/*/
 !MUSEQSO/scripts/
 !MUSEQSO/meta/
+
+**/psfout.fits
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-psfout.fits
+
 # C extensions
 *.so
 
